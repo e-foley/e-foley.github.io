@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+@import url("style.css");
+</style>
+<script language="javascript">
+// Based on http://www.randomsnippets.com/2008/02/12/how-to-hide-and-show-your-div/
+function toggle(ID, show)
+{
+	var closed = document.getElementById(ID + "_closed");
+	var open = document.getElementById(ID + "_open");
+
+	if (show == 1)
+	{
+		closed.style.display = "none";
+		open.style.display = "block";
+	}
+
+	else
+	{
+		closed.style.display = "block";
+		open.style.display = "none";
+	}
+} 
+</script>
+<title>SOTW Leaderboards</title>
+</head>
+<body>
+<div class='big-block'>
+<div class='grand-title'>Screenshot of the Week Leaderboards</div>
+<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>674</span><br/>
+All deltas calculated over last <span style='font-weight:bold;'>10</span> contests</div>
+
+<div class='leaderboard' style='display: show;' id='a_closed'>
+<table class='leaderboard-table stunt'><tr class='header-row'><td>
+<div class='tableheaderright'><a href='javascript:toggle("a", 1);'>
+<img src='images/exp_plus.png' border='0' alt='Expand' /></a></div>
+<a class='green' href='javascript:toggle("a", 1);'>Frequently Asked Questions</a></td></tr></table></div>
+
+
+<div class='leaderboard' style='display: none;' id='a_open'>
+<table class='leaderboard-table'><tr class='header-row'><td>
+<div class='tableheaderright'><a href='javascript:toggle("a", 0);'>
+<img src='images/exp_minus.png' border='0' alt='Collapse' /></a></div>
+<a class='green' href='javascript:toggle("a", 0);'>Frequently Asked Questions</a></td></tr>
+
+<tr><td class='intro'>
+<div class='faq-you'>What the heck is this?</div>
+<div class='answer-you'>You&rsquo;ve found the Screenshot of the Week leaderboards. Each leaderboard ranks everybody who has entered the contest based on different criteria, such as votes, points, victories, and total entries.</div>
+<p/>
+<div class='faq-you'>What is a member's &ldquo;formidable&rdquo; rating?</div>
+<div class='answer-you'>The formidable rating is designed to measure Screenshot of the Week dominance.  The formula is a little complex, but here are the takeaways:
+<ul>
+<li>It&rsquo;s based on your vote margins against your competitors in every contest you&rsquo;ve entered.</li>
+<li>The score is biased toward 5,000.  Enter more contests to reduce the weight of this bias.</li>
+<li>Recent performance is weighted more heavily than past performance.  It takes about 10 entries for an old result to lose half of its significance.</li>
+<li>It is possible for your rating to go down when winning a competition (if you&rsquo;re less dominant than usual).  Similarly, it is possible for your rating to go up when doing poorly (if you nonetheless fare better than usual).</li>
+</ul></div>
+<p/>
+<div class='faq-you'>How does somebody get half of a vote, entry, win, etc.?</div>
+<div class='answer-you'>It&rsquo;s possible to two or more members to enter a shot together.  (See <a class='green' href='https://www.purezc.net/forums/index.php?showtopic=5454'>SotW #50</a> and <a class='green' href='https://www.purezc.net/forums/index.php?showtopic=57298'>SotW #391</a>.)  When this happens, we divide all the metrics evenly.  For example, a shot submitted by two members that earns 11 votes counts as 5.5 votes for each contributor.  Also, Screenshot of the Week used to have occasional ties.  In this situation, the win is split among those who tied for the most votes in the contest.</div>
+<p/>
+<div class='faq-you'>What are points?</div>
+<div class='answer-you'>Good question! You get one point per vote and an additional point for each vote you beat your competitors by.  If I get 15 votes in a contest and I beat two opponents by 7 and 11 votes, I get 15 + 7 + 11 = <span style='font-weight: bold'>33</span> points.</div>
+<p/>
+<div class='faq-you'>Why bother with points?</div>
+<div class='answer-you'>Votes are harder to come by in large contests because there are more options for voters to choose from. This makes each vote received in a large contest arguably more valuable than each vote received in a small contest. Points reflect this whereas a simple vote tally does not.</div>
+<p/>
+<div class='faq-you'>Some members have a plus sign (+) next to their votes and points.  Why?</div>
+<div class='answer-you'>The polls in Screenshots of the Week 1&ndash;4 are lost. For these contests, entrants are formally given zero votes and zero points but get preference in the leaderboards over members who would otherwise have the same number of votes or points.</div>
+<p/>
+<div class='faq-you'>Should I take these leaderboards seriously?</div>
+<div class='answer-you'>The whole idea behind this page is to offer a unique retrospective on the history of the contest for <span style='font-weight: bold;'>fun</span>. There are errors on it. The list of categories is not comprehensive. The metrics have flaws. The answer is no: do not take these stats too seriously. If you want to base your value as a human being off the results shown here, take a step back and re-examine your priorities in life.</div>
+<p/>
+<div class='faq-you'>How is this page generated?</div>
+<div class='answer-you'>I maintain text files describing contest results and member name changes.  A Java applet processes the data and spits out HTML pages for you all to enjoy.</div>
+<p/>
+<div class='faq-you'>Whom should I contact with comments, questions or error reports?</div>
+<div class='answer-you'><a class='green' href='http://www.purezc.net/forums/index.php?app=members&module=messaging&section=send&do=form&fromMemberID=2237'>Send a private message to nicklegends.</a>  He thanks you in advance for the feedback!</div>
+</td></tr></table>
+</div>
+
+<div class='leaderboard' style='display: none;' id='1_closed'><table class='leaderboard-table stunt'><tr class='sort-title'><td><div class='tableheaderright'><a href='javascript:toggle(1, 1);'><img src='images/exp_plus.png' border='0'  alt='Expand' /></a></div><a class='contest' href='javascript:toggle(1, 1);'>Most formidable opponents</a></td></tr></table></div><div class='leaderboard' style='display: show;' id='1_open'><table class='leaderboard-table'><tr class='sort-title'><td colspan=5><div class='tableheaderright'><a href='javascript:toggle(1, 0);'><img src='images/exp_minus.png' border='0'  alt='Collapse' /></a></div><a class='contest' href='javascript:toggle(1, 0);'>Most formidable opponents</a></td></tr>
+<tr class='header-row'><td>Rank</td><td>&#177;</td><td>Name</td><td> Rating</td><td>&#177;</td></tr>
+<tr class='performance first'><td class='place-cell'>1.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/PrinceMSC.html'>PrinceMSC</a></td><td class='number-cell'>8,695</td><td class='data-delta-cell'></td></tr>
+<tr class='performance second'><td class='place-cell'>2.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/link3505.html'>link3505</a></td><td class='number-cell'>7,997</td><td class='data-delta-cell'></td></tr>
+<tr class='performance third'><td class='place-cell'>3.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/NoeL.html'>NoeL</a></td><td class='number-cell'>7,768</td><td class='data-delta-cell'></td></tr>
+<tr class='performance fourth'><td class='place-cell'>4.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Sheik.html'>Sheik</a></td><td class='number-cell'>7,505</td><td class='data-delta-cell'><span class='good-delta'>+26</span></td></tr>
+<tr class='performance'><td class='place-cell'>5.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/EbolaZaire.html'>Ebola Zaire</a></td><td class='number-cell'>7,452</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>6.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Migokalle.html'>Migokalle</a></td><td class='number-cell'>7,432</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>7.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Theryan.html'>Theryan</a></td><td class='number-cell'>7,371</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>8.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Supindahood.html'>Supindahood</a></td><td class='number-cell'>7,275</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>9.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Freedom.html'>Freedom</a></td><td class='number-cell'>7,093</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>10.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Radien.html'>Radien</a></td><td class='number-cell'>7,062</td><td class='data-delta-cell'></td></tr></table></div>
+<div class='leaderboard' style='display: none;' id='2_closed'><table class='leaderboard-table stunt'><tr class='sort-title'><td><div class='tableheaderright'><a href='javascript:toggle(2, 1);'><img src='images/exp_plus.png' border='0'  alt='Expand' /></a></div><a class='contest' href='javascript:toggle(2, 1);'>Most votes (all-time)</a></td></tr></table></div><div class='leaderboard' style='display: show;' id='2_open'><table class='leaderboard-table'><tr class='sort-title'><td colspan=5><div class='tableheaderright'><a href='javascript:toggle(2, 0);'><img src='images/exp_minus.png' border='0'  alt='Collapse' /></a></div><a class='contest' href='javascript:toggle(2, 0);'>Most votes (all-time)</a></td></tr>
+<tr class='header-row'><td>Rank</td><td>&#177;</td><td>Name</td><td> Votes</td><td>&#177;</td></tr>
+<tr class='performance first'><td class='place-cell'>1.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Joelmacool.html'>Joelmacool</a></td><td class='number-cell'>1,297</td><td class='data-delta-cell'></td></tr>
+<tr class='performance second'><td class='place-cell'>2.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Shane.html'>Shane</a></td><td class='number-cell'>1,221</td><td class='data-delta-cell'><span class='good-delta'>+16</span></td></tr>
+<tr class='performance third'><td class='place-cell'>3.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Jared.html'>Jared</a></td><td class='number-cell'>1,205</td><td class='data-delta-cell'><span class='good-delta'>+34</span></td></tr>
+<tr class='performance fourth'><td class='place-cell'>4.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Demonlink.html'>Demonlink</a></td><td class='number-cell'>1,073</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>5.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Sheik.html'>Sheik</a></td><td class='number-cell'>1,032.5</td><td class='data-delta-cell'><span class='good-delta'>+24</span></td></tr>
+<tr class='performance'><td class='place-cell'>6.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Dawnlight.html'>Dawnlight</a></td><td class='number-cell'>637</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>7.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Linkus.html'>Linkus</a></td><td class='number-cell'>547</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>8.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Anthus.html'>Anthus</a></td><td class='number-cell'>524</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>9.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Radien.html'>Radien</a></td><td class='number-cell'>511</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>10.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/EbolaZaire.html'>Ebola Zaire</a></td><td class='number-cell'>460</td><td class='data-delta-cell'></td></tr></table></div>
+<div class='leaderboard' style='display: none;' id='3_closed'><table class='leaderboard-table stunt'><tr class='sort-title'><td><div class='tableheaderright'><a href='javascript:toggle(3, 1);'><img src='images/exp_plus.png' border='0'  alt='Expand' /></a></div><a class='contest' href='javascript:toggle(3, 1);'>Most votes (single contest, by member)</a></td></tr></table></div><div class='leaderboard' style='display: show;' id='3_open'><table class='leaderboard-table'><tr class='sort-title'><td colspan=5><div class='tableheaderright'><a href='javascript:toggle(3, 0);'><img src='images/exp_minus.png' border='0'  alt='Collapse' /></a></div><a class='contest' href='javascript:toggle(3, 0);'>Most votes (single contest, by member)</a></td></tr>
+<tr class='header-row'><td>Rank</td><td>&#177;</td><td>Name</td><td> Votes</td><td>&#177;</td></tr>
+<tr class='performance first'><td class='place-cell'>1.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Radien.html'>Radien</a></td><td class='number-cell'>55</td><td class='data-delta-cell'></td></tr>
+<tr class='performance second'><td class='place-cell'>2.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Peteo.html'>Peteo</a></td><td class='number-cell'>52</td><td class='data-delta-cell'></td></tr>
+<tr class='performance third'><td class='place-cell'>3.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/PrinceMSC.html'>PrinceMSC</a></td><td class='number-cell'>51</td><td class='data-delta-cell'></td></tr>
+<tr class='performance fourth'><td class='place-cell'>4.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Demonlink.html'>Demonlink</a></td><td class='number-cell'>49</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>5.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/NewJourneysFire.html'>NewJourneysFire</a></td><td class='number-cell'>48</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>6.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Eggman666.html'>Eggman666</a></td><td class='number-cell'>47</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'></td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Linkus.html'>Linkus</a></td><td class='number-cell'>47</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>8.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Migokalle.html'>Migokalle</a></td><td class='number-cell'>46</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'></td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/DragonDePlatino.html'>DragonDePlatino</a></td><td class='number-cell'>46</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>10.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Shane.html'>Shane</a></td><td class='number-cell'>45</td><td class='data-delta-cell'></td></tr></table></div>
+<div class='leaderboard' style='display: none;' id='4_closed'><table class='leaderboard-table stunt'><tr class='sort-title'><td><div class='tableheaderright'><a href='javascript:toggle(4, 1);'><img src='images/exp_plus.png' border='0'  alt='Expand' /></a></div><a class='contest' href='javascript:toggle(4, 1);'>Most victories</a></td></tr></table></div><div class='leaderboard' style='display: show;' id='4_open'><table class='leaderboard-table'><tr class='sort-title'><td colspan=5><div class='tableheaderright'><a href='javascript:toggle(4, 0);'><img src='images/exp_minus.png' border='0'  alt='Collapse' /></a></div><a class='contest' href='javascript:toggle(4, 0);'>Most victories</a></td></tr>
+<tr class='header-row'><td>Rank</td><td>&#177;</td><td>Name</td><td> Wins</td><td>&#177;</td></tr>
+<tr class='performance first'><td class='place-cell'>1.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Sheik.html'>Sheik</a></td><td class='number-cell'>33</td><td class='data-delta-cell'><span class='good-delta'>+1</span></td></tr>
+<tr class='performance second'><td class='place-cell'>2.</td><td class='delta-cell'><span class='place-delta'><span class='loss-arrow'>&#9660;</span>1</span></td><td class='name-cell'><a class='black' href='profiles/Shane.html'>Shane</a></td><td class='number-cell'>32</td><td class='data-delta-cell'></td></tr>
+<tr class='performance third'><td class='place-cell'>3.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Joelmacool.html'>Joelmacool</a></td><td class='number-cell'>30</td><td class='data-delta-cell'></td></tr>
+<tr class='performance fourth'><td class='place-cell'>4.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Demonlink.html'>Demonlink</a></td><td class='number-cell'>28</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>5.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Jared.html'>Jared</a></td><td class='number-cell'>27</td><td class='data-delta-cell'><span class='good-delta'>+1</span></td></tr>
+<tr class='performance'><td class='place-cell'>6.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Dawnlight.html'>Dawnlight</a></td><td class='number-cell'>19</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>7.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Radien.html'>Radien</a></td><td class='number-cell'>14.5</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>8.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/link3505.html'>link3505</a></td><td class='number-cell'>14</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>9.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Migokalle.html'>Migokalle</a></td><td class='number-cell'>13</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'></td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Linkus.html'>Linkus</a></td><td class='number-cell'>13</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'></td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/EbolaZaire.html'>Ebola Zaire</a></td><td class='number-cell'>13</td><td class='data-delta-cell'></td></tr></table></div>
+<div class='leaderboard' style='display: none;' id='5_closed'><table class='leaderboard-table stunt'><tr class='sort-title'><td><div class='tableheaderright'><a href='javascript:toggle(5, 1);'><img src='images/exp_plus.png' border='0'  alt='Expand' /></a></div><a class='contest' href='javascript:toggle(5, 1);'>Most participation</a></td></tr></table></div><div class='leaderboard' style='display: show;' id='5_open'><table class='leaderboard-table'><tr class='sort-title'><td colspan=5><div class='tableheaderright'><a href='javascript:toggle(5, 0);'><img src='images/exp_minus.png' border='0'  alt='Collapse' /></a></div><a class='contest' href='javascript:toggle(5, 0);'>Most participation</a></td></tr>
+<tr class='header-row'><td>Rank</td><td>&#177;</td><td>Name</td><td> Entries</td><td>&#177;</td></tr>
+<tr class='performance first'><td class='place-cell'>1.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Joelmacool.html'>Joelmacool</a></td><td class='number-cell'>126</td><td class='data-delta-cell'></td></tr>
+<tr class='performance second'><td class='place-cell'>2.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Jared.html'>Jared</a></td><td class='number-cell'>111</td><td class='data-delta-cell'><span class='good-delta'>+3</span></td></tr>
+<tr class='performance third'><td class='place-cell'>3.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Shane.html'>Shane</a></td><td class='number-cell'>87</td><td class='data-delta-cell'><span class='good-delta'>+1</span></td></tr>
+<tr class='performance fourth'><td class='place-cell'>4.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Demonlink.html'>Demonlink</a></td><td class='number-cell'>67</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>5.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Anthus.html'>Anthus</a></td><td class='number-cell'>58</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>6.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Sheik.html'>Sheik</a></td><td class='number-cell'>56.5</td><td class='data-delta-cell'><span class='good-delta'>+1</span></td></tr>
+<tr class='performance'><td class='place-cell'>7.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Dawnlight.html'>Dawnlight</a></td><td class='number-cell'>49</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>8.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/Avataro.html'>Avataro</a></td><td class='number-cell'>46</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'></td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/CastChaos.html'>CastChaos</a></td><td class='number-cell'>46</td><td class='data-delta-cell'></td></tr>
+<tr class='performance'><td class='place-cell'>10.</td><td class='delta-cell'></td><td class='name-cell'><a class='black' href='profiles/William.html'>William</a></td><td class='number-cell'>45</td><td class='data-delta-cell'></td></tr></table></div><div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+
+</div>
+</body>
+</html>

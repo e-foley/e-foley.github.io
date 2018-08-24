@@ -1,0 +1,672 @@
+body
+{
+  font-family: Tahoma, Verdana, Times New Roman, Serif;
+  font-size: 16px;
+  background-image: url('http://sotw.elfractal.com/images/new_quilt_subtle_2.jpg');
+  background-color: #355E3B;
+}
+
+div.big-block
+{
+  background-color: #355E3B;
+  border-style: solid;
+  border-color: #C0C0C0;
+  border-width: 2px;
+  min-width: 550px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+div.big-block.archives
+{
+  max-width: none;  /* Overrides div.big-block */
+  min-width: 550px;  /* Seems redundant with big-block, but helps rendering... */
+  margin: 0 5%;  /* Used to be margin: 0 auto; */
+}
+
+.contest-block {border-style: solid; border-width: 0px;}
+
+a.contest:link {color: #e5c006; text-decoration: none;}
+a.contest:visited {color: #e5c006; text-decoration: none;}
+a.contest:hover {color: #e5c006; text-decoration: underline;}
+
+a.image:link {color: #008000; text-decoration: none;}
+a.image:visited {color: #008000; text-decoration: none;}
+a.image:hover {color: #008000; text-decoration: underline;}
+
+a.green:link {color: #008000; text-decoration: none;}
+a.green:visited {color: #008000; text-decoration: none;}
+a.green:hover {color: #008000; text-decoration: underline;}
+
+a.alt:link {color: #AAFFAA; text-decoration: none;}
+a.alt:visited {color: #AAFFAA; text-decoration: none;}
+a.alt:hover {color: #AAFFAA; text-decoration: underline;}
+
+a.black:link {color: #000000; text-decoration: none;}
+a.black:visited {color: #000000; text-decoration: none;}
+a.black:hover {color: #000000; text-decoration: underline;}
+
+tr
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8FBC8F;
+}
+
+td
+{
+  padding: 0px 3px;
+}
+
+td.contest-cell
+{
+  padding: 10px;
+}
+
+.contest-title
+{
+  background-color: #56825a;
+  // background-image: url('http://sotw.elfractal.com/images/toprow.gif');
+  font-weight: bold;
+  color: #e5c006;
+  text-shadow: 1px 1px 1px #503800;
+  text-align: center;
+  height: 1.75em;
+  width: 512px;
+}
+
+.sort-title
+{
+  background-color: #56825a;
+  /* background-image: url('http://sotw.elfractal.com/images/toprow.gif'); */
+  font-weight: bold;
+  color: #e5c006;
+  text-shadow: 1px 1px 1px #503800;
+  text-align: center;
+  font-size: 1.5em;
+  height: 1.7em;
+}
+
+.header-row
+{
+  background-color: #eeffee;
+  background-image: url('http://sotw.elfractal.com/images/catrow.gif');
+  font-weight: bold;
+  color: #008000;
+
+  text-align: center;
+  font-size: 1.0em;
+  height: 1.7em;
+}
+
+.left
+{
+  text-align: left;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.right
+{
+  text-align: center;
+}
+
+.results-table
+{
+  border-collapse: collapse;
+  background-color: #f7fff7;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 514px;  /* 512 px for picture plus two 1-px borders */
+}
+
+.leaderboard-table
+{
+  border-collapse: collapse;
+  background-color: #f7fff7;
+  margin: 1.5em auto;
+  width: 90%;
+}
+
+.stunt
+{
+  width: 90%;
+  margin: 1.5em auto;
+}
+
+.entry {text-align: left;}
+
+.name
+{
+  /* Short line height helps with spacing between current name and old name, if applicable. */
+  line-height: 85%;
+}
+
+.winner
+{
+  font-weight: bold;
+  background-color: #ccffcc;
+}
+
+.info-row
+{
+  height: 1.5em;
+  background-color: #555555;
+  color: #FFFFFF;
+}
+
+.big-board
+{
+  margin: auto;
+}
+
+.leaderboard
+{
+}
+
+.name-cell
+{
+}
+
+.details
+{
+  font-size: 0.6em;
+}
+
+.first
+{
+  /*background-color: #CFB53B;*/
+  /*background-color: #E8CB42;*/
+  /*background-color: #E3DA99;*/
+  /*background-color: #D4AF37;*/
+  background-color: #FFE8A0;
+  font-size: 2em;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  /*height: 75px;*/
+}
+
+.second
+{
+  /*background-color: #A8A8B0;*/
+  /*background-color: #CFCFD9;*/
+  background-color: #D5D5D5;
+  font-size: 1.5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  /*height: 75px;*/
+}
+
+.third
+{
+  /*background-color: #A67D3D;*/
+  /*background-color: #D19D4D;*/
+  /*background-color: #DFE4E1;*/
+  background-color: #FFCE9E;
+  font-size: 1.5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  /*height: 75px;*/
+}
+
+.fourth
+{
+  font-size: 1em;
+}
+
+.place-cell
+{
+  text-align: right;
+}
+
+.delta-cell
+{
+  text-align: center;
+}
+
+.number-cell
+{
+  text-align: right;
+}
+
+.performance
+{
+  height: 1.5em;
+}
+
+.name-cell
+{
+  font-weight: bold;
+}
+
+.notes
+{
+  color: #DDFFDD;
+  font-style: italic;
+  text-align: center;
+  max-width: 900px;
+  margin: 1.5em auto;
+}
+
+.tableheaderright
+{
+  float: right;
+  vertical-align: middle;
+}
+
+.numentries {text-align: left;}
+.votes {text-align: center;}
+.percentage {text-align: center; font-size: 0.8em;}
+.points {text-align: center;}
+.tie-note {font-size: 1.0em; font-style: italic;}
+.contest-cell {vertical-align: top;}
+
+.faq-you
+{
+  font-weight: bold;
+  /*color: #FFFFFF;*/
+}
+
+.answer-you
+{
+  /*color: #FFFFFF;*/
+}
+
+.intro
+{
+  /*background-color: #ccffcc;*/
+  background-color: #eeffee;
+}
+
+/* todo: Grand title and updated text should be part of one div so margins make more sense */
+
+.grand-title
+{
+  font-size: 3em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.updated-text
+{
+  font-size: 1.5em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.stats
+{
+  text-align: right;
+}
+
+.picture-cell
+{
+  padding: 0px;
+  background-color: #000000;
+}
+
+.picture-picture
+{
+  width: 512px;
+
+  /* Maintains pixelated look */
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+
+  /* Gets rid of reserved "baseline" margin of ~3px */
+  vertical-align: middle;
+}
+
+.picture-large-list
+{
+   text-align: center;
+}
+
+.picture-large-div
+{
+  width: 532px;  /* Width of .picture-large plus width of its border */
+
+  /* Maintains pixelated look */
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.picture-large
+{
+  width: 512px;
+  height: auto;
+  border: 10px #AAAAAA ridge;
+  margins: auto;
+}
+
+.picture-large-caption
+{
+  text-align: right;
+  margin-right: 20px;
+  color: #FFFFFF;
+}
+
+.winnericon
+{
+  height: 1em;
+  vertical-align: middle;
+}
+
+.tooltip
+{
+  vertical-align: top;
+  font-size: 75%;
+}
+
+/* Parts of this copy header-row */
+.navtable
+{
+  margin: 20px auto;
+  font-size: 1em;
+  background-color: #eeffee;
+  background-image: url('http://sotw.elfractal.com/images/catrow.gif');
+  border-width: 1px;
+  border-style: solid;
+}
+
+.navtable-cell
+{
+  padding: 0px 20px;
+  font-weight: bold;
+}
+
+.current-page
+{
+  font-weight: bold;
+}
+
+/* Pretty much just copying contest-title */
+.navtable-header
+{
+  background-color: #56825a;
+  // background-image: url('http://sotw.elfractal.com/images/toprow.gif');
+  font-weight: bold;
+  color: #e5c006;
+  text-shadow: 1px 1px 1px #503800;
+  text-align: center;
+  height: 1.75em;
+}
+
+.has-shot-icon
+{
+  height: 1em;
+  vertical-align: -10%;  /* This is relative to the text, not the cell, because images are inline. */
+}
+
+.has-shot-icon-cell
+{
+  width: 0px;
+}
+
+#hoverimg
+{
+  position: absolute;
+  visibility: hidden;
+  box-shadow: 0px 0px 30px 30px #FFFFFF;
+
+  /* The below copied from picture-large-div */
+  width: 512px;
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+.contest-notes-cell
+{
+  text-align: left;
+  font-size: 0.75em;
+  border-top-color: #FFFFFF;
+  border-top-style: none;
+  /* Background color and text color borrowed from info-row */
+  background-color: #000033;
+  color: #FFFFFF;
+}
+
+.contest-notes-list
+{
+  margin: 3px;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.contest-notes-item
+{
+
+}
+
+.old-name
+{
+  font-size: 0.65em;
+}
+
+.place-delta
+{
+  font-size: 0.7em;
+}
+
+.new-text
+{
+  font-size: 0.85em;
+  color: #0000AA;
+  font-weight: bold;
+}
+
+.gain-arrow
+{
+  color: #00AA00;
+}
+
+.loss-arrow
+{
+  color: #AA0000;
+}
+
+.same-arrow
+{
+}
+
+.data-delta-cell
+{
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.good-delta
+{
+  /*color: #00AA00;*/
+}
+
+.bad-delta
+{
+  /*color: #AA0000;*/
+}
+
+.page-selector select
+{
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.member-details-div
+{
+
+}
+
+/* Copies from leaderboard-table, defined earlier */
+.member-details-table
+{
+  border-collapse: collapse;
+  background-color: #f7fff7;
+  margin: 1.5em auto;
+  width: 90%;
+}
+
+/* Copies from sort-table, defined earlier, EXCEPT for font size */
+.member-details-header-row
+{
+  background-color: #56825a;
+  /* background-image: url('http://sotw.elfractal.com/images/toprow.gif'); */
+  font-weight: bold;
+  color: #e5c006;
+  text-shadow: 1px 1px 1px #503800;
+  text-align: center;
+  font-size: 1em;
+  height: 1.7em;
+}
+
+/* Copies from header-row, defined earlier */
+.member-details-subheader-row
+{
+  background-color: #eeffee;
+  background-image: url('http://sotw.elfractal.com/images/catrow.gif');
+  font-weight: bold;
+  color: #008000;
+
+  text-align: center;
+  font-size: 1.0em;
+  height: 1.7em;
+}
+
+.member-details-subheader-cell
+{
+
+}
+
+.member-details-row
+{
+
+}
+
+.member-details-cell
+{
+
+}
+
+.category-cell
+{
+  font-weight: bold;
+}
+
+.value-cell
+{
+  text-align: right;
+  padding-right: 8px;
+}
+
+.former-names
+{
+  text-align: center;
+  font-weight: normal;
+  color: #FFFFFF;
+  font-size: 1.25em;
+}
+
+.rank-cell
+{
+  text-align: right;
+  padding-right: 8px;
+}
+
+.num-qualifiers
+{
+  font-size: 0.7em;
+}
+
+.archiveprofilelinkdiv
+{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+/* Copies from leaderboard-table, defined earlier */
+.profile-index-table
+{
+  border-collapse: collapse;
+  background-color: #f7fff7;
+  margin: 1.5em auto;
+  width: 90%;
+}
+
+/* Copies from sort-table, defined earlier, EXCEPT for font size */
+.profile-index-header-row
+{
+  background-color: #56825a;
+  /* background-image: url('http://sotw.elfractal.com/images/toprow.gif'); */
+  font-weight: bold;
+  color: #e5c006;
+  text-shadow: 1px 1px 1px #503800;
+  text-align: center;
+  font-size: 1em;
+  height: 1.7em;
+}
+
+/* Copies from header-row, defined earlier */
+.profile-index-subheader-row
+{
+  background-color: #eeffee;
+  background-image: url('http://sotw.elfractal.com/images/catrow.gif');
+  font-weight: bold;
+  color: #008000;
+
+  text-align: center;
+  font-size: 1.0em;
+  height: 1.7em;
+}
+
+.profile-index-subheader-cell
+{
+
+}
+
+.profile-index-row
+{
+
+}
+
+.profile-index-cell
+{
+
+}
+
+.profile-index-name-cell
+{
+  /*font-weight: bold;*/
+}
+
+.character-heading
+{
+  text-align:center;
+  font-size: 2em;
+  color: #FFF;
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+@import url("style.css");
+</style>
+<script language="javascript">
+// Based on http://www.randomsnippets.com/2008/02/12/how-to-hide-and-show-your-div/
+function toggle(ID, show)
+{
+	var closed = document.getElementById(ID + "_closed");
+	var open = document.getElementById(ID + "_open");
+
+	if (show == 1)
+	{
+		closed.style.display = "none";
+		open.style.display = "block";
+	}
+
+	else
+	{
+		closed.style.display = "block";
+		open.style.display = "none";
+	}
+}
+
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
+<title>SOTW Archives</title>
+</head>
+<body>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
+<div class='grand-title'>Screenshot of the Week Archives</div>
+<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>674</span></div>
+<table class='navtable'>
+<tr><td class='navtable-cell'><a class='green' href='archives-page1.html'>&lt;&lt; Newest</a></td><td class='navtable-cell'><a class='green' href='archives-page30.html'>&lt; Newer</a></td><td class='navtable-cell'><div class='page-selector'><label><select onChange='window.location.href="archives-page" + this.value + ".html"'>
+<option value='1'>Page 1 (#663&ndash;#674)</option>
+<option value='2'>Page 2 (#651&ndash;#662)</option>
+<option value='3'>Page 3 (#639&ndash;#650)</option>
+<option value='4'>Page 4 (#627&ndash;#638)</option>
+<option value='5'>Page 5 (#615&ndash;#626)</option>
+<option value='6'>Page 6 (#603&ndash;#614)</option>
+<option value='7'>Page 7 (#591&ndash;#602)</option>
+<option value='8'>Page 8 (#579&ndash;#590)</option>
+<option value='9'>Page 9 (#567&ndash;#578)</option>
+<option value='10'>Page 10 (#555&ndash;#566)</option>
+<option value='11'>Page 11 (#543&ndash;#554)</option>
+<option value='12'>Page 12 (#531&ndash;#542)</option>
+<option value='13'>Page 13 (#519&ndash;#530)</option>
+<option value='14'>Page 14 (#507&ndash;#518)</option>
+<option value='15'>Page 15 (#495&ndash;#506)</option>
+<option value='16'>Page 16 (#483&ndash;#494)</option>
+<option value='17'>Page 17 (#471&ndash;#482)</option>
+<option value='18'>Page 18 (#459&ndash;#470)</option>
+<option value='19'>Page 19 (#447&ndash;#458)</option>
+<option value='20'>Page 20 (#435&ndash;#446)</option>
+<option value='21'>Page 21 (#423&ndash;#434)</option>
+<option value='22'>Page 22 (#411&ndash;#422)</option>
+<option value='23'>Page 23 (#399&ndash;#410)</option>
+<option value='24'>Page 24 (#387&ndash;#398)</option>
+<option value='25'>Page 25 (#375&ndash;#386)</option>
+<option value='26'>Page 26 (#363&ndash;#374)</option>
+<option value='27'>Page 27 (#351&ndash;#362)</option>
+<option value='28'>Page 28 (#339&ndash;#350)</option>
+<option value='29'>Page 29 (#328&ndash;#338)</option>
+<option value='30'>Page 30 (#316&ndash;#327)</option>
+<option value='31' selected='selected'>Page 31 (#305&ndash;#315C)</option>
+<option value='32'>Page 32 (#293&ndash;#304)</option>
+<option value='33'>Page 33 (#281&ndash;#292)</option>
+<option value='34'>Page 34 (#270&ndash;#280)</option>
+<option value='35'>Page 35 (#258&ndash;#269)</option>
+<option value='36'>Page 36 (#246&ndash;#257)</option>
+<option value='37'>Page 37 (#234&ndash;#245)</option>
+<option value='38'>Page 38 (#222&ndash;#233)</option>
+<option value='39'>Page 39 (#210&ndash;#221)</option>
+<option value='40'>Page 40 (#199&ndash;#209)</option>
+<option value='41'>Page 41 (#187&ndash;#198)</option>
+<option value='42'>Page 42 (#175&ndash;#186)</option>
+<option value='43'>Page 43 (#163&ndash;#174)</option>
+<option value='44'>Page 44 (#151&ndash;#162)</option>
+<option value='45'>Page 45 (#139&ndash;#150)</option>
+<option value='46'>Page 46 (#127&ndash;#138)</option>
+<option value='47'>Page 47 (#115&ndash;#126)</option>
+<option value='48'>Page 48 (#103&ndash;#114)</option>
+<option value='49'>Page 49 (#91&ndash;#102)</option>
+<option value='50'>Page 50 (#79&ndash;#90)</option>
+<option value='51'>Page 51 (#67&ndash;#78)</option>
+<option value='52'>Page 52 (#55&ndash;#66)</option>
+<option value='53'>Page 53 (#44&ndash;#54B)</option>
+<option value='54'>Page 54 (#32&ndash;#43)</option>
+<option value='55'>Page 55 (#20&ndash;#31)</option>
+<option value='56'>Page 56 (#8&ndash;#19)</option>
+<option value='57'>Page 57 (#1&ndash;#7)</option>
+</select></label></div></td><td class='navtable-cell'><a class='green' href='archives-page32.html'>Older &gt;</a></td><td class='navtable-cell'><a class='green' href='archives-page57.html'>Oldest &gt;&gt;</a></td></tr>
+</table>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW315C/Ebola%20Zaire.gif'><img class='picture-picture' title='Ebola Zaire' src='http://sotw.purezc.net/SOTW315C/Ebola%20Zaire.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=49343'>Screenshot of the Week 315C</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315C/Midnight_King.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315C/Midnight_King.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Shane.html'>Shane</a><br/><span class='old-name'>(as Midnight_King)</span></div></span></td><td class='votes'>9</td><td class='percentage'>18.00%</td><td class='points'>29</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315C/Lynker.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315C/Lynker.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Jared.html'>Jared</a><br/><span class='old-name'>(as Lynker)</span></div></span></td><td class='votes'>1</td><td class='percentage'>2.00%</td><td class='points'>1</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315C/William.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315C/William.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a></div></span></td><td class='votes'>8</td><td class='percentage'>16.00%</td><td class='points'>24</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315C/Russ.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315C/Russ.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Russ.html'>Russ</a></div></span></td><td class='votes'>4</td><td class='percentage'>8.00%</td><td class='points'>8</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315C/Orin%20XD.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315C/Orin%20XD.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Orithan.html'>Orithan</a><br/><span class='old-name'>(as Orin XD)</span></div></span></td><td class='votes'>3</td><td class='percentage'>6.00%</td><td class='points'>5</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315C/Ebola%20Zaire.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315C/Ebola%20Zaire.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/EbolaZaire.html'>Ebola Zaire</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>25</td><td class='percentage'>50.00%</td><td class='points'>125</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>6 entries</td><td class='votes'>50</td><td></td><td class='points'>192</td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>Due to a large volume of entrants, SotW 315 was split into two polls.  Each poll's top finisher was deemed a winner, and no follow-up round was held.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW315A/SpacemanDan.png'><img class='picture-picture' title='SpacemanDan' src='http://sotw.purezc.net/SOTW315A/SpacemanDan.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=49342'>Screenshot of the Week 315A</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315A/Avataro.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315A/Avataro.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Avataro.html'>Avataro</a></div></span></td><td class='votes'>4</td><td class='percentage'>8.89%</td><td class='points'>11</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315A/Moo2wo.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315A/Moo2wo.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Moo2wo.html'>Moo2wo</a></div></span></td><td class='votes'>1</td><td class='percentage'>2.22%</td><td class='points'>1</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315A/Yoshidude.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315A/Yoshidude.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/EddyfinishAR3-48320.html'>Eddy finish AR3</a><br/><span class='old-name'>(as Yoshidude)</span></div></span></td><td class='votes'>2</td><td class='percentage'>4.44%</td><td class='points'>3</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315A/catfriedrice.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315A/catfriedrice.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/catfriedrice.html'>catfriedrice</a></div></span></td><td class='votes'>2</td><td class='percentage'>4.44%</td><td class='points'>3</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315A/Saffith.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315A/Saffith.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Saffith.html'>Saffith</a></div></span></td><td class='votes'>7</td><td class='percentage'>15.56%</td><td class='points'>26</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315A/Giggidy.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315A/Giggidy.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Giggidy.html'>Giggidy</a></div></span></td><td class='votes'>9</td><td class='percentage'>20.00%</td><td class='points'>38</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW315A/SpacemanDan.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW315A/SpacemanDan.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/SpacemanDan.html'>SpacemanDan</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>20</td><td class='percentage'>44.44%</td><td class='points'>115</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>7 entries</td><td class='votes'>45</td><td></td><td class='points'>197</td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>Due to a large volume of entrants, SotW 315 was split into two polls.  Each poll's top finisher was deemed a winner, and no follow-up round was held.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW314/Giggidy.png'><img class='picture-picture' title='Giggidy' src='http://sotw.purezc.net/SOTW314/Giggidy.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=49242'>Screenshot of the Week 314</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW314/Giggidy.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW314/Giggidy.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Giggidy.html'>Giggidy</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>31</td><td class='percentage'>67.39%</td><td class='points'>78</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW314/Purplemandown.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW314/Purplemandown.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Purplemandown.html'>Purplemandown</a></div></span></td><td class='votes'>5</td><td class='percentage'>10.87%</td><td class='points'>5</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW314/William.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW314/William.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a></div></span></td><td class='votes'>10</td><td class='percentage'>21.74%</td><td class='points'>15</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>3 entries</td><td class='votes'>46</td><td></td><td class='points'>98</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW313/Ebola%20Zaire.gif'><img class='picture-picture' title='Ebola Zaire' src='http://sotw.purezc.net/SOTW313/Ebola%20Zaire.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=49149'>Screenshot of the Week 313</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW313/William.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW313/William.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a></div></span></td><td class='votes'>5</td><td class='percentage'>10.42%</td><td class='points'>7</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW313/Twinblake.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW313/Twinblake.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Obderhode.html'>Obderhode</a><br/><span class='old-name'>(as Twinblake)</span></div></span></td><td class='votes'>3</td><td class='percentage'>6.25%</td><td class='points'>3</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW313/Nuvo.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW313/Nuvo.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Strato.html'>Strato</a><br/><span class='old-name'>(as Nuvo)</span></div></span></td><td class='votes'>13</td><td class='percentage'>27.08%</td><td class='points'>31</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW313/Ebola%20Zaire.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW313/Ebola%20Zaire.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/EbolaZaire.html'>Ebola Zaire</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>27</td><td class='percentage'>56.25%</td><td class='points'>87</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>48</td><td></td><td class='points'>128</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW312/Furion.png'><img class='picture-picture' title='Marco' src='http://sotw.purezc.net/SOTW312/Furion.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=49082'>Screenshot of the Week 312</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW312/Isdrakthul.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW312/Isdrakthul.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Isdrakthl.html'>Isdrakthül</a></div></span></td><td class='votes'>6</td><td class='percentage'>13.64%</td><td class='points'>12</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW312/Ornlu.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW312/Ornlu.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Geoffrey.html'>Geoffrey</a><br/><span class='old-name'>(as Ornlu)</span></div></span></td><td class='votes'>18</td><td class='percentage'>40.91%</td><td class='points'>48</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW312/Rover.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW312/Rover.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Rover.html'>Rover</a></div></span></td><td class='votes'>0</td><td class='percentage'>0.00%</td><td class='points'>0</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW312/Furion.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW312/Furion.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Marco.html'>Marco</a><br/><span class='old-name'>(as Furion)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>20</td><td class='percentage'>45.45%</td><td class='points'>56</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>44</td><td></td><td class='points'>116</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW311/Molten%20Onyx.png'><img class='picture-picture' title='Geoffrey' src='http://sotw.purezc.net/SOTW311/Molten%20Onyx.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=49002'>Screenshot of the Week 311</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW311/Molten%20Onyx.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW311/Molten%20Onyx.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Geoffrey.html'>Geoffrey</a><br/><span class='old-name'>(as Molten Onyx)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>22</td><td class='percentage'>51.16%</td><td class='points'>89</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW311/Ganon.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW311/Ganon.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Ganon.html'>Ganon</a></div></span></td><td class='votes'>9</td><td class='percentage'>20.93%</td><td class='points'>25</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW311/William.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW311/William.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a></div></span></td><td class='votes'>10</td><td class='percentage'>23.26%</td><td class='points'>29</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW311/skulduggery.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW311/skulduggery.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/skulduggery.html'>skulduggery</a></div></span></td><td class='votes'>1</td><td class='percentage'>2.33%</td><td class='points'>1</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW311/Rover.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW311/Rover.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Rover.html'>Rover</a></div></span></td><td class='votes'>1</td><td class='percentage'>2.33%</td><td class='points'>1</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>43</td><td></td><td class='points'>145</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW310/Molten%20Onyx.png'><img class='picture-picture' title='Geoffrey' src='http://sotw.purezc.net/SOTW310/Molten%20Onyx.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=48702'>Screenshot of the Week 310</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW310/Molten%20Onyx.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW310/Molten%20Onyx.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Geoffrey.html'>Geoffrey</a><br/><span class='old-name'>(as Molten Onyx)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>21</td><td class='percentage'>41.18%</td><td class='points'>96</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW310/Orin%20XD.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW310/Orin%20XD.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Orithan.html'>Orithan</a><br/><span class='old-name'>(as Orin XD)</span></div></span></td><td class='votes'>3</td><td class='percentage'>5.88%</td><td class='points'>3</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW310/ZeeLiam.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW310/ZeeLiam.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a><br/><span class='old-name'>(as ZeeLiam)</span></div></span></td><td class='votes'>11</td><td class='percentage'>21.57%</td><td class='points'>36</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW310/Pokemonmaster64.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW310/Pokemonmaster64.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Moosh.html'>Moosh</a><br/><span class='old-name'>(as Pokemonmaster64)</span></div></span></td><td class='votes'>7</td><td class='percentage'>13.73%</td><td class='points'>16</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW310/Yoshidude.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW310/Yoshidude.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/EddyfinishAR3-48320.html'>Eddy finish AR3</a><br/><span class='old-name'>(as Yoshidude)</span></div></span></td><td class='votes'>4</td><td class='percentage'>7.84%</td><td class='points'>5</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW310/Furion.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW310/Furion.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Marco.html'>Marco</a><br/><span class='old-name'>(as Furion)</span></div></span></td><td class='votes'>5</td><td class='percentage'>9.80%</td><td class='points'>8</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>6 entries</td><td class='votes'>51</td><td></td><td class='points'>164</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW309/Molten%20Onyx.png'><img class='picture-picture' title='Geoffrey' src='http://sotw.purezc.net/SOTW309/Molten%20Onyx.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=48456'>Screenshot of the Week 309</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW309/Molten%20Onyx.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW309/Molten%20Onyx.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Geoffrey.html'>Geoffrey</a><br/><span class='old-name'>(as Molten Onyx)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>39</td><td class='percentage'>69.64%</td><td class='points'>100</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW309/Lynker.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW309/Lynker.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Jared.html'>Jared</a><br/><span class='old-name'>(as Lynker)</span></div></span></td><td class='votes'>4</td><td class='percentage'>7.14%</td><td class='points'>4</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW309/ZeeLiam.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW309/ZeeLiam.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a><br/><span class='old-name'>(as ZeeLiam)</span></div></span></td><td class='votes'>13</td><td class='percentage'>23.21%</td><td class='points'>22</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>3 entries</td><td class='votes'>56</td><td></td><td class='points'>126</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW308/cremeens1000.png'><img class='picture-picture' title='Tree' src='http://sotw.purezc.net/SOTW308/cremeens1000.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=48357'>Screenshot of the Week 308</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW308/cremeens1000.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW308/cremeens1000.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Tree.html'>Tree</a><br/><span class='old-name'>(as cremeens1000)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>16</td><td class='percentage'>41.03%</td><td class='points'>25</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW308/ZeeLiam.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW308/ZeeLiam.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a><br/><span class='old-name'>(as ZeeLiam)</span></div></span></td><td class='votes'>10</td><td class='percentage'>25.64%</td><td class='points'>10</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW308/Orin_XD.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW308/Orin_XD.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Orithan.html'>Orithan</a><br/><span class='old-name'>(as Orin XD)</span></div></span></td><td class='votes'>13</td><td class='percentage'>33.33%</td><td class='points'>16</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>3 entries</td><td class='votes'>39</td><td></td><td class='points'>51</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW307/MarioBrosCom.png'><img class='picture-picture' title='MarioBrosCom' src='http://sotw.purezc.net/SOTW307/MarioBrosCom.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=48175'>Screenshot of the Week 307</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/Lynker.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/Lynker.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Jared.html'>Jared</a><br/><span class='old-name'>(as Lynker)</span></div></span></td><td class='votes'>1</td><td class='percentage'>2.22%</td><td class='points'>1</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/Vargen.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/Vargen.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Vargen.html'>Vargen</a></div></span></td><td class='votes'>5</td><td class='percentage'>11.11%</td><td class='points'>17</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/MarioBrosCom.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/MarioBrosCom.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/MarioBrosCom.html'>MarioBrosCom</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>14</td><td class='percentage'>31.11%</td><td class='points'>95</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/cremeens1000.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/cremeens1000.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Tree.html'>Tree</a><br/><span class='old-name'>(as cremeens1000)</span></div></span></td><td class='votes'>5</td><td class='percentage'>11.11%</td><td class='points'>17</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/Taco%20Chopper.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/Taco%20Chopper.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/TacoChopper.html'>Taco Chopper</a></div></span></td><td class='votes'>5</td><td class='percentage'>11.11%</td><td class='points'>17</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/skateboarder11.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/skateboarder11.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/skateboarder11.html'>skateboarder11</a></div></span></td><td class='votes'>2</td><td class='percentage'>4.44%</td><td class='points'>3</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/ZeeLiam.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/ZeeLiam.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a><br/><span class='old-name'>(as ZeeLiam)</span></div></span></td><td class='votes'>2</td><td class='percentage'>4.44%</td><td class='points'>3</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/Beta%20Link.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/Beta%20Link.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Bayta.html'>Bayta</a><br/><span class='old-name'>(as Beta Link)</span></div></span></td><td class='votes'>3</td><td class='percentage'>6.67%</td><td class='points'>7</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW307/Jimmyb.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW307/Jimmyb.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Bourkification.html'>Bourkification</a><br/><span class='old-name'>(as JimmyB)</span></div></span></td><td class='votes'>8</td><td class='percentage'>17.78%</td><td class='points'>41</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>9 entries</td><td class='votes'>45</td><td></td><td class='points'>201</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW306/Sephiroth.png'><img class='picture-picture' title='Sephiroth' src='http://sotw.purezc.net/SOTW306/Sephiroth.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=48078'>Screenshot of the Week 306</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW306/Breast%20Cancer%20Awareness.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW306/Breast%20Cancer%20Awareness.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Aslion.html'>Aslion</a><br/><span class='old-name'>(as Breast Cancer Awareness)</span></div></span></td><td class='votes'>6</td><td class='percentage'>12.24%</td><td class='points'>14</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW306/Taco%20Chopper.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW306/Taco%20Chopper.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/TacoChopper.html'>Taco Chopper</a></div></span></td><td class='votes'>2</td><td class='percentage'>4.08%</td><td class='points'>2</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW306/Koh.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW306/Koh.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Koh.html'>Koh</a></div></span></td><td class='votes'>6</td><td class='percentage'>12.24%</td><td class='points'>14</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW306/Naldrag.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW306/Naldrag.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Naldrag.html'>Naldrag</a></div></span></td><td class='votes'>2</td><td class='percentage'>4.08%</td><td class='points'>2</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW306/Sephiroth.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW306/Sephiroth.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Sephiroth.html'>Sephiroth</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>33</td><td class='percentage'>67.35%</td><td class='points'>149</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>49</td><td></td><td class='points'>181</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW305/ZeeLiam.jpg'><img class='picture-picture' title='William' src='http://sotw.purezc.net/SOTW305/ZeeLiam.jpg'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=47957'>Screenshot of the Week 305</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW305/Lynker.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW305/Lynker.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Jared.html'>Jared</a><br/><span class='old-name'>(as Lynker)</span></div></span></td><td class='votes'>8</td><td class='percentage'>17.78%</td><td class='points'>13</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW305/Lord%20Settra!.png'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW305/Lord%20Settra!.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Rastael.html'>Rastael</a><br/><span class='old-name'>(as Lord Settra!)</span></div></span></td><td class='votes'>3</td><td class='percentage'>6.67%</td><td class='points'>3</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW305/ZeeLiam.jpg'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW305/ZeeLiam.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/William.html'>William</a><br/><span class='old-name'>(as ZeeLiam)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>34</td><td class='percentage'>75.56%</td><td class='points'>91</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>3 entries</td><td class='votes'>45</td><td></td><td class='points'>107</td></tr></table>
+
+</span></td></tr></table><table class='navtable'>
+<tr><td class='navtable-cell'><a class='green' href='archives-page1.html'>&lt;&lt; Newest</a></td><td class='navtable-cell'><a class='green' href='archives-page30.html'>&lt; Newer</a></td><td class='navtable-cell'><div class='page-selector'><label><select onChange='window.location.href="archives-page" + this.value + ".html"'>
+<option value='1'>Page 1 (#663&ndash;#674)</option>
+<option value='2'>Page 2 (#651&ndash;#662)</option>
+<option value='3'>Page 3 (#639&ndash;#650)</option>
+<option value='4'>Page 4 (#627&ndash;#638)</option>
+<option value='5'>Page 5 (#615&ndash;#626)</option>
+<option value='6'>Page 6 (#603&ndash;#614)</option>
+<option value='7'>Page 7 (#591&ndash;#602)</option>
+<option value='8'>Page 8 (#579&ndash;#590)</option>
+<option value='9'>Page 9 (#567&ndash;#578)</option>
+<option value='10'>Page 10 (#555&ndash;#566)</option>
+<option value='11'>Page 11 (#543&ndash;#554)</option>
+<option value='12'>Page 12 (#531&ndash;#542)</option>
+<option value='13'>Page 13 (#519&ndash;#530)</option>
+<option value='14'>Page 14 (#507&ndash;#518)</option>
+<option value='15'>Page 15 (#495&ndash;#506)</option>
+<option value='16'>Page 16 (#483&ndash;#494)</option>
+<option value='17'>Page 17 (#471&ndash;#482)</option>
+<option value='18'>Page 18 (#459&ndash;#470)</option>
+<option value='19'>Page 19 (#447&ndash;#458)</option>
+<option value='20'>Page 20 (#435&ndash;#446)</option>
+<option value='21'>Page 21 (#423&ndash;#434)</option>
+<option value='22'>Page 22 (#411&ndash;#422)</option>
+<option value='23'>Page 23 (#399&ndash;#410)</option>
+<option value='24'>Page 24 (#387&ndash;#398)</option>
+<option value='25'>Page 25 (#375&ndash;#386)</option>
+<option value='26'>Page 26 (#363&ndash;#374)</option>
+<option value='27'>Page 27 (#351&ndash;#362)</option>
+<option value='28'>Page 28 (#339&ndash;#350)</option>
+<option value='29'>Page 29 (#328&ndash;#338)</option>
+<option value='30'>Page 30 (#316&ndash;#327)</option>
+<option value='31' selected='selected'>Page 31 (#305&ndash;#315C)</option>
+<option value='32'>Page 32 (#293&ndash;#304)</option>
+<option value='33'>Page 33 (#281&ndash;#292)</option>
+<option value='34'>Page 34 (#270&ndash;#280)</option>
+<option value='35'>Page 35 (#258&ndash;#269)</option>
+<option value='36'>Page 36 (#246&ndash;#257)</option>
+<option value='37'>Page 37 (#234&ndash;#245)</option>
+<option value='38'>Page 38 (#222&ndash;#233)</option>
+<option value='39'>Page 39 (#210&ndash;#221)</option>
+<option value='40'>Page 40 (#199&ndash;#209)</option>
+<option value='41'>Page 41 (#187&ndash;#198)</option>
+<option value='42'>Page 42 (#175&ndash;#186)</option>
+<option value='43'>Page 43 (#163&ndash;#174)</option>
+<option value='44'>Page 44 (#151&ndash;#162)</option>
+<option value='45'>Page 45 (#139&ndash;#150)</option>
+<option value='46'>Page 46 (#127&ndash;#138)</option>
+<option value='47'>Page 47 (#115&ndash;#126)</option>
+<option value='48'>Page 48 (#103&ndash;#114)</option>
+<option value='49'>Page 49 (#91&ndash;#102)</option>
+<option value='50'>Page 50 (#79&ndash;#90)</option>
+<option value='51'>Page 51 (#67&ndash;#78)</option>
+<option value='52'>Page 52 (#55&ndash;#66)</option>
+<option value='53'>Page 53 (#44&ndash;#54B)</option>
+<option value='54'>Page 54 (#32&ndash;#43)</option>
+<option value='55'>Page 55 (#20&ndash;#31)</option>
+<option value='56'>Page 56 (#8&ndash;#19)</option>
+<option value='57'>Page 57 (#1&ndash;#7)</option>
+</select></label></div></td><td class='navtable-cell'><a class='green' href='archives-page32.html'>Older &gt;</a></td><td class='navtable-cell'><a class='green' href='archives-page57.html'>Oldest &gt;&gt;</a></td></tr>
+</table>
+<div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+</div>
+</body>
+</html>

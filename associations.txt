@@ -1,0 +1,127 @@
+﻿// This is where we register name changes for people in the contest.
+// Empty lines and lines beginning with two slashes are ignored.
+// Put each member's most recent name on the right.
+// Any amount of whitespace can be placed around the '>' characters as desired.
+
+StarFox > Fox
+Kitsune > August Yifu
+zeldalord > ZeldaLord
+K-Teclis > Teclis
+Happyman > HappyPuppet
+King Cool Link > JoshSim > DashSim
+PrinceMSC > PrettyBoy > PrinceMSC
+BH4 > ShadowTiger
+PolygonX8 > DarthExater > PolygonX8 > Exate
+Javaiz867 > Jaivaz867 > Jaivaz
+Ian > IaN
+codelinker8705 > codelinker
+Shashomaru > Manifesto Empire
+tobias_daboi > Tobias Daboi > Rex Zemenheart > Anthus
+Hunter P. > Hunter P Brown
+Drari > drari
+// Not positive whether the one with the underscore was used
+Phosphorescent > Phosphorescent_Image > Phosphorescent Image
+mighty_darknut > Mighty Darknut > Sharon Daniel
+ZC-Ninja > EatinCake > Lemon > Timothy McCorgi > Lemon
+XdragonSB > NineLives
+dlbrooks34 > Koh
+Petoe > Peteo
+DragonBoy > /M/
+Old-Skool > King Aquamentus
+Shiek > Sheik > Sheik91 > Yoshimi > Sheik
+Nuvo > Strato
+Evan the great > Evile
+Linkus Mastii > Linkus
+Trimaster001 > TriMaster001 > Dawnlight
+Majora's Wrath > Majora
+newbydude > Ironfist > Hubydweyer
+Teilyr > Xavier > Teilyr
+Link75 > Red Phazon
+Taco Chopper > Excelsior > Taco Chopper
+Questions > Sacred Nym
+russadwan > Russ
+zmaster > Zenith
+ennonfenom > The Great Ennead > EnnonFenom
+blaman > Blaman > SpacemanDan
+Pheonix > Feenicks
+IceFox > Speak with Bread > Moonwhisper > Prospekt > Scootaloo
+xiion > Xiion
+TheMasterSwordsman > TMS > sigtau
+Molten Onyx > Ornlu > Geoffrey
+T. Platinum > Silver
+jimmyb > JimmyB > Bourkification
+Link R us > Rem > Adem
+Lynker > Jared > Guardian > Jared
+Gonken > Supindahood
+Revfan9 > Giggidy
+Darklink813 > Takuya
+FefeRawft > Chakaa
+Lord Ike > Furion > Marco
+General Fondue > andrewmcd1
+// Note: not clear whether "HWMM" was actually used on the forum
+HWMM > Hot Water Music Man > Lemmy Koopa
+Kenster > RockinRollFan64 > KenMeister
+Kingboo30 > Deathbringer
+Linkman90 > Highsight
+Pokemonmaster64 > Moosh
+rocksfan13 > Link
+Sir Pimpalot > Mr. Pimpy
+Snort > Sephiroth
+XxGamasterxX > Cameron
+ZeeLiam > William
+gray0x > Lithium > Breast Cancer Awareness > Lithium > Alison > Aslion
+Beta Link > Bayta
+Orin XD > Orithan
+demonlink14 > Demonlink
+linkmystro100 > LinkMystro > Rafael > ElLibertador
+JJ83 > TK8305
+
+// More recent
+cremeens1000 > Keiichi123 > Tree
+Jake > Darkspawn > Naldrag > Ska Glampunk > Naldrag
+OOTFan > Sepulcher > Xenix
+Lord Settra! > Rastael
+Twinblake > Obderhode
+LunarRedMage > Nokutaa-chan
+blackbishop89 > LordVolcanon > Palpaleos > Zecora > Freyja > Freya > Mero
+EddyTheOliveira > Eddy
+green-kirby > Lunaria
+joelmacool12 > Joelmacool12 > Joelmacool
+bmc10011 > TheRock
+Koishi > Nekoishi > Plutia
+Franky > Omega
+link3505 > Gashin > Relic > link3505
+Migokalle > Galactic President Superstar McAwesomeville > Robin > Migokalle > Robin > Asstwat > Robin > Migokalle
+coolgamer012345 > Coolgamer012345 > TheBlueTophat
+Hero Link > Angeal > Pinkie Pie > Rydia > Angeal > Rydia > Lana > Linkle > Neptune
+HeavyTitanium > Titanium Justice
+GrantGreif > MarinaraSauce
+jetbox > JetBox
+linktopower > Ventus > Benji > Ventus > FireBlazeWolf > Ventus
+Midnight_King > Shane > Charizard > Shane > Polaris > Shane
+GenGaming > xanadude
+Maikeru D. Shinigami > Shoshon the Elegant
+sonicfan350 > Zephyr_Eevee > Goriya > Nexas > Eins > Einsiety
+Zaxarone > Zaxaphone > Zaxarone
+Billy Ronald > billy ronald > BillPzc > Old Inactive Member
+Dekadx2 > Daiv > Fausch > Jaghnus > fausch > SpikeReynolds
+Bombos > Ecruteak > Castelia
+Lineas > Binx
+
+// Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
+//   Shared "Ben"
+91: UpbeatPenguin > UBP > 744 > Quicksilver > SilverDragon > Noir > Ame > Bengal > Bagel > Ben
+958: benmw02190 > Ben > Ramblin' Evil Mushroom > Rambly > Truckroid > Rambly
+//   Shared "Matthew"
+3571: pikaguy900 > Matthew > Nimono
+294314: FlameCursed > Chungus > FlameCursed > Matthew > Midnight_Queen > Matthew
+//   Shared "Yoshi"
+1245: Yoshi > Tails > Pikachu > Fluttershy
+48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3
+
+// EDUCATED GUESSES
+DarkSFK > Bob
+
+// NOTES
+// XdragonSB and XMSB are different people
+// Alucard and Alucard648 are different people

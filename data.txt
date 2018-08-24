@@ -1,0 +1,4563 @@
+﻿// MASTER DATA FILE
+// This is the file where all the contest data gets placed.
+// All empty lines and lines beginning with two slashes are ignored.
+// Number to the right of each @ sign is the topic number of the contest.
+// Whitespace (spaces and/or tabs) are OK beside symbols that separate data.
+// Some entries have a second name for URL compatibility purposes,
+//   but this shouldn't be necessary for any recent entry as long
+//   as a consistent file naming convention is used.
+// Plus symbols (+} separate members contributing jointly to one entry.
+// Contact Ed (nicklegends) with any questions.
+
+// One parameter:	username [assumes 0 votes and no link; will not show votes in archive] SHOULD NEVER USE THIS
+// Two parameters: 	username; votes [assumes no link]
+// Three parameters:	username; full image address OR image extension if default path; votes
+// Four parameters:	username; URL name; image extension (assumes default path); votes
+
+// To-do: Check if other pics in SOTW archive match up
+
+#1 @ 244
+DarkSFK;L
+Praethus;L
+ZeldaLord;L
+K-Teclis;http://sotw.purezc.net/SOTWArchive/Teclis01.gif;W
+* The poll for SotW 1 is lost, but we know Teclis won the contest.
+
+#2 @ 276
+Wild Bill;W
+DarkSFK;L
+Happyman;L
+Praethus;L
+* The poll for SotW 2 is lost, but we know Wild Bill won the contest.
+
+#3 @ 312
+blckscab;L
+zeldalord;L
+plith;L
+Wild Bill;W
+Praethus;L
+* The poll for SotW 3 is lost, but we know Wild Bill won the contest.
+
+#4
+blckscab;http://sotw.purezc.net/SOTWArchive/blckscab01.gif;W
+* The entire topic for SotW 4 is missing.  We know blckscab won, but we don't know who his competitors were.
+
+#5 @ 613
+DarkFlameWolf;2
+Happyman;0
+MountainDrew;http://sotw.purezc.net/SOTWArchive/MountainDrew01.gif;5
+StarFox;3
+Praethus;1
+Teilyr;http://sotw.purezc.net/SOTWArchive/Teilyr02.gif;5
+* SotW 5 ended in a tie.
+
+#6 @ 668
+MountainDrew;0
+blckscab;3
+Happyman;1
+Teilyr;8
+Praethus;1
+
+#7 @ 723
+Nick;6
+plith;http://sotw.purezc.net/SOTWArchive/Plith01.gif;9
+Praethus;0
+MountainDrew;2
+
+#8 @ 761
+King Cool Link; 0
+EIHoppe; 0
+Teilyr; 6
+Nick; 2
+UpbeatPenguin; 1
+Lotus Eater; 1
+Setzer; 0
+Wild Bill; 6
+Praethus; 0
+* SotW 8 ended in a tie.
+
+#9 @ 929
+Happyman; 2
+UpbeatPenguin; http://sotw.purezc.net/SOTWArchive/UPB01.gif; 5W
+Setzer; 1
+Lotus Eater; 5
+Wild Bill; 1
+* Ben and Lotus Eater finished with the same vote tally, but Lotus Eater requested that Ben be declared the sole winner, a request that SotW leader Praethus honored.
+
+#10 @ 1040
+blckscab; 1
+Blake; 0
+Nick; http://sotw.purezc.net/SOTWArchive/Nick01.gif; 15
+zoraman; 0
+Happyman; 0
+Lotus Eater; 1
+Wild Bill; 1
+
+#11 @ 1107
+Lotus Eater; 0
+zoraman; 2
+Nick; 2
+Wild Bill; 6
+blckscab; 3
+Praethus; 3
+UpbeatPenguin; 2
+
+#12 @ 1295
+StarFox; 5
+Happyman; 2
+zoraman; http://sotw.purezc.net/SOTWArchive/zoraman01.gif; 8
+
+#13 @ 1403
+Nick; 7W
+Blake; 0
+DarkFlameWolf; 4
+zoraman; 7
+Praethus; 2
+* Extra votes were cast after Praethus declared Nick the winner.  These extra votes resulted in zoraman's being tied with Nick in the vote tally.
+
+#14 @ 1473
+PrinceMSC; http://sotw.purezc.net/SOTWArchive/PrinceMSC01.gif; 7
+Wild Bill; 0
+Praethus; 1
+Bob; 3
+
+#15 @ 1539
+plith; http://sotw.purezc.net/SOTWArchive/Plith02.gif; 11
+zoraman; 1
+Praethus; 3
+Blonde799; 1
+Bob; 1
+
+#16 @ 1629
+blckscab; http://sotw.purezc.net/SOTWArchive/Blckscab02.gif; 8
+PrinceMSC; 4
+Blonde799; 1
+Praethus; 0
+ZeldaLord; 3
+
+#17 @ 1813
+Demimore; 1
+UpbeatPenguin; http://sotw.purezc.net/SOTWArchive/UPB02.gif; 4
+Praethus; 2
+blckscab; 2
+
+#18 @ 1941
+jman2050; 8
+Stungun; 0
+Praethus; 1
+Demimore; 8W
+* Extra votes were cast after Praethus declared Demimore the winner.  These extra votes resulted in jman2050's being tied with Demimore in the vote tally.
+
+#19 @ 2078
+Demimore; 3
+UpbeatPenguin; 1
+Teilyr; 3
+Praethus; 1
+blckscab; 8
+King Cool Link; 1
+
+#20 @ 2225
+Teilyr; 9
+Praethus; 2
+Mr. Z; 1
+Stungun; 1
+
+#21 @ 2338
+Ielen; 9
+Mr. Z; 7
+Demimore; 1
+Praethus; 2
+Yobumcha; 0
+
+#22 @ 2405
+Nick; 1
+plith; 3
+Praethus; 3
+Mr. Z; http://sotw.purezc.net/SOTWArchive/MrZ01.gif; 8
+
+#23 @ 2507
+Nick; 4
+Mr. Z; 5
+Praethus; 4
+
+#24 @ 2666
+Mr. Z; 12
+blckscab; 2
+Teilyr; 3
+Praethus; 1
+Ganon_dwarf; 0
+Demimore; 3
+
+#25 @ 2791
+Alucard; 2
+Mr. Z; 3
+FlameArrowStar; 1
+Demimore; http://sotw.purezc.net/SOTWArchive/Demimore01.gif; 10
+Stungun; 2
+
+#26 @ 2934
+Wild Bill; 1
+Kratheous; 2
+Nick; 4
+King Cool Link; 0
+LinktheMaster; 1
+Ielen; http://sotw.purezc.net/SOTWArchive/Ielen01.gif; 10
+Darklink813; 1
+Mr. Z; 3
+Blake; 3
+
+#27 @ 2981
+Dekadx2; 0
+Happyman; 0
+Mr. Z; 9
+LinkZ03; 3
+link3505; http://sotw.purezc.net/SOTWArchive/Gashin02.gif; 14
+Wild Bill; 2
+Darklink813; 2
+
+#28 @ 3042
+Nick; 6
+Happyman; 6
+Praethus; 13
+Darklink813; 1
+HWMM; 0
+
+#29 @ 3172
+Dart Zaidyer; 8
+Petoe; http://sotw.purezc.net/SOTWArchive/Petoe01.gif; 10
+me2; 5
+FlameArrowStar; 2
+Nick; 2
+
+#30 @ 3264
+me2; 4
+Petoe; http://sotw.purezc.net/SOTWArchive/Petoe02.gif; 22
+Happyman; 3
+
+#31 @ 3406
+Mr. Z; 2
+Petoe; 3
+Ccc; 0
+Jonathan; http://sotw.purezc.net/SOTWArchive/Jonathan01.gif; 10W
+Wild Bill; 2
+StarFox; 10
+KingdomChamp225; 1
+* Extra votes were cast after Praethus declared Jonathan the winner.  These extra votes resulted in Fox's being tied with Jonathan in the vote tally.
+
+#32 @ 3472
+Nick; 1
+Aerogard LM; 0
+Jonathan; 3
+Ccc; 1
+Petoe; 10
+UpbeatPenguin; 1
+King Cool Link; 11
+Jaivaz; 2
+
+#33 @ 3604
+Jonathan; 6
+Arathorn21st; 0
+Ccc; 0
+Petoe; http://sotw.purezc.net/SOTWArchive/Petoe03.gif; 22
+
+#34 @ 3676
+Jonathan; 6
+Nick; 5
+StarFox; http://sotw.purezc.net/SOTWArchive/StarFox01.gif; 14
+Petoe; 6
+
+#35 @ 3761
+Blonde799; 2
+phil; 1
+Jonathan; 9
+Petoe; http://sotw.purezc.net/SOTWArchive/Petoe04.gif; 11
+
+#36 @ 3829
+Blonde799; 9W
+Darkmatt; 0
+Petoe; 9
+Praethus; 9
+* Extra votes were cast after Praethus declared Blonde799 the winner.  These extra votes resulted in Peteo and Praethus's being tied with Blonde799 in the vote tally.
+
+#37 @ 4020
+Blonde799; 5
+Ccc; 2
+jman2050; 12
+Mr. Z; 1
+Javaiz867; 0
+Nick; 12W
+* Extra votes were cast after Praethus declared Nick the winner.  These extra votes resulted in jman2050's being tied with Nick in the vote tally.
+
+#38 @ 4111
+Mr. Z; 7
+Petoe; 5
+link3505; http://sotw.purezc.net/SOTWArchive/Gashin04.gif; 20
+Teilyr; 1
+FlameArrowStar; 1
+
+#39 @ 4158
+Petoe; 4
+Wild Bill; 0
+Javaiz867; 2
+BH4; 6
+LinkZ03; 2
+Xpertgmer; 0
+PrettyBoy; http://sotw.purezc.net/SOTWArchive/PrinceMSC02.gif; 17
+Mr. Z; 2
+
+#40 @ 4306
+Nick; 5
+Xpertgmer; 0
+PrettyBoy; http://sotw.purezc.net/SOTWArchive/PrinceMSC03.gif; 18
+Mr. Z; 1
+BH4; 1
+
+#41 @ 4432
+BH4; 7
+Hero Link; 3
+Mr. Z; 6
+Teilyr; 13
+
+#42 @ 4489
+GameLink7; 1
+Petoe; 4
+link3505; http://sotw.purezc.net/SOTWArchive/Gashin01.gif; 14
+skateboarder11; 1
+Teilyr; 10
+
+#43 @ 4661
+Nick; 2
+Mr. Z; 7
+phil; 8
+skateboarder11; http://sotw.purezc.net/SOTWArchive/Skateboarder01.gif; 11
+
+#44 @ 4701
+Blonde799; 0
+skateboarder11; 3
+BH4; 11W
+Mr. Z; 4
+Nick; 0
+Petoe; 11
+Hero Link; 2
+* Extra votes were cast after Praethus declared ShadowTiger the winner.  These extra votes resulted in Peteo's being tied with ShadowTiger in the vote tally.
+
+#45 @ 4893
+BH4; 6
+Happyman; http://sotw.purezc.net/SOTWArchive/Happyman01.gif; 4
+Mr. Z; 9
+Nick; 6
+Hero Link; 1
+
+#46 @ 5087
+codelinker8705; SOTW46-codelinker8705; gif; 1
+PolygonX8; SOTW46-PolygonX8; gif; 4
+// It appears this shot name and the topic were edited well after the contest (~2015?) to swap Hero Link for Rydia.
+Hero Link; SOTW46-Rydia; gif; 10
+Nick; SOTW46-Nick; gif; 4
+Mr. Z; SOTW46-MrZ; gif; 2
+Wild Bill; SOTW46-WildBill; gif; 2
+GameLink7; SOTW46-GameLink7; gif; 1
+
+#47 @ 5155
+benmw02190; SOTW47-benmw02190; PNG; 1
+jman2050; SOTW47-jman2050; gif; 1
+Mr. Z; SOTW47-MrZ; gif; 3
+Petoe; SOTW47-Petoe; gif; 4
+skateboarder11; SOTW47-skateboarder11; gif; 4
+Wild Bill; SOTW47-WildBill; gif; 11
+Whhthe2; SOTW47-Whhthe2; gif; 3
+
+#48 @ 5247
+Happyman; SOTW48-Happyman; GIF; 10W
+Nick; SOTW48-Nick; gif; 5
+Whhthe2; SOTW48-Whhthe2; gif; 10
+skateboarder11; SOTW48-skateboarder11; gif; 4
+* Extra votes were cast after Praethus declared HappyPuppet the winner.  These extra votes resulted in Whhthe2's being tied with HappyPuppet in the vote tally.
+
+#49 @ 5404
+Arathorn21st; SOTW49-Arathorn21; gif; 1
+codelinker8705; SOTW49-codelinker8705; gif; 1
+Ian; SOTW49-Ian; gif; 6
+jman2050; SOTW49-jman2050; GIF; 1
+Teilyr; SOTW49-Teilyr; gif; 22
+
+#50 @ 5454
+MountainDrew; SOTW50-MountainDrew; gif; 18
+Blonde799; SOTW50-Blonde799; gif; 0
+PolygonX8; SOTW50-PolygonX8; GIF; 2
+PrettyBoy; SOTW50-PrettyBoy; jpg; 22
+codelinker8705; SOTW50-codelinker8705; gif; 2
+jman2050; SOTW50-jman2050; PNG; 0
+link3505 + BH4; SOTW50-link3505andBH4; gif; 2
+
+#51 @ 5598
+Ccc; SOTW51-Ccc; jpg; 1
+PrettyBoy; SOTW51-PrettyBoy; jpg; 38
+codelinker8705; SOTW51-codelinker8705; gif; 5
+Mr. Z; SOTW51-MrZ; gif; 0
+
+#52 @ 5704
+blckscab; SOTW52-blckscab; jpg; 6
+Wild Bill; SOTW52-WildBill; png; 17
+a guy and his game; SOTW52-aguyandhisgame; gif; 1
+PolygonX8; SOTW52-PolygonX8; gif; 0
+Hero Link; SOTW52-HeroLink; GIF; 2
+Yoshi[1245]; SOTW52-Yoshi; jpg; 0
+Teilyr; 13
+link3505; SOTW52-link3505; gif; 8
+skateboarder11; SOTW52-skateboarder11; gif; 0
+
+#53 @ 5825
+masterlink3000; SOTW53-masterlink3000; gif; 10
+skateboarder11; SOTW53-skateboarder11; gif; 0
+PolygonX8; SOTW53-PolygonX8; gif; 4
+Jaivaz867; SOTW53-javaiz867; JPG; 0
+codelinker8705; SOTW53-codelinker8705; gif; 6
+Nick; SOTW53-Nick; gif; 12
+Snort; SOTW53-Snort; gif; 4
+Teilyr; SOTW53-Teilyr; gif; 4
+Hunter P.; SOTW53-HunterP; gif; 0
+
+//This needs to be better, too. How do you handle points?? :(
+#54A @ 5909
+Snort; SOTW54-Snort; gif; 1L
+Ian; SOTW54-Ian; gif; 10L
+BigJoe; SOTW54-BigJoe; gif; 11L
+InuYasha; SOTW54-InuYasha; jpg; 0L
+Jaivaz; SOTW54-Jaivaz; gif; 2L
+masterlink3000; SOTW54-masterlink3000; jpg; 2L
+Mr. Z; SOTW54-MrZ; gif; 2L
+skateboarder11; SOTW54-skateboarder11; gif; 4L
+* Due to a large volume of entrants, SotW 54 was split into two polls.  The top finishers in each poll competed in a second round, which Teilyr won.
+
+&54B @ 5910
+blckscab; SOTW54-blckscab; jpg; 6
+Lotus Eater; SOTW54-LotusEater; jpg; 2
+Teilyr; SOTW54-Teilyr; gif; 12W
+PolygonX8; SOTW54-PolygonX8; gif; 8
+GameLink7; SOTW54-GameLink7; gif; 0
+BH4; SOTW54-BH4; GIF; 7
+Aegis Runestone; SOTW54-AegisRunestone; gif; 2
+* Due to a large volume of entrants, SotW 54 was split into two polls.  The top finishers in each poll competed in a second round, which Teilyr won.
+
+#55 @ 6194
+Mr. Z; SOTW55-MrZ; GIF; 24
+phil; SOTW55-phil; gif; 2
+Jaivaz; SOTW55-Jaivaz; gif; 8
+Ccc; SOTW55-Ccc; jpg; 3
+
+#56 @ 6298
+Dark Emperor; SOTW56-DarkEmperor; jpg; 5
+Ccc; SOTW56-Ccc; jpg; 3
+BH4; SOTW56-BH4; GIF; 7
+codelinker8705; SOTW56-codelinker8705; jpg; 15
+Petoe; SOTW56-Petoe; gif; 5
+
+#57 @ 6435
+BH4; SOTW57-BH4; GIF; 1
+Radien; SOTW57-Radien; gif; 3
+Hero Link; SOTW57-HeroLink; GIF; 1
+Darkhogg; SOTW57-Darkhogg; GIF; 1
+LinktheMaster; SOTW57-LinkTheMaster; gif; 3
+PrinceMSC; SOTW57-PrinceMSC; png; 30
+StarFox; SOTW57-StarFox; gif; 2
+UpbeatPenguin; SOTW57-UpbeatPenguin; GIF; 4
+
+#58 @ 6525
+LinktheMaster; SOTW58-LinktheMaster; gif; 0
+Ian; SOTW58-Ian; jpg; 12W
+PolygonX8; SOTW58-PolygonX8; GIF; 3
+Jaivaz; SOTW58-Jaivaz; GIF; 1
+Radien; SOTW58-Radien; gif; 14W
+Mr. Z; SOTW58-MrZ; GIF; 3
+Hero Link; SOTW58-HeroLink; gif; 3
+NoeL; SOTW58-NoeL; GIF; 2
+UpbeatPenguin; SOTW58-UpbeatPenguin; gif; 0
+* Extra votes were cast after Praethus declared a tie between IaN and Radien.  These extra votes resulted in Radien's finishing ahead of IaN in the vote tally.
+
+#59 @ 6718
+PolygonX8; SOTW59-PolygonX8; jpg; 4
+Radien; SOTW59-Radien; gif; 7
+LinktheMaster; SOTW59-LinktheMaster; gif; 2
+BH4; SOTW59-BH4; gif; 3
+link3505; SOTW59-link3505; png; 18
+mjctraider; SOTW59-mjctraider; gif; 0
+StarFox; SOTW59-StarFox; GIF; 1
+
+#60 @ 6953
+PolygonX8; 10
+Nick; 0
+Ian; 7
+Jaivaz; 0
+LinktheMaster; http://sotw.purezc.net/SOTWArchive/LinktheMaster01.gif; 15
+codelinker; 10
+BH4; 1
+
+#61 @ 7143
+Radien; 2
+Ccc; http://sotw.purezc.net/SOTWArchive/Ccc01.gif; 17
+NoeL; 8
+LinktheMaster; 0
+Happyman; 8
+Nick; 0
+Hero Link; 1
+Ian; 1
+CrystalBlade; 0
+FireStorm; 1
+
+#62 @ 7209
+Radien; 4
+NoeL; http://sotw.purezc.net/SOTWArchive/Noel01.gif; 35
+LinktheMaster; 9
+Lotus Eater; 1
+skateboarder11; 2
+
+#63 @ 7614
+Hero Link; SOTW63-HeroLink; gif; 0
+Ian; SOTW63-Ian; gif; 14
+System Error; SOTW63-SystemError; gif; 14W
+FireStorm; SOTW63-FireStorm; gif; 0
+skateboarder11; SOTW63-skateboarder11; GIF; 2
+* Extra votes were cast after Praethus declared System Error the winner.  These extra votes resulted in IaN's being tied with System Error in the vote tally.
+
+#64 @ 7693
+Nick; SOTW64-Nick; gif; 0
+Jaivaz; SOTW64-Jaivaz; GIF; 1
+PrinceMSC; SOTW64-PrinceMSC; jpg; 33
+codelinker; SOTW64-codelinker; GIF; 2
+Ian; SOTW64-Ian; gif; 7
+skateboarder11; SOTW64-skateboarder11; GIF; 1
+
+#65 @ 7816
+IaN; SOTW65-IaN; gif; 10
+lord_jamitossi; SOTW65-lord_jamitossi; gif; 1
+Mr. Z; SOTW65-Mr_Z; gif; 1
+Radien; SOTW65-Radien; gif; 2
+Shoelace; SOTW65-Shoelace; gif; 1
+Ccc; SOTW65-Ccc; gif; 0
+DragonAtma; SOTW65-DragonAtma; png; 1
+Hero Link; SOTW65-HeroLink; gif; 4
+Ben[958]; SOTW65-Ben; gif; 4
+codelinker; SOTW65-codelinker; GIF; 5
+skateboarder11; SOTW65-skateboarder11; GIF; 0
+
+#66 @ 7914
+link3505; SOTW66-link3505; gif; 27
+DragonAtma; SOTW66-DragonAtma; png; 3
+Shoelace; SOTW66-Shoelace; gif; 1
+codelinker; SOTW66-Codelinker; GIF; 1
+Radien; SOTW66-Radien; gif; 1
+IaN; SOTW66-IaN; gif; 8
+Snort; SOTW66-Snort; gif; 0
+
+#67 @ 7987
+CrystalBlade; SOTW67-CrystalBlade; GIF; 1
+Petoe; SOTW67-Petoe; gif; 22
+Snort; SOTW67-Snort; GIF; 2
+codelinker; SOTW67-codelinker; GIF; 3
+skateboarder11; SOTW67-skateboarder11; GIF; 1
+
+#68 @ 8060
+masterlink3000; gif; 1
+PolygonX8; gif; 3
+Mr. Z; MrZ; gif; 2
+CrystalBlade; gif; 1
+Shoelace; gif; 0
+Radien; gif; 18W
+Vargen; gif; 20
+Darklink813; gif; 2
+* Extra votes were cast after PrinceMSC declared Radien the winner.  These extra votes resulted in Vargen's finishing ahead of Radien in the vote tally.
+
+#69 @ 8220
+Snort; snort; gif; 4
+link3505; gif; 10
+masterlink3000; gif; 14
+Valerie; gif; 3
+Radien; gif; 8
+Shoelace; shoelace; gif; 4
+
+#70 @ 8418
+PolygonX8; Polygonx8; gif; 25
+Snort; gif; 1
+plith; gif; 7
+masterlink3000; gif; 3
+Shoelace; gif; 2
+Dart Zaidyer; DartZaidyer; gif; 0
+
+#71 @ 8534
+Link128; gif; 3
+IaN; gif; 25
+masterlink3000; gif; 4
+Snort; gif; 4
+Shoelace; gif; 2
+Mr. Z; MrZ; gif; 7
+
+#72 @ 8771
+skateboarder11; Sktbrd; gif; 1
+IaN; gif; 20
+Link128; gif; 1
+masterlink3000; Masterlink3000; gif; 22
+
+#73 @ 9008
+Hergiswi; gif; 1
+Shoelace; gif; 4
+IaN; gif; 16
+skateboarder11; Skateboarder11; gif; 2
+Gashin; gif; 8
+Ccc; gif; 0
+Link128; gif; 0
+Shashomaru; gif; 0
+
+#74 @ 9150
+Lonemind; gif; 14
+masterlink3000; gif; 2
+Reflectionist; gif; 1
+Radien; gif; 15
+Shoelace; gif; 6
+
+#75 @ 9243
+Radien; gif; 15
+LinktheMaster; gif; 9
+IaN; gif; 9
+Lonemind; gif; 8
+
+#76 @ 9402
+Dart Zaidyer; Dartzaidyer; gif; 12
+IaN; gif; 10
+Radien; gif; 12
+FireStorm; Firestorm; gif; 3
+codelinker; gif; 11W
+* Extra votes were cast after PrinceMSC declared codelinker the winner.  These extra votes resulted in Dart Zaidyer and Radien's finishing ahead of codelinker in the vote tally.
+
+#77 @ 9720
+BH4; BH41; gif; 40
+LinktheMaster; gif; 5
+Shoelace; gif; 0
+skateboarder11; Skateboarder; gif; 1
+
+#78 @ 9904
+Dorian; gif; 0
+lord_jamitossi; gif; 1
+masterlink3000; gif; 10
+phil; Phil; gif; 0
+Snort; gif; 21
+
+#79 @ 10107
+Ccc; gif; 1
+Dorian; gif; 1
+DragonBoy; gif; 3
+Hero_of_Hyrule; gif; 3
+IaN; gif; 4
+LinktheMaster; gif; 3
+PolygonX8; gif; 36
+skateboarder11; Skateboarder; gif; 0
+
+#80 @ 10360
+DragonBoy; gif; 2
+Dorian; gif; 0
+Mr. Z; MrZ; gif; 2
+NoeL; Noel; gif; 28
+Shoelace; gif; 2
+skateboarder11; Skateboarder; gif; 6
+
+#81 @ 10595
+FireStorm; gif; 13
+Radien; gif; 33
+Shoelace; gif; 5
+
+#82 @ 10828
+Mr. Z; MrZ; gif; 0
+IaN; gif; 4
+Gashin; gif; 24W
+PrinceMSC; gif; 27
+Shoelace; gif; 1
+Snort; gif; 0
+* Extra votes were cast after PrinceMSC declared link3505 the winner.  These extra votes resulted in PrinceMSC's finishing ahead of link3505 in the vote tally.
+
+#83 @ 10974
+Drari; gif; 0
+Hero_of_Hyrule; 16
+Marcus; gif; 8
+Shoelace; gif; 12
+tobias_daboi; gif; 0
+
+#84 @ 11053
+Drari; gif; 2
+LinktheMaster; gif; 3
+lord_jamitossi; lord_jamitossi1; gif; 3
+Radien; gif; 28
+
+#85 @ 11338
+Drari; gif; 17
+LinktheMaster; gif; 19
+venom343; gif; 4
+
+#86 @ 11447
+Drari; gif; 6
+Gashin; gif; 41
+Hunter P Brown; gif; 0
+Linkman90; gif; 0
+OMEG; gif; 1
+PolygonX8; gif; 6
+venom343; gif; 2
+Zemious; gif; 1
+
+#87 @ 11565
+Hero Link; HeroLink; gif; 8
+Mr. Z; MrZ; gif; 12
+PolygonX8; gif; 1
+Radien; gif; 21
+Shoelace; gif; 7
+
+#88 @ 11760
+drari; gif; 1
+Hero_of_Hyrule; 1
+lord_jamitossi; gif; 2
+Shashomaru; gif; 22
+Shoelace; gif; 2
+System Error; gif; 1
+
+#89 @ 12050
+DarthExater; gif; 17
+Hergiswi; gif; 0
+Jonathan; gif; 16
+Mr. Z; MrZ; gif; 2
+Shoelace; gif; 7
+
+#90 @ 12165
+Jonathan; gif; 15
+Phosphorescent; gif; 4
+Radien; gif; 38
+
+#91 @ 12369
+Jonathan; gif; 15
+OMEG; gif; 5
+Shoelace; gif; 23
+
+#92 @ 12719
+lord_jamitossi; gif; 8
+mudvayne; gif; 15
+Phosphorescent_Image; gif; 25
+Tobias Daboi; gif; 0
+
+#93 @ 13070
+Jonathan; gif; 22
+Mr. Z; MrZ; gif; 22W
+PolygonX8; gif; 2
+* Extra votes were cast after PrinceMSC declared Mr. Z the winner.  These extra votes resulted in Jonathan's being tied with Mr. Z in the vote tally.
+
+#94 @ 13259
+Comix; gif; 0
+Freedom; gif; 6
+Gashin; gif; 27
+Jonathan; gif; 27W
+khazmodius; gif; 0
+Linkus Mastii; LinkusMastii; gif; 0
+PolygonX8; gif; 6
+Shoelace; gif; 0
+Tobias Daboi; TobiasDaboi; gif; 0
+* Extra votes were cast after PrinceMSC declared Jonathan the winner.  These extra votes resulted in link3505's being tied with Jonathan in the vote tally.
+
+#95 @ 13483
+Jonathan; gif; 25
+Linkus Mastii; LinkusMastii; gif; 4
+masterlink3000; gif; 2
+Shoelace; gif; 24
+
+#96 @ 13665
+Gashin; gif; 12
+IaN; gif; 25
+Kitsune; gif; 1
+Shoelace; gif; 13
+zmaster; gif; 6
+
+#97 @ 14531
+mighty_darknut; gif; 2
+PolygonX8; Polygonx8; gif; 16
+NoeL; gif; 30
+khazmodius; gif; 4
+Tobias Daboi; gif; 1
+lord_jamitossi; gif; 2
+HylianLegend; gif; 1
+
+#98 @ 14653
+Tobias Daboi; gif; 1
+Jake; gif; 1
+Mr. Z; gif; 0
+nicklegends; Nicklegends; gif; 3
+UBP; gif; 0
+Gashin; gif; 25
+HylianLegend; gif; 2
+mighty_darknut; gif; 1
+Radien; gif; 21
+
+#99 @ 14765
+Dart Zaidyer; gif; 20
+Jake; gif; 1
+Tobias Daboi; gif; 29
+Hero Link; gif; 1
+
+#100 @ 14914
+Tobias Daboi; gif; 0
+PrinceMSC; png; 38
+Radien; gif; 7
+Mr. Z; gif; 7
+System Error; png; 1
+ZC-Ninja; png; 4
+Jonathan; gif; 8
+Hero Link; gif; 6
+
+#101 @ 15190
+Shoelace; shoelace; gif; 7
+ZC-Ninja; zc-ninja; png; 20
+Comix; comix; gif; 0
+nicklegends; gif; 1
+System Error; system_error; png; 0
+Jake; jake; png; 19
+
+#102 @ 15287
+BH4; gif; 4
+Dark Emperor; gif; 8
+Dart Zaidyer; gif; 6
+Shoelace; gif; 7
+ZC-Ninja; ZcNinja; png; 21
+
+#103 @ 15433
+IaN; gif; 31
+Lecayle; gif; 1
+Linkus Mastii; gif; 0
+XdragonSB; png; 2
+ZC-Ninja; Zc-Ninja; png; 7
+
+#104 @ 15565
+Jonathan; gif; 30
+Setzer; PNG; 5
+Shoelace; GIF; 7
+
+#105 @ 15863
+dlbrooks34; gif; 0
+Setzer; PNG; 16
+Shoelace; gif; 21
+
+#106 @ 16055
+Freedom; gif; 16
+Jake; jpg; 1
+mighty_darknut; gif; 6
+Rex Zemenheart; gif; 3
+ZC-Ninja; png; 12
+
+#107 @ 16179
+Freedom; gif; 26
+Jonathan; png; 10
+nicklegends; PNG; 5
+
+#108 @ 16300
+Darkspawn; png; 2
+Freedom; gif; 19
+Jonathan; png; 23
+Mighty Darknut; gif; 0
+Rex Zemenheart; gif; 1
+
+#109 @ 16623
+Freedom; gif; 19
+Gashin; gif; 29
+ZC-Ninja; png; 6
+
+#110 @ 17065
+Comix; gif; 1
+Darkspawn; gif; 22
+Rex Zemenheart; gif; 8
+Siguy; PNG; 4
+XdragonSB; png; 1
+ZC-Ninja; png; 8
+
+#111 @ 17231
+Petoe; gif; 31
+Questions; png; 4
+Rex Zemenheart; gif; 6
+
+#112 @ 17545
+Anderson333; gif; 25
+DefEdge; jpg; 9
+XdragonSB; png; 6
+
+#113 @ 17831
+linkmystro100; jpg; 9
+Mighty Darknut; png; 8
+Rex Zemenheart; gif; 3
+Theryan; theryan; gif; 1
+ZC-Ninja; png; 19
+DragonAtma; png; 7
+
+#114 @ 18020
+Anderson333; gif; 2
+Dark Lord Magus; gif; 6
+Linkus Mastii; gif; 11
+Mighty Darknut; png; 1
+Sylph; png; 0
+XdragonSB; png; 5
+ZC-Ninja; png; 23
+
+#115 @ 18169
+Freedom; gif; 35
+Linkus Mastii; gif; 7
+Rex Zemenheart; gif; 2
+Sylph; png; 0
+XdragonSB; png; 2
+ZC-Ninja; png; 9
+
+#116 @ 18362
+Dorian; png; 2
+Freedom; gif; 29
+Link75; jpg; 12
+Sylph; png; 2
+
+#117 @ 18827
+Dorian; png; 2
+Linkus Mastii; gif; 47
+Questions; png; 1
+Sephiroth; gif; 2
+ZC-Ninja; png; 9
+
+#118 @ 19203
+ZC-Ninja; png; 11
+Siguy; PNG; 1
+Peteo; gif; 6
+Link75; png; 12
+Jonathan; gif; 17
+
+#119 @ 19334
+CastChaos; gif; 2
+DarkFlameWolf; jpg; 38
+Radien; gif; 14
+
+#120 @ 19464
+Mighty Darknut; png; 10
+Peteo; jpg; 39
+Questions; png; 2
+Rex Zemenheart; gif; 4
+
+#121 @ 19637
+Link75; png; 5
+Peteo; jpg; 30
+Rose; gif; 8
+
+#122 @ 19779
+CastChaos; gif; 1
+Jonathan; gif; 25
+Linkus Mastii; png; 4
+Radien; gif; 7
+skateboarder11; png; 5
+
+#123 @ 20013
+Linkus Mastii; png; 8
+Mighty Darknut; png; 14
+Radien; gif; 17
+
+#124 @ 20141
+Mighty Darknut; png; 6
+Questions; png; 7
+XdragonSB; png; 0
+ZC-Ninja; png; 20
+
+#125 @ 20343
+Gashin; gif; 36
+Mighty Darknut; png; 7
+Radien; gif; 10
+Revfan9; png; 3
+
+#126 @ 20554
+Mighty Darknut; png; 18
+ZC-Ninja; png; 16
+Zeldd; gif; 4
+
+#127 @ 20684
+Darkspawn; jpg; 2
+Linkus Mastii; gif; 22
+Mighty Darknut; png; 5
+Zeldd; gif; 9
+
+#128 @ 20860
+CastChaos; gif; 2
+Fire Wizzrobe; png; 21
+Mighty Darknut; png; 4
+Revfan9; png; 2
+skipper; gif; 11
+
+#129 @ 21061
+DragonBoy; png; 9
+Gashin; gif; 9
+Mighty Darknut; png; 2
+Radien; gif; 26
+
+#130 @ 21227
+DragonBoy; png; 5
+Gashin; gif; 17
+IaN; gif; 12
+Mighty Darknut; png; 1
+Revfan9; png; 2
+Rex Zemenheart; jpg; 0
+Sephiroth; gif; 0
+
+#131 @ 21366
+DarkFlameWolf; jpg; 24
+DragonBoy; Dragon Boy; png; 23
+Mighty Darknut; png; 3
+* Extra votes were cast after link3505 declared a tie between DarkFlameWolf and /M/.  These extra votes resulted in DarkFlameWolf's finishing ahead of /M/ in the vote tally.
+* At the time of this contest, PrinceMSC's Screenshot of the Week ranking system dictated that ties would be broken by Screenshot of the Month performance.  DarkFlameWolf would place better than /M/ in SotM 33; thus, she is considered the sole winner of SotW 131.
+
+#132 @ 21502
+Lecayle; gif; 5
+Linkus Mastii; gif; 18
+Mighty Darknut; png; 4
+NoeL; gif; 24
+
+#133 @ 21650
+Aori Radidjiu; png; 0
+Jonathan; gif; 29
+Kingboo30; png; 2
+Mighty Darknut; png; 9
+
+#134 @ 22000
+Billy Ronald; gif; 5
+Jonathan; gif; 4
+Linkus Mastii; gif; 20
+Mighty Darknut; png; 0
+Rex Zemenheart; gif; 5
+Shoelace; gif; 1
+
+#135 @ 22145
+Mighty Darknut; png; 15
+NoeL; gif; 5
+Radien; gif; 26
+Rex Zemenheart; gif; 2
+
+#136 @ 22472
+Dekadx2; png; 1
+DragonBoy; Dragonboy; gif; 22
+Mighty Darknut; png; 9
+Rex Zemenheart; gif; 16
+
+#137 @ 22624
+Darkspawn; png; 1
+Sharon Daniel; png; 23
+Radien; gif; 4
+
+#138 @ 22794
+pikaguy900; jpg; 13
+Daiv; gif; 10
+Link75; png; 8
+Zeldafreak; png; 2
+Hero Link; png; 7
+
+#139 @ 22920
+spriteman; spritemanSotW139; gif; 10
+Gashin; GashinSotW139; gif; 21
+pikaguy900; pikaguy900SotW139; gif; 2
+Darkspawn; DarkspawnSotW139; jpg; 0
+Hero Link; Hero LinkSotW139; PNG; 5
+
+#140 @ 23079
+Moonwhisper; gif; 6
+NoeL; gif; 28
+spriteman; gif; 6
+blaman; PNG; 1
+
+#141 @ 23237
+Blue Link 2007; png; 3
+Moonwhisper; gif; 5
+Gashin; gif; 28
+Animus01; png; 3
+Hero Link; png; 6
+
+#142 @ 23399
+DarkFlameWolf; jpg; 24
+blaman; png; 8
+Revfan9; png; 1
+Sharon Daniel; png; 17
+Hero Link; png; 3
+
+#143 @ 23534
+Animus01; gif; 26
+Old-Skool; gif; 3
+Sharon Daniel; png; 23
+DragonAtma; gif; 5
+
+#144 @ 23737
+NoeL; gif; 28
+Blue Link 2007; png; 2
+WindStrike; gif; 4
+Revfan9; png; 3
+Sharon Daniel; png; 4
+
+#145 @ 23876
+Moonwhisper; gif; 2
+Sharon Daniel; png; 18
+blaman; jpg; 13
+
+#146 @ 24054
+Sharon Daniel; png; 15
+Revfan9; png; 3
+Link75; png; 3
+Linkus Mastii; gif; 31
+
+#147 @ 24469
+Matthew[3571]; gif; 1
+EatinCake; png; 9
+Sir Pimpalot; png; 7
+Blue Link 2007; png; 3
+Sharon Daniel; png; 19
+Mr. Z; Mr Z; gif; 8
+Moonwhisper; gif; 3
+Revfan9; png; 5
+
+#148 @ 24653
+WindStrike; jpg; 3
+blaman; jpg; 15
+mudvayne; gif; 7
+Revfan9; gif; 0
+rocksfan13; gif; 1
+Fire Wizzrobe; png; 7
+Lotus Eater; png; 10
+Sharon Daniel; png; 5
+
+#149 @ 24802
+rocksfan13; gif; 1
+Nuvo; png; 7
+Lotus Eater; png; 13
+Evan the great; jpg; 5
+DarkFlameWolf; gif; 10
+
+#150 @ 25186
+Nuvo; png; 28
+DarkFlameWolf; jpg; 16
+Peteo; gif; 11
+
+#151 @ 25324
+Peteo; jpg; 52
+Revfan9; png; 12
+Sharon Daniel; png; 6
+
+#152 @ 25478
+Revfan9; jpg; 22
+Animus01; png; 4
+DarkFlameWolf; gif; 41
+
+#153 @ 25811
+Aribar; png; 1
+Anthus; gif; 2
+Revfan9; png; 6
+Sharon Daniel; png; 4
+/M/; M; png; 7
+NoeL; png; 14
+Moonwhisper; gif; 1
+Nuvo; jpg; 6
+Shoelace; gif; 22
+
+#154 @ 26044
+Sharon Daniel; png; 32
+Zemious; gif; 15
+Beta Link; gif; 5
+
+#155 @ 26188
+Daiv; gif; 0
+Radien; gif; 41
+Solarrain4; png; 0
+Limzo; gif; 9
+Sharon Daniel; png; 8
+
+#156 @ 26853
+Relic; gif; 30
+Revfan9; gif; 10
+Sharon Daniel; png; 5
+Anthus; gif; 5
+alfinchkid; gif; 5
+
+#157 @ 27018
+Radien; gif; 55
+Joe123; gif; 15
+
+#158 @ 27659
+CastChaos; gif; 5
+DarkFlameWolf; gif; 22
+Sharon Daniel; png; 2
+Zeldafreak; jpg; 17
+
+#159 @ 27805
+/M/; _M_; png; 24
+CastChaos; Cast Chaos; gif; 3
+Evan the great; Evan the Great; gif; 0
+Sharon Daniel; png; 4
+Zeldafreak; jpg; 6
+
+#160 @ 27972
+Billy Ronald; jpg; 2
+DarkFlameWolf; gif; 6
+Dorian; gif; 4
+Linkus; gif; 29
+Sharon Daniel; png; 6
+
+#161 @ 28124
+DarkFlameWolf; gif; 26
+Nuvo; gif; 9
+Revfan9; gif; 18
+
+#162 @ 28363
+ennonfenom; jpg; 14
+Matthew[3571]; MatthewPZC; gif; 7
+Taco Chopper; jpg; 3
+Trimaster001; jpg; 9
+Turbon714; png; 6
+
+#163 @ 28495
+Billy Ronald; jpg; 3
+ennonfenom; gif; 19
+Sharon Daniel; png; 16
+The Satellite; gif; 6
+Trimaster001; jpg; 1
+
+#164 @ 28648
+Ebola Zaire; png; 8
+ennonfenom; png; 3
+Moonwhisper; gif; 8
+Sharon Daniel; png; 29
+
+#165 @ 28794
+Evan the great; Evan the Great; gif; 20
+General Fondue; 1
+Revfan9; png; 17
+Sharon Daniel; png; 4
+Trimaster001; jpg; 2
+zmaster; jpg; 2
+
+#166 @ 28961
+CastChaos; gif; 3
+NoeL; gif; 39
+Revfan9; gif; 1
+Trimaster001; jpg; 4
+
+#167 @ 29113
+CastChaos; gif; 2
+Fire Wizzrobe; png; 17
+Migokalle; jpg; 10
+Trimaster001; jpg; 21
+
+#168 @ 29299
+CastChaos; gif; 9
+Fire Wizzrobe; png; 20
+Majora's Wrath; png; 3
+Moonwhisper; gif; 4
+Trimaster001; jpg; 9
+
+#169 @ 29473
+CastChaos; gif; 5
+Linkus; gif; 26
+Moonwhisper; gif; 5
+Sharon Daniel; png; 4
+The Satellite; gif; 12
+
+#170 @ 29634
+CastChaos; gif; 10
+Darkspawn; gif; 3
+Evan the great; Evan the Great; gif; 12
+Majora's Wrath; Majoras Wrath; png; 2
+Nuvo; gif; 10
+
+#171 @ 30018
+Animus01; gif; 8
+CastChaos; gif; 1
+DarkFlameWolf; jpg; 15
+Moonwhisper; gif; 3
+Nuvo; png; 28
+
+#172 @ 30453
+Darkspawn; 4l7tmhf; gif; 6
+Ebola Zaire; 522plhg; gif; 5
+Evan the great; 5x7uc8x; gif; 4
+Sharon Daniel; 6aozhjs; gif; 2
+Shoelace; 4l6j80y; gif; 19
+Trimaster001; 5
+
+#173 @ 30654
+TriMaster001; zelda019; gif; 14
+Moonwhisper; SotW_173; gif; 9
+Linkus; sotw173hy3; gif; 25
+Ebola Zaire; zelda002ks8; png; 13
+Hoten; 1
+
+#174 @ 30819
+CastChaos; gif; 0
+Darkspawn; gif; 1
+Evan the great; Evan the Great; gif; 15
+Majora; png; 1
+TriMaster001; gif; 11
+WindStrike; Windstrike; gif; 12
+
+#175 @ 31047
+Evan the great; graveyard3; gif; 5
+Nuvo; SotWentree-4; png; 18
+Majora; f_zelda001m_8ec5297; gif; 2
+TriMaster001; zelda069-3; gif; 8
+Linkus; sotw175sn5; gif; 8
+Plissken; zelda006nh9; png; 2
+LinkMystro; 2
+
+#176 @ 31272
+CastChaos; gif; 23
+Linkus; gif; 21
+Plissken; Plisskin; png; 2
+The Satellite; gif; 0
+TriMaster001; gif; 2
+
+#177 @ 31453
+HeavyTitanium; gif; 1
+IaN; gif; 25
+Moonwhisper; gif; 8
+newbydude; newbiedude; jpg; 0
+Shoelace; gif; 24
+
+#178 @ 31608
+TriMaster001; zelda004-1; gif; 16
+The Satellite; SotWEntry178; png; 3
+Evan the great; zelda122-1; gif; 10
+Ebola Zaire; zelda002rx1; png; 11
+/M/; zelda002ku2; png; 6
+
+#179 @ 31780
+CastChaos; gif; 18
+Moonwhisper; gif; 37
+Octorockoncrack; jpg; 0
+
+#180 @ 31927
+Bowser Blanchette; jpg; 1
+CastChaos; gif; 1
+Evan the great; Evan the Great; gif; 16
+mudvayne; Mudvayne; gif; 34
+
+#181 @ 32070
+Bowser Blanchette; jpg; 1
+CastChaos; png; 9
+Ebola Zaire; png; 7
+gray0x; jpg; 1
+Link75; png; 7
+NoeL; gif; 29
+TriMaster001; gif; 6
+
+#182 @ 32359
+Nuvo; zelda013; png; 11
+Evan the great; zelda179-1; gif; 9
+CastChaos; bbiw00sotwrs0; png; 2
+Joe123; zelda060; jpg; 5
+Aribar; AribarSotW182; png; 4
+Plissken; zelda019ud5; png; 9
+TriMaster001; zelda078-2; gif; 1
+
+#183 @ 32501
+ennonfenom; AoLstylesidescrollzcscreen; jpg; 25
+Bowser Blanchette; zelda006-3; jpg; 1
+Xavier; Xavspic; gif; 26
+Octorockoncrack; zelda764; jpg; 1
+
+#184 @ 32675
+billy ronald; SotW184billyronald; jpg; 2
+CastChaos; SotW184CastChaos; png; 3
+mudvayne; SotW184mudvayne; gif; 34
+
+#185 @ 32880
+gray0x; zelda0012gf4; png; 2
+Evan the great; zelda250fl6; gif; 25
+Billy Ronald; sotwbilly185sn7; gif; 1
+Ebola Zaire; zelda007cu6qa9; png; 20
+CastChaos; bbiwfs1nu0qy7; png; 3
+Nuvo; zelda029pe1; png; 3
+
+#186 @ 33061
+Link75; hillsnb9; gif; 16W
+CastChaos; ccsotw186cv8tn9; png; 11
+Nuvo; zelda0081px1; png; 16
+* Extra votes were cast after Shoelace declared Link75 the winner.  These extra votes resulted in Strato's being tied with Link75 in the vote tally.
+
+#187 @ 33211
+ennonfenom; SotW187ennonfenom; png; 11
+Linkus; SotW187Linkus; gif; 23
+Shoelace; zelda028; gif; 12
+TriMaster001; SotW187Trimaster001; gif; 1
+
+#188 @ 33349
+Octorockoncrack; zelda0331fv9; jpg; 5
+CastChaos; sotw188cckg8re8; png; 9
+Ebola Zaire; zelda013jx4zl9; png; 36
+
+#189 @ 33480
+zmaster; png; 21W
+CastChaos; png; 21
+billy ronald; jpg; 2
+* Extra votes were cast after Shoelace declared Zenith the winner.  These extra votes resulted in CastChaos's being tied with Zenith in the vote tally.
+
+#190 @ 33642
+billy ronald; SotW190billyronald; gif; 1
+CastChaos; SotW190CastChaos; png; 2
+Evile; gif; 20
+fuzzyman; jpg; 1
+TriMaster001; Trimaster001; gif; 25
+
+#191 @ 33771
+Theryan; blahxn4; png; 13
+TriMaster001; zelda028hx7; gif; 27
+CastChaos; bbmm2sotwek0; png; 8
+
+#192 @ 33991
+CastChaos; SotW192CastChaos; png; 7
+lucas92; SotW192lucas92; gif; 2
+Moonwhisper; SotW192Moonwhisper; gif; 25
+zmaster; SotW192zmaster; jpg; 5
+
+#193 @ 34115
+Evile; zelda0502dj7; gif; 3
+CastChaos; bbhyca1zi8qj4; png; 0
+Nuvo; zelda038ds3; png; 3
+Plissken; zelda011rx0rs9; gif; 30
+billy ronald; zelda0018zm7; gif; 1
+
+#194 @ 34245
+billy ronald; billyronald; gif; 9
+CastChaos; png; 12
+Evile; gif; 21
+Taco Chopper; TacoChopper; gif; 0
+The (s); the_s; GIF; 2
+
+#195 @ 34367
+/M/; M; gif; 13
+CastChaos; png; 5
+LostInHyru1e; LostInHyrule; jpg; 2
+Migokalle; Migo; jpg; 32
+
+#196 @ 34528
+billy ronald; billyronald; png; 5
+nate4815; nate; gif; 18
+TriMaster001; trimaster001; gif; 26
+
+#197 @ 34633
+Majora; gif; 3
+LostInHyru1e; LostInHyrule; jpg; 10
+CastChaos; png; 1
+gray0x; GrayOx; png; 3
+Joe123; png; 16
+Nuvo; png; 5
+
+#198 @ 34752
+Evile; gif; 22
+link1996; jpg; 2
+LostInHyru1e; lostinHyru1e; jpg; 3
+Migokalle; migokalle; gif; 15
+TriMaster001; trimaster001; gif; 8
+
+#199 @ 34887
+CastChaos; png; 9
+gray0x; jpg; 29
+link1996; jpg; 1
+Majora; gif; 3
+
+#200D @ 34997
+CastChaos; png; 7
+Dorian; png; 4
+Gleeok; png; 2
+Joe123; png; 28
+LinkMystro; png; 0
+LostInHyru1e; LostInHyrule; jpg; 4
+* Due to a large volume of entrants, SotW 200 was split into two polls.  The top finishers in each poll competed in a second round, which Joe123 won.
+
+&200C @ 34998
+Majora; gif; 14L
+Migokalle; gif; 17L
+Octorockoncrack; octorockoncrack; jpg; 0L
+russadwan; gif; 1L
+Shoelace; gif; 21L
+ThunderSpeed; png; 2L
+* Due to a large volume of entrants, SotW 200 was split into two polls.  The top finisher in each poll competed in a second round, which Joe123 won.
+
+#201 @ 35096
+CastChaos; castchaosdh1; png; 1
+Gleeok; gleeokvj2; png; 10
+Linkus; linkusiv0; gif; 14
+LostInHyru1e; zelda261; jpg; 20
+
+#202 @ 35157
+billy ronald; billyronald; jpg; 7
+Gleeok; jpg; 3
+LostInHyru1e; jpg; 15
+Moonwhisper; gif; 18
+
+#203 @ 35266
+billy ronald; billyronald; gif; 7
+Gleeok; png; 5
+LostInHyru1e; jpg; 24
+Joe123; png; 20
+
+#204 @ 35341
+LostInHyru1e; 16
+Migokalle; Migo; gif; 44
+billy ronald; png; 4
+
+#205 @ 35445
+billy ronald; billyronald; png; 2
+CastChaos; png; 1
+Ebola Zaire; Ebola; gif; 40
+Evile; gif; 4
+link1996; jpg; 1
+LostInHyru1e; jpg; 1
+Migokalle; gif; 6
+TriMaster001; Trimaster001; gif; 2
+
+#206 @ 35535
+CastChaos; 23
+HylianLegend; rhtn9e; png; 5
+ZebraStallion; hyruleoutwoodszq3; jpg; 0
+Link R us; aab9cd3c582200fullus0; jpg; 6
+Giggidy; zelda1602re3; gif; 16
+LostInHyru1e; zelda1131de2; jpg; 7
+
+#207 @ 35625
+billy ronald; billyronald; png; 14
+CastChaos; gif; 3
+gray0x; png; 11
+LostInHyru1e; jpg; 4
+TriMaster001; Trimaster001; gif; 16
+
+#208 @ 35691
+/M/; zelda316as0; png; 18
+Pheonix; zelda028xe6; png; 10
+LostInHyru1e; zelda129zw0; jpg; 14
+Linkus; zelda003ce3; png; 13
+
+#209 @ 35762
+CastChaos; png; 6
+Moonwhisper; gif; 6
+Radien; gif; 44
+
+#210 @ 35860
+CastChaos; png; 22
+LinkMystro; png; 4
+Nuvo; png; 11
+The Satellite; TS; png; 1
+TriMaster001; gif; 14
+
+#211 @ 35976
+billy ronald; billyronald; png; 19
+CastChaos; png; 7
+gray0x; png; 35
+Russ; russ; gif; 0
+
+#212 @ 36055
+LostInHyru1e; jpg; 33
+Pheonix; gif; 5
+Russ; russ; gif; 13
+
+#213 @ 36140
+blaman; png; 10
+gray0x; png; 1
+LostInHyru1e; jpg; 3
+Moonwhisper; gif; 0
+Nuvo; png; 4
+Plissken; png; 26
+Russ; gif; 1
+
+#214 @ 36242
+CastChaos; png; 14
+dlbrooks34; png; 2
+Schwa; schwa; png; 37
+
+#215 @ 36348
+billy ronald; billyronald; png; 7
+Migokalle; gif; 8
+ZebraStallion; Zebra; jpg; 39
+
+#216 @ 36481
+dlbrooks34; jpg; 6
+TriMaster001; gif; 21
+Twilight_Knight; png; 15
+xiion; gif; 10
+
+#217 @ 36590
+billy ronald; billy; png; 1
+blaman; png; 0
+Bowser Blanchette; Bowser; jpg; 0
+Ebola Zaire; Ebola; gif; 43
+XxGamasterxX; Gamaster; png; 2
+Schwa; png; 3
+
+#218 @ 36689
+AntonJ3000; gif; 3
+LostInHyru1e; jpg; 23
+ZebraStallion; jpg; 21
+
+#219 @ 36819
+blaman; png; 31
+LostInHyru1e; jpg; 8
+Russ; gif; 3
+
+#220 @ 36929
+gray0x; png; 28
+Popuri; gif; 1
+
+#221 @ 37053
+gray0x; png; 2
+Moonwhisper; gif; 17
+Shoelace; gif; 21
+TheMasterSwordsman; TMS; png; 1
+Zemious; png; 2
+
+#222 @ 37146
+LostInHyru1e; jpg; 14
+Nuvo; jpg; 25
+ZeeLiam; jpg; 7
+
+#223 @ 37256
+Ebola Zaire; Ebola_Zaire; gif; 30
+gray0x; png; 5
+TriMaster001; gif; 9
+
+#224 @ 37373
+LostInHyru1e; jpg; 20
+Migokalle; Migo; gif; 22
+TheMasterSwordsman; TMS; png; 1
+ZeeLiam; jpg; 4
+
+#225 @ 37454
+gray0x; png; 6
+jimmyb; gif; 11
+Majora; gif; 13
+TheMasterSwordsman; TMS; png; 6
+
+#226 @ 37548
+/M/; M; gif; 17
+Beta Link; gif; 24
+billy ronald; jpg; 2
+
+#227 @ 37659
+ZeeLiam; Zeeliam; jpg; 3
+T. Platinum; jpg; 1
+Lithium; gray0x,Lithium; jpg; 14
+Dawnlight; gif; 27
+
+#228 @ 37736
+gray0x; jpg; 1
+Dawnlight; gif; 9
+Ebola Zaire; Ebola; gif; 15
+Evile; gif; 9
+Majora; gif; 1
+Molten Onyx; MoltenOnyx; jpg; 2
+Nuvo; png; 8
+
+#229 @ 37833
+LostInHyru1e; jpg; 4
+Dawnlight; gif; 26
+LinkMystro; png; 24
+
+#230 @ 37945
+jimmyb; gif; 5
+Lithium; jpg; 0
+Majora; png; 10
+Migokalle; Migo; gif; 16
+Moonwhisper; gif; 9
+ZebraStallion; Zebra; jpg; 1
+
+#231 @ 38036
+TheMasterSwordsman; png; 0
+Sephiroth; png; 1
+Naldrag; gif; 0
+Linkus; png; 19
+CastChaos; png; 4
+blaman; png; 22
+
+#232 @ 38118
+Evile; gif; 29
+Sephiroth; png; 0
+TheMasterSwordsman; TMS; png; 0
+Twilight_Knight; TwilightKnight; png; 21
+T. Platinum; TP; jpg; 0
+
+#233 @ 38190
+ZebraStallion; png; 9
+Zenith; png; 23
+Angeal; gif; 3
+CastChaos; png; 8
+
+#234 @ 38280
+blaman; png; 8
+Evile; gif; 19
+SerpitaX; png; 13
+
+#235 @ 38371
+tox_von; jpg; 6
+TheMasterSwordsman; png; 19
+Majora; png; 10
+
+#236 @ 38466
+hinsburg; png; 0
+Lord Ike; jpg; 5
+Beta Link; gif; 14
+Angeal; png; 19
+
+#237 @ 38599
+billy ronald; billy; png; 2
+Joe123; png; 3
+Lithium; png; 7
+lucas92; png; 1
+Molten Onyx; MO; jpg; 16
+SerpitaX; png; 5
+Twilight_Knight; TK; png; 3
+
+#238 @ 38706
+jimmyb; gif; 10
+Linkus; png; 19
+Lithium; png; 3
+
+#239 @ 38825
+Angeal; png; 14
+LinkMystro; LM; png; 16
+Linkus; gif; 7
+
+#240 @ 38879
+Lord Ike; gif; 21
+Lithium; png; 10
+CastChaos; png; 2
+Angeal; png; 10
+
+#241 @ 39020
+CastChaos; png; 3
+Ebola Zaire; Ebola; gif; 36
+Molten Onyx; MO; gif; 2
+
+#242 @ 39179
+Joe123; png; 8
+Twilight_Knight; png; 25
+Molten Onyx; gif; 20
+
+#243 @ 39264
+Lord Ike; LordIke; gif; 12
+Migokalle; Migo; png; 24
+Rambly; gif; 6
+T. Platinum; TP; jpg; 2
+
+#244 @ 39372
+Evile; gif; 15
+LinkMystro; png; 20
+CastChaos; png; 3
+
+#245 @ 39599
+EnnonFenom; Ennon; gif; 15
+Molten Onyx; MO; gif; 26
+T. Platinum; TP; jpg; 4
+
+#246 @ 39752
+LostInHyru1e; LostinHyru1e; jpg; 9
+blue_knight; jpg; 3
+noleafxclover; 2
+blaman; Blaman; png; 3
+Migokalle; png; 4
+Joe123; png; 15
+Molten Onyx; gif; 4
+Bowser Blanchette; jpg; 3
+
+#247 @ 39819
+Blaman; png; 32
+Nuvo; png; 21
+ZeeLiam; jpg; 4
+
+#248 @ 40112
+jimmyb; gif; 21
+T. Platinum; T_Platinum; png; 7
+Link R us; Link_R_us; png; 1
+
+#249 @ 40272
+Hoten; png; 4
+Lithium; png; 13
+jimmyb; gif; 21
+
+#250 @ 40390
+Ricky of Kokiri; Ricky_of_Kokiri; png; 3
+Shiek; png; 25
+Furion; gif; 11
+
+#251 @ 40468
+Shiek; GIF; 17
+Ebola Zaire; Ebola_Zaire; gif; 23
+Russ; png; 0
+Majora; gif; 3
+
+#252 @ 40561
+Dawnlight; gif; 10
+Shiek; gif; 18
+Nuvo; png; 10
+Link R us; png; 2
+
+#253 @ 40625
+Radien; gif; 18
+jimmyb; gif; 8
+Migokalle; png; 8
+Shiek; gif; 1
+
+#254 @ 40743
+Questwizard88; png; 1
+Sheik; gif; 2
+ZebraStallion; jpg; 1
+Joe123; png; 20
+
+#255 @ 40838
+Sheik; gif; 15
+Prospekt; png; 0
+SerpitaX; png; 10
+Midnight_King; jpg; 6
+
+#256 @ 40967
+Dawnlight; gif; 21
+LinkMystro; png; 7
+SerpitaX; png; 2
+T. Platinum; T._Platinum; png; 2
+
+#257 @ 41063
+Sephiroth; png; 29
+Twilight_Knight; png; 5
+Deviance; png; 8
+
+#258 @ 41170
+Migokalle; png; 28
+hinsburg; png; 3
+Rem; png; 2
+Midnight_King; jpg; 3
+Prophecy Face; Prophecy_Face; png; 7
+
+#259 @ 41303
+Spram; gif; 25
+Dawnlight; gif; 10
+Pheonix; gif; 0
+Evile; gif; 9
+
+#260 @ 41420
+Prophecy Face; gif; 20
+Joe123; png; 13
+Twilight_Knight; png; 11
+
+#261 @ 41501
+Pheonix; gif; 35
+Prophecy Face; gif; 2
+Xiion; jpg; 6
+
+#262 @ 41617
+Migokalle; png; 21
+Prophecy Face; Prophecy_Face; gif; 3
+Midnight_King; jpg; 4
+T. Platinum; T_Platinum; png; 0
+Beta Link; Beta_Link; gif; 8
+
+#263 @ 41730
+MrMister; png; 2
+jimmyb; gif; 27
+Joe123; png; 10
+Nuvo; png; 7
+
+#264 @ 41823
+Pabru; jpg; 11
+Dawnlight; gif; 13
+Rem; gif; 1
+T. Platinum; T._Platinum; gif; 4
+Nuvo; png; 9
+
+#265 @ 41903
+skateboarder11; png; 3
+Pabru; jpg; 15
+jimmyb; gif; 1
+Dawnlight; gif; 16
+Evile; gif; 6
+
+#266 @ 42000
+Pabru; jpg; 8
+Dawnlight; gif; 21
+Twilight_Knight; png; 0
+Nuvo; png; 22
+
+#267 @ 42100
+MrMister; png; 3
+skateboarder11; png; 2
+Prospekt; gif; 5
+Christian; gif; 31
+
+#268 @ 42231
+Beta Link; Beta_Link; gif; 14
+T. Platinum; T._Platinum; png; 2
+Angeal; gif; 9
+Nuvo; png; 11
+
+#269 @ 42339
+Migokalle; gif; 18
+Angeal; png; 5
+Rem; png; 2
+dlbrooks34; png; 7
+
+#270 @ 42417
+Rem; png; 7
+dlbrooks34; png; 4
+Prospekt; PNG; 26
+
+#271 @ 42516
+hinsburg; png; 9
+MrMister; png; 17
+MoscowModder; gif; 1
+
+#272 @ 42566
+MrMister; png; 12
+skateboarder11; png; 22
+Lord Settra!; Lord_Settra!; jpg; 5
+
+#273 @ 42648
+skateboarder11; png; 8
+dragonsword; gif; 3
+Lord Settra!; png; 4
+Migokalle; png; 25
+Kenster; jpg; 0
+
+#274 @ 42711
+Lord Settra!; png; 3
+Nuvo; png; 15
+Prospekt; png; 6
+Majora; png; 4
+Linkus; gif; 12
+
+#275 @ 42834
+Lord Settra!; Lord_Settra!; png; 2
+Pheonix; gif; 12
+jimmyb; gif; 21
+MrMister; png; 8
+
+#276 @ 43093
+MrMister; png; 7
+Kenster; jpg; 0
+jimmyb; gif; 23
+Fausch; png; 1
+T. Platinum; T._Platinum; png; 12
+
+#277 @ 43325
+Twilight_Knight; png; 22
+Furion; gif; 29
+Kenster; jpg; 2
+
+#278 @ 43520
+Russ; png; 0
+jimmyb; gif; 3
+Furion; png; 1
+Alestance; png; 4
+Sheik; gif; 35
+
+#278.5 @ 43717
+LostInHyru1e; http://sotw.purezc.net/SOTW278.5%20%28Christmas%29/LostInHyrule.jpg; 10
+Sheik; http://sotw.purezc.net/SOTW278.5%20%28Christmas%29/Sheik.png; 9
+Silver; http://sotw.purezc.net/SOTW278.5%20%28Christmas%29/Silver.png; 1
+Rem; http://sotw.purezc.net/SOTW278.5%20%28Christmas%29/Rem.png; 2
+Ebola Zaire; http://sotw.purezc.net/SOTW278.5%20%28Christmas%29/Ebola%20Zaire.gif; 5
+* This was a special Christmas-themed SotW, a sort of predecessor to Screenshot: Challenge Accepted.
+
+#279 @ 43800
+Ebola Zaire; Ebola_Zaire; gif; 23
+Sheik; gif; 18
+Moo2wo; jpg; 2
+
+#280 @ 43892
+Moo2wo; jpg; 13
+Russ; png; 5
+Purplemandown; png; 18
+
+#281 @ 44197
+Furion; png; 23
+Sheik; png; 6
+ZeeLiam; jpg; 6
+Linkus; png; 10
+Moo2wo; jpg; 3
+
+#282 @ 44321
+ZeeLiam; jpg; 8
+Nuvo; png; 8
+Yoshidude; jpg; 2
+Rem; png; 1
+Sheik; png; 43
+
+#283 @ 44634
+Moo2wo; jpg; 2
+Mr. Pimpy; gif; 3
+Sheik; png; 9
+Gleeok; jpg; 4
+XxGamasterxX; jpg; 0
+Migokalle; png; 14
+Furion; png; 9
+Yoshidude; jpg; 4
+ZeeLiam; jpg; 8
+
+#284 @ 44723
+Silver; jpg; 11
+Jupiter; png; 14
+green-kirby; png; 4
+DarkFlameWolf; png; 32
+
+#285 @ 44850
+Jupiter; png; 3
+Sheik; png; 25
+green-kirby; png; 3
+Nuvo; png; 3
+SerpitaX; png; 2
+catfriedrice; png; 0
+JimmyB; Jimmyb; png; 5
+
+#286 @ 44982
+catfriedrice; png; 4
+JimmyB; png; 12
+Jupiter; png; 8
+Molten Onyx; jpg; 6
+dragonsword; gif; 13
+
+#287 @ 45139
+Jupiter; png; 17
+Sheik; png; 8
+Dawnlight; gif; 11
+Molten Onyx; png; 3
+Moo2wo; png; 5
+
+#288 @ 45202
+Jupiter; png; 35
+lightdestroyer; png; 3
+Sheik; png; 7
+catfriedrice; png; 1
+
+#289 @ 45293
+Sheik; png; 18
+Jupiter; png; 18
+Nuvo; png; 25
+Yoshidude; jpg; 0
+
+#290 @ 45410
+Yoshidude; jpg; 8
+cremeens1000; png; 9
+Jupiter; png; 21
+
+#291 @ 45573
+Sephiroth; png; 16
+Russ; png; 20
+ChunkeM0nkey; jpg; 9
+
+#292 @ 45645
+Daemon; jpg; 6
+Sephiroth; png; 7
+ZeeLiam; jpg; 11
+Ebola Zaire; Ebola_Zaire; gif; 18
+
+#293 @ 46036
+ChunkeM0nkey; jpg; 9
+Nuvo; png; 20
+Molten Onyx; png; 12
+Purplemandown; png; 0
+
+#294 @ 46344
+Alestance; png; 11
+Migokalle; png; 11
+Moo2wo; png; 26
+Dawnlight; gif; 5
+
+#295 @ 46508
+Avataro; gif; 35
+Molten Onyx; gif; 9
+Vargen; png; 9
+
+#296 @ 46711
+Avataro; png; 5
+Master Maniac; gif; 3
+dragonsword; png; 1
+Moo2wo; png; 21
+
+#297 @ 47242
+MarioBrosCom; png; 5
+Dawnlight; png; 4
+Orin XD; Orin_XD; png; 4
+Avataro; gif; 8
+Sheik; png; 15
+
+#298 @ 47335
+Avataro; png; 8
+Lithium; png; 12
+Sheik; png; 26
+
+#299 @ 47396
+MarioBrosCom; png; 4
+Sheik; png; 16
+Avataro; png; 1
+Dawnlight; png; 14
+
+#300 @ 47472
+Orin XD; png; 5
+Russ; png; 7
+Ironfist; jpg; 7
+Pokemonmaster64; png; 1
+ZebraStallion; png; 24
+Rem; png; 2
+Lynker; png; 2
+
+#301 @ 47644
+OOTFan; png; 18
+Russ; png; 14
+Yoshidude; png; 3
+
+#302 @ 47717
+Galactic President Superstar McAwesomeville; Robin; png; 19
+Yoshidude; yoshidude; png; 2
+Plissken; png; 21
+Ebola Zaire; zelda012; gif; 7
+
+#303 @ 47809
+Koh; png; 29
+MoscowModder; gif; 1
+ZeeLiam; Zeeliam; jpg; 14
+
+#304 @ 47864
+EnnonFenom; Ennonfenom; png; 8
+Russ; png; 18
+ZeeLiam; jpg; 17
+
+#305 @ 47957
+Lynker; png; 8
+Lord Settra!; png; 3
+ZeeLiam; jpg; 34
+
+#306 @ 48078
+Breast Cancer Awareness; png; 6
+Taco Chopper; gif; 2
+Koh; png; 6
+Naldrag; png; 2
+Sephiroth; png; 33
+
+#307 @ 48175
+Lynker; png; 1
+Vargen; png; 5
+MarioBrosCom; png; 14
+cremeens1000; png; 5
+Taco Chopper; gif; 5
+skateboarder11; png; 2
+ZeeLiam; jpg; 2
+Beta Link; png; 3
+JimmyB; Jimmyb; png; 8
+
+#308 @ 48357
+cremeens1000; png; 16
+ZeeLiam; jpg; 10
+Orin XD; Orin_XD; png; 13
+
+#309 @ 48456
+Molten Onyx; png; 39
+Lynker; png; 4
+ZeeLiam; jpg; 13
+
+#310 @ 48702
+Molten Onyx; png; 21
+Orin XD; png; 3
+ZeeLiam; jpg; 11
+Pokemonmaster64; png; 7
+Yoshidude; jpg; 4
+Furion; png; 5
+
+#311 @ 49002
+Molten Onyx; png; 22
+Ganon; png; 9
+William; jpg; 10
+skulduggery; png; 1
+Rover; png; 1
+
+#312 @ 49082
+Isdrakthül; Isdrakthul; png; 6
+Ornlu; png; 18
+Rover; png; 0
+Furion; png; 20
+
+#313 @ 49149
+William; jpg; 5
+Twinblake; jpg; 3
+Nuvo; png; 13
+Ebola Zaire; gif; 27
+
+#314 @ 49242
+Giggidy; png; 31
+Purplemandown; png; 5
+William; jpg; 10
+
+#315A @ 49342
+Avataro; http://sotw.purezc.net/SOTW315A/Avataro.png; 4
+Moo2wo; http://sotw.purezc.net/SOTW315A/Moo2wo.png; 1
+Yoshidude; http://sotw.purezc.net/SOTW315A/Yoshidude.jpg; 2
+catfriedrice; http://sotw.purezc.net/SOTW315A/catfriedrice.png; 2
+Saffith; http://sotw.purezc.net/SOTW315A/Saffith.png; 7
+Giggidy; http://sotw.purezc.net/SOTW315A/Giggidy.png; 9
+SpacemanDan; http://sotw.purezc.net/SOTW315A/SpacemanDan.png; 20
+* Due to a large volume of entrants, SotW 315 was split into two polls.  Each poll's top finisher was deemed a winner, and no follow-up round was held.
+
+&315C @ 49343
+Midnight_King; http://sotw.purezc.net/SOTW315C/Midnight_King.png; 9
+Lynker; http://sotw.purezc.net/SOTW315C/Lynker.png; 1
+William; http://sotw.purezc.net/SOTW315C/William.jpg; 8
+Russ; http://sotw.purezc.net/SOTW315C/Russ.jpg; 4
+Orin XD; http://sotw.purezc.net/SOTW315C/Orin%20XD.png; 3
+Ebola Zaire; http://sotw.purezc.net/SOTW315C/Ebola%20Zaire.gif; 25
+* Due to a large volume of entrants, SotW 315 was split into two polls.  Each poll's top finisher was deemed a winner, and no follow-up round was held.
+
+#316 @ 49454
+Moo2wo; http://sotw.purezc.net/SOTW316%20(Real)/Moo2wo.png; 24
+Furion; http://sotw.purezc.net/SOTW316%20(Real)/Furion.png; 6
+William; http://sotw.purezc.net/SOTW316%20(Real)/William.jpg; 10
+Lynker; http://sotw.purezc.net/SOTW316%20(Real)/Lynker.png; 3
+
+#317 @ 49544
+Beta Link; png; 1
+Sepulcher; png; 9
+Moo2wo; png; 1
+Lynker; png; 1
+Sheik91; png; 31
+
+#318 @ 49643
+Koh; png; 13
+William; png; 10
+Lynker; png; 17
+
+#319 @ 49734
+Moo2wo; png; 31
+MarioBrosCom; png; 12
+Lynker; png; 10
+
+#320 @ 49875
+Furion; png; 21
+William; png; 28
+The Satellite; png; 4
+
+#321 @ 50038
+Lynker; png; 18
+Moo2wo; png; 16
+Furion; png; 8
+William; png; 15
+
+#322 @ 50139
+Dawnlight; png; 27
+William; png; 12
+Yoshidude; png; 6
+
+#323 @ 50217
+Sepulcher; png; 17
+Lynker; png; 2
+Yoshidude; png; 3
+King Harkinian; png; 2
+Pokemonmaster64; jpg; 5
+ZebraStallion; png; 1
+William; png; 19
+
+#324 @ 50312
+Sepulcher; png; 7
+King Harkinian; KingHarkinian; png; 5
+Isdrakthül; Isdrakthul; png; 3
+link1996; png; 7
+Yoshidude; png; 2
+Lynker; png; 5
+Moo2wo; gif; 12
+William; png; 8
+
+#325 @ 50400
+Pabru; gif; 35
+MoscowModder; gif; 7
+linktopower; png; 5
+
+#326 @ 50468
+linktopower; png; 11
+Keiichi123; png; 16
+Lynker; png; 13
+Koh; png; 11
+
+#327 @ 50570
+Lynker; png; 3
+William; png; 2
+linktopower; png; 2
+Bourkification; png; 18
+Cukeman; jpg; 3
+Lithium; png; 10
+Christian; png; 13
+
+#328 @ 50681
+Moo2wo; png; 20
+Koh; png; 3
+Ironfist; png; 9
+Ebola Zaire; gif; 21
+
+#329 @ 50789
+aaa2; png; 0
+DigiPro31279; png; 0
+Lightwulf; LightWulf; png; 5
+Pabru; gif; 1
+Yoshidude; png; 19
+Cukeman; jpg; 11
+Jared; png; 2
+Keiichi123; png; 13
+linktopower; png; 2
+
+#330 @ 50896
+Pabru; gif; 18
+Jared; png; 4
+King Harkinian; png; 1
+William; png; 6
+Yoshidude; png; 2
+Lightwulf; PNG; 2
+Cukeman; png; 13
+Lithium; png; 4
+
+#331 @ 51042
+HollowKnight; png; 25
+Pabru; gif; 27
+Cukeman; png; 6
+Jared; png; 2
+
+#332 @ 51146
+Chris Miller; ChrisMiller; png; 5
+Pabru; gif; 32
+Pokemonmaster64; png; 4
+King Harkinian; KingHarkinian; png; 10
+
+#333M @ 51258
+William; png; 13
+Orin XD; png; 2
+aaa2; png; 1
+King Harkinian; png; 4
+Avataro; png; 3
+Jared; png; 4
+Fire Wizzrobe; png; 11
+Pabru; gif; 19
+
+&333A @ 51259
+Lightwulf; PNG; 5
+blackbishop89; png; 2
+linktopower; png; 6
+Chris Miller; gif; 3
+HollowKnight; png; 27
+Rambly; png; 4
+Lithium; png; 4
+
+#334 @ 51386
+Lithium; PNG; 9
+Pabru; gif; 9
+Cukeman; jpg; 0
+Jared; png; 2
+William; png; 10
+Sheik91; png; 17
+
+#335 @ 51469
+Sephiroth; png; 20
+Lightwulf; PNG; 4
+Jared; png; 19
+
+#336 @ 51569
+Jared; png; 4
+Shane; png; 4
+Sheik91; png; 28
+Avataro; png; 3
+Lightwulf; PNG; 1
+William; png; 3
+trudatman; png; 4
+
+#337 @ 51657
+linktopower; jpg; 1
+Isdrakthül; Isdrakthul; png; 6
+Moo2wo; gif; 24
+Ornlu; png; 9
+
+#338 @ 51820
+Rover; png; 28
+Jared; png; 8
+Lightwulf; PNG; 3
+Twilight_Knight; png; 25
+linktopower; png; 3
+
+#339 @ 51898
+Twilight_Knight; png; 10
+Furion; png; 2
+Sheik91; png; 2
+Alison; JPG; 3
+ChunkeM0nkey; png; 0
+Ventus; png; 5
+blackbishop89; png; 2
+Adem; png; 0
+William; png; 3
+Shane; png; 0
+Pokemonmaster64; png; 2
+Robin; png; 1
+Dawnlight; png; 20
+Ebola Zaire; gif; 11
+
+#340 @ 51986
+Nocturne; gif; 2
+Shane; png; 2
+Fireblast124; png; 3
+Koh; png; 3
+Yoshidude; png; 7
+Pokemonmaster64; png; 2
+William; png; 10
+Feenicks; png; 13
+Twilight_Knight; png; 4
+CastChaos; png; 6
+Rover; png; 1
+
+#341 @ 52069
+Ovasity; png; 2
+blackbishop89; png; 3
+Koh; png; 4
+Yoshidude; png; 9
+Jared; png; 16
+blue_knight; png; 18
+Fireblast124; png; 0
+Ventus; png; 3
+
+#342 @ 52197
+Nolornbon; png; 17
+blue_knight; png; 21
+Jared; png; 1
+
+#343 @ 52267
+sonicfan350; png; 1
+Cukeman; jpg; 27
+Jared; png; 9
+
+#344 @ 52372
+Nolornbon; png; 7
+Yoshidude; png; 21
+blue_knight; png; 14
+
+#345 @ 52504
+Furion; png; 16
+Nolornbon; png; 8
+Lightwulf; png; 0
+Ventus; png; 2
+Yoshidude; png; 2
+Jared; png; 4
+
+#346 @ 52595
+William; png; 2
+blackbishop89; blackbishop; png; 0
+blue_knight; png; 11
+Nolornbon; png; 1
+Yoshimi; jpg; 16
+Koh; png; 1
+Naldrag; png; 0
+Gonken; png; 1
+Yoshidude; png; 2
+
+#347 @ 52655
+Nolornbon; png; 2
+William; png; 10
+Moo2wo; gif; 3
+Russ; png; 9
+Jared; png; 20
+
+#348 @ 52751
+Sepulcher; png; 10
+Twinblake; png; 17
+Nolornbon; png; 6
+
+#349 @ 52848
+Nolornbon; png; 3
+Jared; png; 11
+Cukeman; jpg; 9
+William; png; 6
+skateboarder11; png; 1
+Rambly; png; 14
+
+#350 @ 52957
+Alison; png; 6
+Hubydweyer; png; 0
+Rambly; png; 7
+Orin XD; png; 4
+Gonken; png; 18
+Feenicks; png; 0
+William; png; 6
+Nolornbon; png; 2
+
+#351 @ 53056
+Theryan; png; 8
+Taco Chopper; gif; 3
+Marco; png; 11
+Jared; png; 6
+William; png; 5
+Alison; png; 9
+
+#352 @ 53244
+Octorockoncrack; png; 11
+William; png; 17
+Ventus; png; 2
+
+#353 @ 53298
+skateboarder11; png; 16
+Ventus; png; 3
+Jared; png; 4
+William; png; 10
+Angeal; png; 8
+
+#354 @ 53375
+Avataro; png; 28
+Lightwulf; png; 1
+Jared; png; 2
+Octorockoncrack; png; 1
+skateboarder11; png; 3
+William; png; 7
+
+#355 @ 53465
+Yoshidude; png; 10
+Feenicks; png; 6
+Anthus; png; 14
+Dawnlight; gif; 10
+
+#356 @ 53539
+Octorockoncrack; png; 2
+Franky; png; 5
+SpacemanDan; png; 12
+Jared; png; 10
+Angeal; png; 15
+
+#357 @ 53710
+Lightwulf; png; 7
+Orin XD; png; 17
+Jared; png; 20
+
+#358 @ 53774
+Gonken; png; 6
+Yoshimi; png; 11
+Prospekt; png; 10
+Dragonite; gif; 4
+Jared; png; 7
+William; png; 2
+
+#359 @ 53829
+Jared; png; 16
+William; png; 17
+Twinblake; png; 11
+Dragonite; png; 15
+
+#360 @ 54038
+Yoshimi; png; 34
+Geoffrey; png; 2
+Shane; png; 5
+Pokemonmaster64; png; 2
+Jared; png; 2
+Cukeman; gif; 6
+
+#361 @ 54157
+Geoffrey; png; 3
+Dragonite; png; 17
+Cukeman; gif; 4
+Dawnlight; png; 18
+
+#362 @ 54351
+CastChaos; png; 6
+skateboarder11; png; 6
+Orin XD; png; 3
+Shane; png; 15
+Jared; png; 4
+Rambly; png; 0
+Cukeman; gif; 1
+blackbishop89; png; 2
+
+#363 @ 54490
+Avataro; png; 4
+Dragonite; png; 17
+Jared; png; 7
+
+#364 @ 54571
+Avataro; png; 9
+Dragonite; png; 11
+Shane; png; 22
+
+#365 @ 54732
+Dragonite; png; 14
+Shane; png; 6
+Marco; png; 5
+Jared; png; 5
+Octorockoncrack; png; 6
+Nolornbon; png; 4
+
+#366 @ 54816
+Nolornbon; png; 16
+Orin XD; png; 17
+Jared; png; 10
+
+#367 @ 54923
+Shane; png; 7
+Marco; png; 2
+Jared; png; 6
+Russ; png; 4
+Dragonite; png; 16
+Nolornbon; png; 6
+
+#368 @ 55011
+Dragonite; png; 7
+Hergiswi; png; 1
+Marco; png; 3
+Shane; png; 23
+Artistic; png; 11
+Nolornbon; png; 1
+
+#369 @ 55114
+PrinceMSC; png; 43
+Nolornbon; png; 2
+Jared; png; 1
+Ventus; png; 1
+Keiichi123; png; 7
+Shane; png; 1
+
+#370 @ 55208
+Ventus; png; 7
+Marco; png; 2
+Gonken; png; 34
+
+#371 @ 55277
+Nolornbon; png; 9
+Octorockoncrack; png; 3
+William; png; 13
+Dragonite; gif; 12
+Marco; png; 6
+Artistic; png; 6
+Ventus; png; 3
+Jared; png; 2
+
+#372 @ 55366
+Shane; png; 4
+Ventus; png; 5
+Hergiswi; png; 3
+Gonken; png; 4
+Nolornbon; png; 3
+Marco; png; 8
+PrinceMSC; png; 24
+
+#373 @ 55555
+green-kirby; png; 4
+Nolornbon; jpg; 7
+Ventus; png; 8
+Dragonite; png; 19
+Jared; png; 4
+trudatman; png; 2
+
+#374 @ 55804
+-DuCkTApE-; png; 2
+Nolornbon; png; 3
+Sepulcher; png; 5
+Evan20000; png; 10
+Lightwulf; png; 5
+Jared; png; 3
+Shane; png; 6
+Ventus; png; 1
+
+#375 @ 55917
+Sepulcher; png; 13
+Jared; png; 4
+Lightwulf; png; 5
+Ventus; png; 3
+
+#376 @ 56024
+Yoshimi; png; 9
+Jared; png; 23
+FefeRawft; png; 3
+
+#377 @ 56131
+Keiichi123; png; 15
+Dawnlight; png; 19
+Ventus; png; 8
+
+#378 @ 56227
+Moosh; png; 5
+Keiichi123; png; 15
+Cukeman; gif; 12
+Dragonite; png; 11
+
+#379 @ 56286
+Ventus; png; 20
+-DuCkTApE-; png; 13
+The Satellite; png; 15
+
+#380 @ 56404
+Octorockoncrack; png; 14
+Shane; png; 5
+Guardian; png; 15
+SpacemanDan; png; 5
+Cukeman; gif; 2
+
+#381 @ 56488
+Supindahood; png; 23
+Keiichi123; png; 6
+Shane; png; 4
+Guardian; png; 6
+
+#382 @ 56560
+SUCCESSOR; png; 10
+Sepulcher; png; 11
+-DuCkTApE-; png; 6
+Guardian; png; 2
+Russ; png; 5
+Dragonite; png; 5
+
+#383 @ 56697
+Octorockoncrack; png; 1
+Orin XD; png; 4
+Lightwulf; png; 15
+Dragonite; png; 8
+Guardian; png; 11
+
+#384 @ 56809
+Dragonite; Dwaggyniet; png; 14
+Lightwulf; png; 3
+Octorockoncrack; png; 3
+William; png; 9
+Guardian; png; 7
+
+#385 @ 56868
+Ventus; png; 3
+Marco; png; 8
+Shane; png; 14
+King Aquamentus; png; 12
+
+#386 @ 56950
+Moosh; png; 4
+SpacemanDan; SpacemangDan; png; 12
+Shane; gif; 19
+Guardian; png; 1
+
+#387 @ 57010
+Octorockoncrack; png; 24
+Marco; png; 4
+Jared; png; 9
+
+#388 @ 57078
+Anthus; jpg; 5
+Jared; png; 14
+Dragonite; png; 11
+
+#389 @ 57144
+jetbox; png; 3
+Ventus; png; 4
+Shane; png; 11
+-DuCkTApE-; png; 5
+Evan20000; png; 23
+
+#390 @ 57215
+jetbox; png; 4
+Sheik; png; 27
+-DuCkTApE-; png; 2
+Jared; png; 4
+
+#391 @ 57298
+Sheik + Supindahood; Sheik-Supindahood; png; 9
+Shane; png; 2
+Dawnlight; png; 16
+Jared; png; 9
+-DuCkTApE-; jpg; 2
+Dragonite; png; 5
+
+#392 @ 57386
+Dragonite; png; 4
+Octorockoncrack; png; 5
+Jared; png; 2
+Sheik; png; 14
+Supindahood; png; 7
+
+#393 @ 57543
+Jared; png; 11
+Dragonite; png; 12
+Keiichi123; png; 9
+Lightwulf; png; 1
+Sheik; png; 15
+
+#394 @ 57632
+Hergiswi; png; 4
+Shoelace; png; 15
+Keiichi123; png; 6
+Russ; png; 3
+Ventus; png; 7
+SpacemanDan; png; 3
+Orin XD; png; 1
+
+#395 @ 57900
+Ventus; png; 2
+nicklegends; png; 3
+jetbox; png; 2
+Dawnlight; png; 10
+Shoelace; png; 14
+
+#396 @ 57958
+demonlink14; png; 6
+Sepulcher; png; 17
+nicklegends; png; 20
+Aslion; png; 21
+
+#397 @ 58075
+nicklegends; png; 35
+demonlink14; png; 10
+Moosh; png; 10
+
+#398 @ 58250
+Theryan; png; 22
+demonlink14; png; 1
+Rambly; png; 12
+Scootaloo; png; 2
+
+#399 @ 58340
+Moosh; png; 6
+Supindahood; png; 13
+Jared; png; 0
+Franky; png; 19
+Marco; png; 2
+demonlink14; png; 5
+Shane; png; 14
+
+#400 @ 58442
+Anthus; jpg; 3
+Aslion; png; 6
+Schwa; png; 2
+kurt91; png; 1
+Supindahood; gif; 16
+Theryan; png; 13
+Moosh; png; 1
+Master4sword; png; 1
+justin; png; 2
+Orin XD; png; 1
+nicklegends; png; 3
+SpacemanDan; png; 1
+Shane; png; 6
+Franky; png; 1
+Sepulcher; png; 0
+Koh; png; 2
+Marco; png; 3
+Geoffrey; png; 4
+Nick; png; 0
+LinktheMaster; png; 0
+Jared; png; 3
+
+#401 @ 58526
+justin; png; 8
+Jared; png; 15
+Franky; png; 9
+Koh; png; 12
+
+#402 @ 58601
+Goriya; png; 3
+Franky; png; 8
+Aslion; png; 29
+
+#403 @ 58695
+Supindahood; png; 13
+Hubydweyer; png; 3
+Scootaloo; jpg; 3
+Franky; png; 4
+Ebola Zaire; gif; 22
+justin; png; 2
+LordVolcanon; png; 2
+Aslion; png; 6
+
+#404 @ 58825
+ZoriaRPG; png; 15
+klop422; png; 2
+Franky; png; 25
+
+#405 @ 58960
+klop422; gif; 0
+Octorockoncrack; png; 1
+The Satellite; TheSatellite; png; 1
+Franky; png; 10
+Supindahood; png; 22
+Ebola Zaire; EbolaZaire; gif; 14
+
+#406 @ 59033
+Goriya; png; 6
+SpacemanDan; png; 17
+Franky; png; 13
+Hoff123; png; 8
+
+#407 @ 59150
+Feenicks; png; 8
+Scootaloo; jpg; 14
+jetbox; png; 4
+Moosh; png; 11
+Jared; png; 17
+
+#408 @ 59264
+demonlink14; png; 5
+Shane7227; shane7227; png; 6
+Sheik; png; 18
+Rambly; png; 2
+Jared; png; 6
+Bagel; png; 4
+
+#409 @ 59369
+Shoelace; gif; 24
+Sheik; png; 13
+Scootaloo; jpg; 3
+Jared; png; 4
+
+#410 @ 59640
+Shane7227; png; 3
+Octorockoncrack; png; 5
+Sheik; png; 29
+
+#411 @ 59550
+Ventus; png; 11
+Dawnlight; png; 19
+Bagel; png; 11
+
+#412 @ 59607
+Mr. Z; MrZ; png; 30
+Anthus; png; 4
+Franky; png; 8
+
+#413 @ 59672
+LTTP; png; 13
+Anthus; jpg; 19
+Franky; png; 4
+
+#414 @ 59726
+Anthus; jpg; 10
+grayswandir; png; 18
+Hoff123; png; 4
+Franky; png; 4
+
+#415 @ 59777
+Fireblast124; png; 10
+Anthus; jpg; 31
+Hoff123; png; 6
+The Satellite; TheSatellite; png; 4
+
+#416 @ 59852
+L L L L L LINK; png; 4
+Franky; png; 19
+Dwiese1998; png; 8
+nicklegends; png; 6
+strike; png; 1
+
+#417 @ 59921
+Supindahood; png; 38
+JJ83; jpg; 5
+Franky; png; 10
+
+#418 @ 60061
+JJ83; jpg; 18
+Goriya; png; 2
+Linkus; png; 13
+Orin XD; png; 1
+Shane; png; 10
+
+#419 @ 60123
+Fireblast124; png; 1
+JJ83; png; 1
+demonlink14; png; 5
+Jared; png; 9
+Shane; png; 8
+Hoff123; png; 5
+Franky; png; 5
+
+#420 @ 60193
+demonlink14; png; 5
+Jared; png; 14
+Theryan; png; 24
+
+#421 @ 60261
+Scootaloo; png; 15
+Fireblast124; png; 4
+Hoff123; png; 25
+
+#422 @ 60331
+Octorockoncrack; png; 10
+Linkus; png; 8
+Franky; png; 5
+Moosh; png; 16
+
+#423 @ 60387
+a30502355; png; 2
+Avataro; png; 24
+grayswandir; png; 16
+
+#424 @ 60507
+Avataro; png; 21
+coolgamer012345; png; 1
+Tingle; png; 16
+
+#425 @ 60601
+peteandwally; png; 15
+Goriya; png; 10
+Demonlink; png; 8
+
+#426 @ 60642
+Avataro; png; 13
+Demonlink; png; 17
+DaviAwesome; png; 4
+Tingle; png; 4
+Shane; png; 3
+
+#427 @ 60688
+Demonlink; png; 18
+Jared; png; 17
+Marco; png; 3
+
+#428 @ 60785
+Orithan; png; 9
+Hoff123; png; 2
+Demonlink; png; 21
+Marco; png; 10
+Shane; png; 6
+
+#429 @ 60912
+NewJourneysFire; png; 28
+NoeL; png; 25
+coolgamer012345; png; 1
+Chris Miller; png; 7
+
+#430 @ 61062
+Alucard648; png; 5
+Demonlink; png; 7
+Feenicks; png; 3
+Volgia; png; 4
+crazyal02; jpg; 0
+NewJourneysFire; png; 2
+Franky; jpg; 21
+
+#431 @ 61121
+aracari; png; 11
+King Aquamentus; png; 15
+EddyTheOliveira; png; 14
+Scootaloo; png; 12
+
+#432 @ 61255
+joelmacool12; png; 5
+Ventus; png; 2
+Alucard648; png; 19
+Avataro; png; 7
+
+#433 @ 61299
+Demonlink; png; 11
+Franky; png; 7
+Twilight_Knight; png; 14
+
+#434 @ 61361
+Geoffrey; png; 2
+Dawnlight; png; 20
+Jared; png; 11
+Demonlink; png; 2
+
+#435 @ 61429
+EddyTheOliveira; png; 4
+Mudkipz; png; 9
+Migokalle; png; 6
+Jared; png; 15
+Shane; png; 12
+Demonlink; png; 4
+
+#436 @ 61488
+EddyTheOliveira; png; 5
+Volgia; png; 6
+NewJourneysFire; png; 1
+Avataro; png; 5
+Demonlink; png; 7
+Sheik; png; 8
+Jared; png; 4
+Mudkipz; png; 5
+
+#437 @ 61552
+LunarRedMage; png; 12
+Avataro; png; 12
+Dawnlight; png; 8
+coolgamer012345; png; 1
+Shane; png; 14
+
+#438 @ 61660
+EddyTheOliveira; png; 6
+Rambly; png; 16
+jetbox; png; 1
+Demonlink; png; 12
+Avataro; png; 9
+
+#439 @ 61740
+Chris Miller; Chris_Miller; png; 20
+Twilight_Knight; png; 5
+Shoelace; png; 34
+
+#440 @ 61863
+Zecora; png; 6
+Demonlink; png; 17
+Charizard; png; 16
+
+#441 @ 61960
+Geoffrey; png; 21
+Avataro; png; 3
+Demonlink; png; 8
+Scootaloo; png; 3
+nicklegends; gif; 6
+
+#442 @ 62060
+joelmacool12; png; 3
+PrinceMSC; png; 51
+EddyTheOliveira; png; 1
+Demonlink; gif; 4
+Avataro; png; 7
+
+#443 @ 62134
+Demonlink; png; 19
+PrinceMSC; png; 34
+Octorockoncrack; png; 6
+
+#444 @ 62201
+Demonlink; png; 21
+Scootaloo; png; 20
+Russ; png; 4
+
+#445 @ 62265
+Lightwulf; PNG; 17
+Sheik; png; 16
+Rambly; png; 6
+Hoff123; png; 1
+
+#446 @ 62309
+NewJourneysFire; png; 29
+Russ; png; 3
+nicklegends; png; 14
+Demonlink; png; 3
+Benji; png; 3
+Hoff123; png; 1
+
+#447 @ 62367
+Demonlink; png; 9
+Benji; png; 39
+anikom15; png; 10
+
+#448 @ 62434
+Demonlink; png; 24
+Charizard; png; 28
+Astromeow; png; 2
+Avataro; png; 5
+Doctor Potts; png; 2
+
+#449 @ 62521
+Anthus; png; 8
+Scootaloo; png; 17
+EddyTheOliveira; png; 4
+DragonDePlatino; png; 30
+nicklegends; png; 1
+
+#450 @ 62613
+Demonlink; png; 13
+Astromeow; png; 12
+DragonDePlatino; png; 23
+
+#451 @ 62687
+Zecora; png; 6
+DragonDePlatino; png; 12
+NewJourneysFire; png; 23
+anikom15; png; 1
+umbrello; png; 6
+
+#452 @ 62769
+Shane7227; png; 5
+Demonlink; png; 5
+Charizard; png; 32
+Orithan; png; 2
+
+#453 @ 63242
+Demonlink; png; 34
+SirKazuma; png; 6
+Dawnlight; png; 12
+
+#454 @ 63324
+Demonlink; png; 24
+Avataro; png; 15
+NewJourneysFire; png; 19
+
+#455 @ 63410
+Tree; png; 17
+Master Maniac; png; 6
+Avataro; png; 3
+Charizard; png; 12
+SirKazuma; png; 4
+Fireblast124; png; 0
+Franky; png; 3
+LunarRedMage; png; 0
+Geoffrey; png; 1
+Demonlink; png; 2
+
+#456 @ 63483
+Avataro; png; 4
+coolgamer012345; png; 2
+EpY; png; 1
+Octorockoncrack; png; 32
+Demonlink; png; 13
+
+#457 @ 63563
+Avataro; png; 7
+Orithan; png; 7
+Zecora; png; 6
+EpY; png; 2
+SirKazuma; png; 13
+Fireblast124; png; 0
+Xenix; png; 14
+
+#458 @ 63656
+Charizard; jpg; 2
+Demonlink; jpg; 26
+legend27; jpg; 20
+Lightwulf; jpg; 4
+Avataro; jpg; 11
+
+#459 @ 63717
+Charizard; png; 19
+Avataro; png; 5
+Geoffrey; png; 21
+
+#460 @ 63779
+umbrello; png; 4
+Fireblast124; png; 7
+Avataro; png; 31
+JetBox; png; 15
+
+#461 @ 63862
+Nexas; png; 2
+NewJourneysFire; png; 13
+CDi-Fails; png; 4
+-DuCkTApE-; png; 2
+Linkus; png; 23
+GrantGreif; png; 0
+
+#462 @ 63929
+GrantGreif; png; 4
+Charizard; png; 24
+Lightwulf; png; 3
+Jared; png; 23
+
+#463 @ 64014
+GrantGreif; png; 2
+Rastael; png; 8
+Charizard; png; 8
+Obderhode; png; 38
+
+#464 @ 64086
+GrantGreif; png; 10
+Demonlink; png; 29
+Rastael; png; 3
+
+#465 @ 64164
+Jared; png; 5
+BigJoe; png; 14
+Shane; png; 15
+Demonlink; png; 12
+
+#466 @ 64226
+Alestance; png; 3
+Moosh; png; 6
+Rastael; png; 3
+Migokalle; png; 22
+Linkus; png; 13
+
+#467 @ 64296
+GrantGreif; png; 2
+BigJoe; png; 6
+Migokalle; png; 46
+
+#468 @ 64367
+MonopolyRubix; png; 5
+RedTribeLink; png; 8
+Shane; png; 4
+GrantGreif; png; 3
+Linkus; png; 30
+
+#469 @ 64430
+coolgamer012345; png; 4
+SirKazuma; png; 4
+GrantGreif; png; 1
+nicklegends; png; 31
+Demonlink; png; 8
+Shane; png; 10
+
+#470 @ 64519
+GrantGreif; png; 9
+EpY; png; 5
+nicklegends; png; 35
+
+#471 @ 64585
+Demonlink; png; 27
+DragonDePlatino; png; 24
+Avataro; png; 9
+
+#472 @ 64644
+SkyLizardGirl; png; 21
+Scootaloo; png; 27
+Nexas; png; 4
+
+#473 @ 64705
+Nolornbon; png; 5
+Shane; png; 34
+DragonDePlatino; png; 6
+Demonlink; png; 7
+
+#474 @ 64760
+Shane; png; 26
+legend27; png; 15
+Nolornbon; png; 12
+
+#475 @ 64817
+SkyLizardGirl; png; 20
+Shane; png; 23
+joelmacool12; png; 1
+ZeldaPlayer; png; 2
+Orithan; png; 10
+
+#476 @ 64867
+joelmacool12; png; 3
+Twilight-Prince; png; 17
+ZeldaPlayer; png; 7
+Shane; png; 18
+Demonlink; png; 12
+
+#477 @ 64919
+Avataro; png; 9
+Twilight-Prince; png; 15
+Franky; png; 16
+ZeldaPlayer; png; 9
+Jared; png; 3
+
+#478 @ 64964
+Moosh; png; 13
+Franky; png; 3
+Mudkipz; png; 5
+Demonlink; png; 8
+Shoelace; png; 27
+
+#479 @ 65022
+joelmacool12; png; 30
+EddyTheOliveira; png; 10
+ZeldaPlayer; png; 3
+
+#480 @ 65102
+joelmacool12; png; 1
+Duck; png; 5
+ZeldaPlayer; png; 4
+Anthus; png; 14
+Jared; png; 33
+
+#481 @ 65154
+joelmacool12; jpg; 1
+ZeldaPlayer; jpg; 21
+justin; png; 5
+Linkus; jpg; 37
+
+#482 @ 65207
+ZeldaPlayer; png; 7
+Orithan; png; 32
+Twilight-Prince; png; 9
+Dwiese1998; png; 5
+Shane; png; 4
+
+#483 @ 65265
+legend27; png; 5
+Dwarlen; png; 6
+ZeldaPlayer; png; 5
+justin; png; 34
+
+#484 @ 65346
+Zahalfor; png; 7
+Dwarlen; png; 39
+Evan20000; png; 16
+Twilight-Prince; png; 4
+
+#485 @ 65403
+Lightwulf; png; 9
+Dwarlen; png; 13
+Zahalfor; png; 2
+justin; png; 7
+Rastael; png; 1
+Demonlink; png; 14
+
+#486 @ 65474
+Astromeow; png; 11
+Jared; png; 32
+Dawnlight; png; 13
+Mudkipz; png; 12
+
+#487 @ 65576
+Aslion; png; 18
+Sheik; png; 10
+Zahalfor; png; 4
+Demonlink; png; 22
+
+#488 @ 65648
+Nekoishi; png; 9
+Shane; png; 9
+Fireblast124; gif; 9
+joelmacool12; png; 2
+Dwarlen; png; 5
+Sheik; png; 25
+Jared; png; 2
+EpY; png; 1
+
+#489 @ 65743
+Nekoishi; gif; 8
+joelmacool12; png; 10
+Moosh; gif; 25
+Dwarlen; png; 6
+
+#490 @ 65853
+Nekoishi; gif; 9
+joelmacool12; png; 17
+ZeldaPlayer; png; 4
+Zehalfor; png; 5
+Dwarlen; png; 7
+
+#491 @ 65973
+joelmacool12; png; 7
+Dwarlen; png; 9
+Mudkipz; png; 24
+Lineas; gif; 15
+Zahalfor; png; 0
+
+#492 @ 66074
+Shane; png; 17
+DaviAwesome; png; 1
+Demonlink; png; 10
+Avataro; png; 3
+joelmacool12; png; 3
+Octorockoncrack; png; 5
+Mudkipz; png; 14
+
+#493 @ 66142
+Shane; png; 45
+Lunaria; png; 7
+SkyLizardGirl; gif; 9
+joelmacool12; png; 4
+
+#494 @ 66215
+joelmacool12; png; 2
+EddyTheOliveira; png; 2
+DaviAwesome; png; 15
+coolgamer012345; png; 16
+BitZero; png; 12
+
+#495 @ 66279
+joelmacool12; png; 1
+kurt91; png; 0
+DragonDePlatino; png; 18
+NewJourneysFire; png; 48
+
+#496 @ 66340
+LinkFan212; png; 1
+Sparkster; png; 0
+Shane; png; 10
+Demonlink; png; 49
+
+#497 @ 66414
+joelmacool12; png; 10
+Dwarlen; png; 21
+bmc10011; png; 0
+Chris Miller; png; 17
+
+#498 @ 66480
+bmc10011; png; 8
+Linkus; png; 25
+Jared; png; 21
+
+#499 @ 66543
+bmc10011; png; 9
+Joelmacool12; png; 11
+Twilight-Prince; png; 33
+
+#500 @ 66604
+Cjc; png; 4
+Geoffrey; png; 12
+Joelmacool12; png; 0
+Eddy; png; 1
+Theryan; png; 22
+Coolgamer012345; png; 1
+nicklegends; png; 11
+Twilight-Prince; png; 0
+Deviance; png; 0
+The Satellite; png; 1
+RedTribeLink; png; 2
+Shane; png; 11
+Orithan; png; 5
+ywkls; png; 1
+NewJourneysFire; png; 2
+Russ; png; 2
+
+#501 @ 66682
+peteandwally; png; 11
+Joelmacool12; png; 3
+Din; png; 11
+Demonlink; png; 29
+
+#502 @ 66769
+Zahalfor; png; 11
+Joelmacool12; png; 13
+bmc10011; png; 4
+Dwarlen; png; 20
+Lunaria; png; 2
+
+#503 @ 66836
+Joelmacool12; png; 6
+bmc10011; png; 5
+Eddy; png; 5
+Demonlink; png; 39
+ZeldaPlayer; png; 2
+
+#504 @ 66891
+Joelmacool12; png; 34
+bmc10011; png; 10
+GrantGreif; png; 3
+
+#505 @ 66949
+ZeldaPlayer; png; 32
+Joelmacool12; png; 2
+Jamian; png; 7
+Demonlink; png; 14
+
+#506 @ 67008
+ZeldaPlayer; png; 6
+Twilight-Prince; png; 21
+Moosh; png; 16
+Avataro; png; 6
+ywkls; png; 3
+Demonlink; png; 1
+
+#507 @ 67088
+Avataro; png; 11
+Rocks4Free; png; 14
+Joelmacool12; png; 5
+bmc10011; png; 3
+Demonlink; png; 12
+ZeldaPlayer; png; 1
+
+#508 @ 67163
+Hergiswi; png; 11
+ywkls; png; 4
+Dwarlen; png; 3
+Demonlink; png; 42
+
+#509 @ 67214
+Joelmacool12; png; 24
+RedTribeLink; png; 20
+ywkls; png; 10
+
+#510 @ 67293
+Joelmacool12; png; 2
+Bagel; png; 28
+Shane; png; 16
+Coolgamer012345; png; 14
+BigJoe; png; 5
+
+#511 @ 67368
+Joelmacool12; png; 20
+Rocks4Free; png; 7
+ywkls; png; 27
+
+#512 @ 67423
+Joelmacool12; png; 4
+DaLink; png; 19
+Shane; png; 18
+bmc10011; png; 3
+
+#513 @ 67474
+Joelmacool12; png; 26
+GrantGreif; png; 4
+Twilight-Prince; png; 3
+Eddy; png; 4
+bmc10011; png; 4
+Logos; png; 8
+
+#514 @ 67543
+Joelmacool12; png; 10
+Geoffrey; png; 22
+bmc10011; png; 2
+ywkls; png; 18
+
+#515 @ 67597
+Joelmacool12; png; 8
+Truckroid; png; 2
+Orithan; png; 18
+Moosh; png; 9
+
+#516 @ 67660
+Joelmacool12; png; 9
+bmc10011; png; 0
+BigJoe; png; 10
+symbiote01; png; 17
+Demonlink; png; 11
+
+#517 @ 67709
+Joelmacool12; png; 2
+NewJourneysFire; png; 8
+symbiote01; png; 3
+GrantGreif; png; 9
+Gabriel Baron; Gabriel%20Baron; png; 1
+Demonlink; png; 26
+
+#518 @ 67740
+Coolgamer012345; png; 6
+Joelmacool12; png; 27
+Eddy; png; 12
+
+#519 @ 67836
+Joelmacool12; png; 3
+Lunaria; png; 34
+Nexas; png; 11
+
+#520 @ 67912
+Joelmacool12; png; 3
+Cjc; png; 21
+Anarchy_Balsac; png; 3
+Jared; png; 30
+
+#521 @ 67985
+Joelmacool12; png; 22
+ywkls; png; 18
+vaualbus; png; 1
+Twilight-Prince; png; 14
+
+#522 @ 68061
+MetalBenderJem; png; 8
+FalsePower; png; 7
+Anarchy_Balsac; png; 0
+Gabriel Baron; Gabriel%20Baron; png; 0
+Jared; png; 13
+Joelmacool12; png; 4
+Shane; png; 17
+
+#523 @ 68144
+Joelmacool12; png; 7
+Twilight-Prince; png; 21
+Jared; png; 32
+
+#524 @ 68190
+Joelmacool12; png; 8
+ywkls; png; 6
+Jared; png; 24
+
+#525 @ 68253
+Joelmacool12; png; 17
+FalsePower; png; 16
+RedTribeLink; png; 9
+Eddy; png; 6
+
+#526 @ 68290
+legend27; png; 5
+Joelmacool12; png; 13
+Jared; png; 35
+
+#527 @ 68343
+Joelmacool12; png; 13
+legend27; png; 7
+Dimentio; png; 9
+ywkls; png; 1
+Anarchy_Balsac; png; 1
+Eddy; png; 11
+
+#528 @ 68420
+Joelmacool12; png; 4
+Homura; png; 1
+Shane; png; 16
+Jared; png; 24
+legend27; png; 4
+
+#529 @ 68475
+Demonlink; png; 27
+Joelmacool12; png; 8
+JoJimbo; png; 12
+
+#530 @ 68522
+Joelmacool12; png; 14
+Bagel; png; 4
+Nimono; png; 11
+Lunaria; png; 7
+ywkls; png; 13
+
+#531 @ 68562
+Joelmacool12; png; 21
+Lunaria; png; 18
+ywkls; png; 9
+
+#532 @ 68629
+Joelmacool12; png; 11
+Logos; png; 7
+Shane; png; 19
+Anarchy_Balsac; png; 3
+Lightwulf; png; 3
+
+#533 @ 68702
+Joelmacool12; png; 15
+ywkls; png; 7
+Franky; png; 4
+Shane; png; 18
+
+#534 @ 68745
+Joelmacool12; png; 9
+Franky; png; 14
+GrantGreif; png; 3
+Twilight-Prince; png; 7
+Shane; png; 9
+
+#535 @ 68785
+Evan20000; png; 8
+Demonlink; png; 26
+Joelmacool; png; 4
+
+#536 @ 68834
+GrantGreif; png; 8
+Mudkipz; png; 31
+Evan20000; png; 8
+
+#537 @ 68884
+Joelmacool; png; 12
+Evan20000; png; 7
+Twilight-Prince; png; 7
+Franky; png; 10
+Moosh; png; 7
+
+#538 @ 68915
+Joelmacool; png; 7
+BigJoe; png; 20
+Dimentio; png; 19
+
+#539 @ 68966
+Lightwulf; png; 16
+Joelmacool; png; 10
+RedTribeLink; png; 11
+
+#540 @ 69007
+a30502355; png; 3
+Moosh; png; 24
+Joelmacool; png; 26
+Twilight-Prince; png; 0
+
+#541 @ 69049
+Joelmacool; png; 17
+BigJoe; png; 25
+Twilight-Prince; png; 11
+Alestance; png; 4
+
+#542 @ 69110
+Dimentio; png; 3
+Joelmacool; png; 26
+Russ; png; 25
+
+#543 @ 69162
+Shane; gif; 8
+Anthus; png; 22
+Joelmacool; png; 17
+Russ; png; 4
+
+#544 @ 69257
+Joelmacool; png; 7
+BigJoe; png; 7
+Demonlink; png; 8
+Russ; png; 31
+
+#545 @ 69316
+Shane; png; 7
+Joelmacool; png; 7
+Moosh; png; 7
+Avataro; png; 1
+Anthus; png; 2
+Shoelace; png; 28
+
+#546 @ 69448
+Eddy; png; 3
+Octorockoncrack; png; 24
+Joelmacool; png; 16
+Sparkster; png; 5
+
+#547 @ 69495
+Eddy; png; 0
+Joelmacool; png; 4
+Sparkster; png; 4
+Rambly; png; 3
+Jared; png; 3
+Shane; png; 33
+Feenicks; png; 0
+Aevin; gif; 4
+
+#548 @ 69549
+Joelmacool; png; 21
+Dimentio; png; 4
+Jared; png; 11
+
+#549 @ 69601
+Eddy; png; 3
+Joelmacool; png; 4
+Jared; png; 31
+
+#550 @ 69632
+Jared; png; 42
+Anthus; png; 3
+Joelmacool; png; 4
+
+#551 @ 69669
+Joelmacool; png; 4
+Jared; png; 23
+Shane; png; 19
+Cukeman; png; 9
+
+#552 @ 69742
+Joelmacool; png; 4
+Whiterose; png; 6
+Shane; png; 17
+Anthus; png; 5
+GrantGreif; png; 7
+ywkls; png; 3
+Sheik; png; 12
+Jared; png; 5
+
+#553 @ 69816
+Joelmacool; png; 12
+Jared; png; 22
+Shane; png; 14
+
+#554 @ 69874
+Ganondorf; png; 17
+Joelmacool; png; 19
+Avataro; png; 4
+Eddy; png; 2
+Feenicks; png; 9
+
+#555 @ 69928
+Joelmacool; png; 1
+Orithan; png; 22
+Anthus; png; 14
+Sephiroth; png; 8
+Lunaria; png; 5
+Shane; png; 5
+
+#556 @ 69985
+Joelmacool; png; 9
+Twilight-Prince; png; 8
+Sephiroth; png; 4
+DragonDePlatino; png; 28
+Feenicks; png; 9
+
+#557 @ 70027
+CyberGamer1539; png; 2
+ywkls; png; 2
+Joelmacool; png; 5
+Sephiroth; png; 4
+DragonDePlatino; png; 46
+
+#558 @ 70085
+GrantGreif; png; 15
+Jared; png; 36
+ywkls; png; 1
+Joelmacool; png; 7
+
+#559 @ 70142
+Ganondorf; png; 10
+Joelmacool; png; 0
+GrantGreif; png; 8
+Demonlink; png; 26
+Shane; png; 16
+
+#560 @ 70199
+RedTribeLink; png; 15
+Dimentio; png; 7
+Joelmacool; png; 6
+Eins; png; 3
+BigJoe; png; 32
+
+#561 @ 70250
+Sephiroth; png; 7
+nicklegends; png; 11
+Joelmacool; png; 4
+Lunaria; png; 7
+Shane; png; 21
+Cereal Guy; Cereal%20Guy; png; 2
+
+#562 @ 70303
+Moosh; png; 5
+Shane; png; 27
+RedTribeLink; png; 1
+Astromeow; png; 14
+
+#563 @ 70351
+RocketGrunt; png; 7
+Shane; png; 30
+Saffith; png; 5
+Joelmacool; png; 8
+
+#564 @ 70382
+ywkls; png; 19
+Cukeman; png; 2
+Joelmacool; png; 21
+
+#565 @ 70427
+Joelmacool; png; 22
+RedTribeLink; png; 21
+Eddy; png; 6
+
+#566 @ 70477
+Tree; png; 41
+RedTribeLink; png; 2
+Joelmacool; png; 5
+
+#567 @ 70514
+legend27; png; 1
+Hubydweyer; png; 17
+Joelmacool; png; 9
+Tree; png; 22
+Cereal Guy; Cereal%20Guy; png; 3
+
+#568 @ 70544
+Twilight-Prince; png; 3
+Cereal Guy; Cereal%20Guy; png; 14
+Demonlink; png; 28
+
+#569 @ 70587
+Russ; png; 10
+Moosh; png; 20
+Aevin; png; 14
+
+#570 @ 70638
+Polaris; png; 10
+Demonlink; png; 20
+Sheik; png; 15
+
+#571 @ 70694
+Polaris; png; 7
+FlameCursed; png; 19
+ywkls; png; 5
+Sheik; png; 16
+
+#572 @ 70730
+Lunaria; png; 9
+Polaris; png; 40
+Evan20000; png; 9
+
+#573 @ 70754
+Lunaria; png; 23
+Twilight-Prince; png; 13
+Joelmacool; png; 15
+
+#574 @ 70785
+Polaris; png; 17
+Rambly; png; 12
+Lunaria; png; 5
+
+#575 @ 70808
+Lunaria; png; 3
+Alestance; png; 20
+RedTribeLink; png; 12
+Demonlink; png; 15
+
+#576 @ 70831
+Lunaria; png; 26
+ywkls; png; 4
+Joelmacool; png; 12
+TheRock; png; 6
+
+#577 @ 70861
+Lunaria; png; 7
+Feenicks; png; 20
+Sephiroth; png; 12
+
+#578 @ 70905
+Lunaria; png; 5
+Sephiroth; png; 6
+Joelmacool; png; 1
+GrantGreif; png; 2
+Russ; png; 15
+Avataro; png; 6
+
+#579 @ 70939
+Lunaria; png; 1
+Joelmacool; png; 10
+Lüt; Lut; png; 28
+Sephiroth; png; 10
+
+#580 @ 70971
+Alestance; png; 32
+Anthus; png; 11
+Polaris; png; 5
+GrantGreif; png; 0
+
+#581 @ 71029
+MrPow; png; 26
+Mitsukara; gif; 5
+Alestance; png; 13
+Joelmacool; png; 5
+
+#582 @ 71086
+MrPow; png; 19
+Sheik; png; 18
+Russ; gif; 13
+Joelmacool; png; 3
+
+#583 @ 71126
+Polaris; png; 19
+Joelmacool; png; 6
+MrPow; png; 6
+
+#584 @ 71158
+Joelmacool; png; 16
+Evan20000; png; 11
+Polaris; png; 13
+
+#585 @ 71191
+Joelmacool; png; 13
+Moosh; png; 11
+Lüt; Lut; png; 19
+
+#586 @ 71230
+Zaxarone; png; 2
+Polaris; gif; 11
+Avataro; png; 2
+Sheik; png; 13
+Joelmacool; png; 5
+Dimentio; jpg; 2
+Shoelace; png; 16
+
+#587 @ 71271
+Dimentio; png; 4
+Zaxarone; png; 4
+Sheik; png; 25
+Plutia; png; 5
+
+#588 @ 71311
+Plutia; png; 14
+Joelmacool; png; 15
+Dimentio; png; 8
+
+#589 @ 71345
+Kivitoe; png; 1
+ywkls; png; 4
+Linkle; png; 12
+Joelmacool; png; 15
+Plutia; png; 4
+
+#590 @ 71393
+Anthus; png; 12
+ywkls; png; 4
+Omega; png; 7
+Joelmacool; png; 16
+Dimentio; gif; 3
+Plutia; png; 1
+
+#591 @ 91440
+Joelmacool; png; 26
+Lüt; Lut; png; 16
+Dimentio; png; 2
+
+#592 @ 71488
+Ganondorf; png; 11
+Joelmacool; png; 4
+Demonlink; png; 28
+
+#593 @ 71548
+Jared; png; 14
+Sheik; png; 13
+Ganondorf; png; 5
+Joelmacool; png; 2
+Naru; png; 5
+
+#594 @ 71590
+Naru; png; 21
+NewJourneysFire; png; 22
+Joelmacool; png; 3
+
+#595 @ 71678
+Zaxarone; png; 4
+Dimentio; png; 2
+Aslion; png; 15
+Polaris; png; 22
+GrantGreif; png; 7
+
+#596 @ 71716
+NewJourneysFire; png; 26
+Omega; png; 0
+Polaris; png; 19
+
+#597 @ 71762
+Ganondorf; png; 24
+Joelmacool; png; 15
+Russ; png; 7
+
+#598 @ 71802
+Naru; png; 5
+Joelmacool; png; 6
+Dimentio; gif; 18
+Aslion; png; 15
+
+#599 @ 71836
+Naru; png; 9
+Omega; png; 17
+Demonlink; png; 18
+Joelmacool; png; 6
+
+#600 @ 71883
+Naru; png; 2
+nicklegends; gif; 7
+NewJourneysFire; png; 4
+Polaris; png; 1
+Joelmacool; png; 3
+RedTribeLink; png; 1
+Aslion; png; 3
+Migokalle; png; 27
+Sheik; png; 5
+GrantGreif; png; 3
+ywkls; png; 0
+Orithan; png; 0
+Alestance; png; 1
+Lüt; Lut; png; 2
+Eddy; png; 1
+
+#601 @ 71911
+Joelmacool; png; 15
+Avataro; png; 5
+Russ; png; 19
+
+#602 @ 71932
+Alestance; png; 5
+Russ; gif; 22
+Feenicks; png; 21
+
+#603 @ 71964
+TheRock; png; 4
+David; png; 17
+Polaris; png; 24
+
+#604 @ 72014
+Joelmacool; png; 10
+Eggman666; gif; 26
+Jared; png; 9
+
+#605 @ 72056
+Avataro; png; 3
+Eggman666; gif; 17
+Eddy; png; 4
+Lüt; Lut; png; 8
+Demonlink; png; 16
+
+#606 @ 72089
+Eggman666; gif; 47
+Hergiswi; png; 8
+Lüt; Lut; png; 1
+
+#607 @ 72128
+Zaxaphone; png; 11
+Joelmacool; png; 9
+Eggman666; gif; 24
+Jared; png; 9
+
+#608 @ 72175
+TheRock; png; 2
+Zaxaphone; png; 12
+Joelmacool; png; 13
+Russ; png; 11
+Lüt; Lut; png; 10
+
+#609 @ 72216
+Eggman666; gif; 9
+Zaxaphone; png; 6
+Jared; png; 21
+Joelmacool; png; 4
+
+#610 @ 72271
+Maikeru D. Shinigami; Maikeru%20D.%20Shinigami; png; 1
+Joelmacool; png; 17
+Eggman666; gif; 18
+Dimentio; png; 11
+
+#611 @ 72305
+Joelmacool; png; 24
+Maikeru D. Shinigami; Maikeru%20D.%20Shinigami; png; 4
+ywkls; png; 13
+Eggman666; gif; 9
+
+#612 @ 72351
+Ventus; png; 1
+Ecruteak; png; 3
+Zaxaphone; png; 4
+Joelmacool; png; 10
+ywkls; png; 4
+Dimentio; png; 14
+Demonlink; png; 13
+
+#613 @ 72401
+Avataro; png; 9
+Joelmacool; png; 14
+Dimentio; png; 26
+
+#614 @ 72443
+Twilight-Prince; png; 6
+Ecruteak; png; 13
+FireSeraphim; png; 22
+Joelmacool; png; 9
+Alestance; png; 6
+
+#615 @ 72502
+Eddy; png; 8
+Demonlink; png; 21
+Avataro; png; 2
+TheRock; png; 1
+Sheik; png; 19
+Alestance; png; 0
+
+#616 @ 72552
+Sheik; png; 31
+Anthus; png; 11
+Dimentio; png; 10
+
+#617 @ 72587
+Sheik; png; 19
+Shane; png; 16
+xanadude; png; 2
+Dimentio; png; 8
+
+#618 @ 72629
+xanadude; png; 6
+TheRock; png; 6
+BigJoe; png; 2
+Sheik; png; 35
+
+#619 @ 72657
+TheRock; png; 0
+Sheik; png; 39
+Russ; png; 9
+xanadude; png; 2
+
+#620 @ 72695
+Avataro; png; 6
+Jared; png; 16
+Sheik; png; 31
+Russ; png; 5
+
+#621 @ 72728
+Joelmacool; png; 1
+TheRock; png; 5
+nicklegends; png; 29
+Russ; gif; 21
+
+#622 @ 72764
+Joelmacool; png; 11
+Ecruteak; png; 10
+a30502355; png; 5
+Matthew[294314]; png; 25
+
+#623 @ 72812
+Ecruteak; png; 9
+Joelmacool; png; 14
+TheRock; png; 12
+
+#624 @ 72833
+Ecruteak; png; 4
+Demonlink; png; 21
+Jared; png; 11
+ywkls; png; 5
+
+#625 @ 72848
+ywkls; png; 9
+Jared; png; 23
+Demonlink; png; 16
+
+#626 @ 72879
+Eggman666; gif; 15
+Eddy; png; 5
+David; png; 20
+Jared; png; 8
+
+#627 @ 72899
+Eggman666; gif; 9
+Anthus; png; 9
+Shane; png; 31
+
+#628 @ 72923
+RedTribeLink; png; 6
+Geoffrey; png; 8
+Eggman666; gif; 24
+klop422; png; 2
+Jared; png; 6
+
+#629 @ 72951
+Anthus; png; 17
+Hubydweyer; png; 4
+Geoffrey; png; 28
+Shane; gif; 4
+
+#630 @ 72974
+Moosh; png; 8
+Geoffrey; png; 34
+Jared; png; 13
+
+#631 @ 73005
+FireSeraphim; png; 18
+Sheik; png; 22
+Zaxaphone; png; 1
+Joelmacool; png; 8
+
+#632 @ 73031
+Anthus; png; 30
+Ecruteak; png; 4
+Jared; png; 16
+
+#633 @ 73060
+Anthus; png; 26
+Avataro; png; 8
+Ecruteak; png; 4
+Joelmacool; png; 12
+
+#634 @ 73101
+Jared; png; 13
+Feenicks; png; 8
+Anthus; png; 17
+Joelmacool; png; 8
+
+#635 @ 73123
+Joelmacool; png; 18
+Alucard648; png; 14
+Anthus; png; 8
+
+#636 @ 73153
+TheRock; png; 2
+Sheik; png; 20
+Eddy; png; 14
+Jared; png; 6
+
+#637 @ 73171
+Joelmacool; png; 7
+Anthus; png; 21
+Dimentio; png; 14
+
+#638 @ 73193
+Anthus; png; 7
+Mibbitable; png; 16
+Avataro; png; 4
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 10
+
+#639 @ 73228
+Joelmacool; png; 22
+Anthus; png; 7
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 10
+
+#640 @ 73258
+ywkls; png; 10
+Avataro; png; 13
+Dimentio; gif; 4
+TheRock; png; 2
+Orithan; png; 10
+Anthus; png; 1
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 4
+
+#641 @ 73283
+Demonlink; png; 27
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 6
+Dimentio; png; 7
+
+#642 @ 73312
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 7
+Anthus; png; 7
+Matthew[294314]; png; 16
+
+#643 @ 73342
+Anthus; png; 7
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 8
+Joelmacool; png; 21
+
+#644 @ 73384
+xanadude; png; 3
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+Shoelace; png; 13
+Jamian; png; 3
+Evan20000; png; 5
+Russ; png; 2
+Anthus; png; 14
+
+#645 @ 73414
+Anthus; png; 15
+allb; png; 5
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 21
+
+#646 @ 73458
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 24
+xanadude; png; 13
+Ecruteak; png; 3
+Dimentio; png; 7
+
+#647 @ 73535
+allb; png; 2
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 9
+Anthus; png; 4
+Orithan; png; 4
+xanadude; png; 11
+FireSeraphim; png; 10
+
+#648 @ 73577
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 5
+Castelia; png; 8
+Russ; png; 22
+Dimentio; png; 10
+
+#649 @ 73606
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+ywkls; png; 9
+Joelmacool; png; 34
+
+#650 @ 73638
+Twilight-Prince; png; 4
+Cukeman; png; 24
+xanadude; png; 2
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 3
+Dimentio; png; 14
+
+#651 @ 73663
+Ganondorf; png; 16
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 1
+Anthus; png; 4
+xanadude; png; 6
+Dimentio; png; 18
+
+#652 @ 73730
+Twilight-Prince; png; 14
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 16
+Orithan; png; 11
+
+#653 @ 73746
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+Joelmacool; png; 14
+Octorockoncrack; png; 23
+
+#654 @ 73770
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 5
+Octorockoncrack; png; 28
+Anthus; png; 9
+
+#655 @ 73800
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 4
+Joelmacool; png; 1
+Orithan; png; 28
+Cukeman; jpg; 12
+
+#656 @ 73825
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 1
+Sheik; png; 23
+Jared; png; 9
+Kivitoe; png; 1
+Octorockoncrack; png; 4
+EnnonFenom; png; 5
+
+#657 @ 73855
+Cukeman; jpg; 23
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 5
+EnnonFenom; png; 11
+
+#658 @ 73877
+Cukeman; jpg; 12
+Shane; png; 16
+Octorockoncrack; png; 1
+Ganondorf; png; 1
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 3
+Anthus; png; 2
+Jared; png; 9
+
+#659 @ 73911
+Avataro; png; 21
+klop422; png; 17
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+Jared; png; 2
+
+#660 @ 73942
+TheRock; png; 1
+Anthus; png; 8
+ywkls; png; 1
+klop422; png; 5
+EnnonFenom; png; 0
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 0
+Sheik; png; 12
+Lüt; Lut; gif; 6
+Dimentio; png; 3
+
+#661 @ 73970
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 5
+Demonlink; png; 25
+Anthus; png; 7
+Dimentio; png; 8
+
+#662 @ 73996
+Hergiswi; png; 6
+EnnonFenom; png; 4
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 7
+klop422; png; 19
+Dimentio; png; 6
+
+#663 @ 74017
+Anthus; png; 28
+Joelmacool; png; 8
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+EnnonFenom; 0
+// EnnonFenom's shot was removed at some point, perhaps because it contained nudity.
+
+#664 @ 74036
+Shane; png; 28
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 3
+Lüt; Lut; png; 10
+
+#665 @ 74061
+Moosh; png; 13
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+Matthew[294314]; png; 16
+Jared; png; 9
+Lüt; Lut; gif; 6
+
+#666 @ 74094
+Jared; png; 5
+klop422; png; 7
+Orithan; png; 13
+Lüt; Lut; gif; 6
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 5
+
+#667 @ 74129
+MarinaraSauce; png; 16
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 8
+Orithan; png; 21
+
+#668 @ 74150
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 1
+klop422; png; 20
+Orithan; png; 18
+
+#669 @ 74177
+Cukeman; jpg; 11
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 13
+klop422; png; 1
+trudatman; jpg; 3
+Chris; png; 12
+
+#670 @ 74205
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 7
+Jared; png; 20
+MarinaraSauce; png; 5
+klop422; png; 4
+
+#671 @ 74231
+klop422; png; 22
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 6
+Shane; png; 16
+
+#672 @ 74254
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 20
+klop422; png; 10
+Binx; png; 5
+
+#673 @ 74283
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 13
+klop422; png; 6
+Orithan; png; 12
+
+#674 @ 74314
+Sheik; png; 24
+klop422; png; 8
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 3
+/*
+#675 @ 74337
+Sheik; png; 15
+Spawn; png; 16
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 1
+/*

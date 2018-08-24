@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+@import url("style.css");
+</style>
+<script language="javascript">
+// Based on http://www.randomsnippets.com/2008/02/12/how-to-hide-and-show-your-div/
+function toggle(ID, show)
+{
+	var closed = document.getElementById(ID + "_closed");
+	var open = document.getElementById(ID + "_open");
+
+	if (show == 1)
+	{
+		closed.style.display = "none";
+		open.style.display = "block";
+	}
+
+	else
+	{
+		closed.style.display = "block";
+		open.style.display = "none";
+	}
+}
+
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
+<title>SOTW Archives</title>
+</head>
+<body>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
+<div class='grand-title'>Screenshot of the Week Archives</div>
+<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>674</span></div>
+<table class='navtable'>
+<tr><td class='navtable-cell'><a class='green' href='archives-page1.html'>&lt;&lt; Newest</a></td><td class='navtable-cell'><a class='green' href='archives-page56.html'>&lt; Newer</a></td><td class='navtable-cell'><div class='page-selector'><label><select onChange='window.location.href="archives-page" + this.value + ".html"'>
+<option value='1'>Page 1 (#663&ndash;#674)</option>
+<option value='2'>Page 2 (#651&ndash;#662)</option>
+<option value='3'>Page 3 (#639&ndash;#650)</option>
+<option value='4'>Page 4 (#627&ndash;#638)</option>
+<option value='5'>Page 5 (#615&ndash;#626)</option>
+<option value='6'>Page 6 (#603&ndash;#614)</option>
+<option value='7'>Page 7 (#591&ndash;#602)</option>
+<option value='8'>Page 8 (#579&ndash;#590)</option>
+<option value='9'>Page 9 (#567&ndash;#578)</option>
+<option value='10'>Page 10 (#555&ndash;#566)</option>
+<option value='11'>Page 11 (#543&ndash;#554)</option>
+<option value='12'>Page 12 (#531&ndash;#542)</option>
+<option value='13'>Page 13 (#519&ndash;#530)</option>
+<option value='14'>Page 14 (#507&ndash;#518)</option>
+<option value='15'>Page 15 (#495&ndash;#506)</option>
+<option value='16'>Page 16 (#483&ndash;#494)</option>
+<option value='17'>Page 17 (#471&ndash;#482)</option>
+<option value='18'>Page 18 (#459&ndash;#470)</option>
+<option value='19'>Page 19 (#447&ndash;#458)</option>
+<option value='20'>Page 20 (#435&ndash;#446)</option>
+<option value='21'>Page 21 (#423&ndash;#434)</option>
+<option value='22'>Page 22 (#411&ndash;#422)</option>
+<option value='23'>Page 23 (#399&ndash;#410)</option>
+<option value='24'>Page 24 (#387&ndash;#398)</option>
+<option value='25'>Page 25 (#375&ndash;#386)</option>
+<option value='26'>Page 26 (#363&ndash;#374)</option>
+<option value='27'>Page 27 (#351&ndash;#362)</option>
+<option value='28'>Page 28 (#339&ndash;#350)</option>
+<option value='29'>Page 29 (#328&ndash;#338)</option>
+<option value='30'>Page 30 (#316&ndash;#327)</option>
+<option value='31'>Page 31 (#305&ndash;#315C)</option>
+<option value='32'>Page 32 (#293&ndash;#304)</option>
+<option value='33'>Page 33 (#281&ndash;#292)</option>
+<option value='34'>Page 34 (#270&ndash;#280)</option>
+<option value='35'>Page 35 (#258&ndash;#269)</option>
+<option value='36'>Page 36 (#246&ndash;#257)</option>
+<option value='37'>Page 37 (#234&ndash;#245)</option>
+<option value='38'>Page 38 (#222&ndash;#233)</option>
+<option value='39'>Page 39 (#210&ndash;#221)</option>
+<option value='40'>Page 40 (#199&ndash;#209)</option>
+<option value='41'>Page 41 (#187&ndash;#198)</option>
+<option value='42'>Page 42 (#175&ndash;#186)</option>
+<option value='43'>Page 43 (#163&ndash;#174)</option>
+<option value='44'>Page 44 (#151&ndash;#162)</option>
+<option value='45'>Page 45 (#139&ndash;#150)</option>
+<option value='46'>Page 46 (#127&ndash;#138)</option>
+<option value='47'>Page 47 (#115&ndash;#126)</option>
+<option value='48'>Page 48 (#103&ndash;#114)</option>
+<option value='49'>Page 49 (#91&ndash;#102)</option>
+<option value='50'>Page 50 (#79&ndash;#90)</option>
+<option value='51'>Page 51 (#67&ndash;#78)</option>
+<option value='52'>Page 52 (#55&ndash;#66)</option>
+<option value='53'>Page 53 (#44&ndash;#54B)</option>
+<option value='54'>Page 54 (#32&ndash;#43)</option>
+<option value='55'>Page 55 (#20&ndash;#31)</option>
+<option value='56'>Page 56 (#8&ndash;#19)</option>
+<option value='57' selected='selected'>Page 57 (#1&ndash;#7)</option>
+</select></label></div></td></tr>
+</table>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTWArchive/Plith01.gif'><img class='picture-picture' title='plith' src='http://sotw.purezc.net/SOTWArchive/Plith01.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=723'>Screenshot of the Week 7</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Nick.html'>Nick</a></div></span></td><td class='votes'>6</td><td class='percentage'>35.29%</td><td class='points'>16</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTWArchive/Plith01.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTWArchive/Plith01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/plith.html'>plith</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>9</td><td class='percentage'>52.94%</td><td class='points'>28</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>0</td><td class='percentage'>0.00%</td><td class='points'>0</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/MountainDrew.html'>MountainDrew</a></div></span></td><td class='votes'>2</td><td class='percentage'>11.76%</td><td class='points'>4</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>17</td><td></td><td class='points'>48</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><img class='picture-picture' title='The winner&#8217;s image is missing from the archives. Sorry.' src='images/no_image.png'/></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=668'>Screenshot of the Week 6</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/MountainDrew.html'>MountainDrew</a></div></span></td><td class='votes'>0</td><td class='percentage'>0.00%</td><td class='points'>0</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/blckscab.html'>blckscab</a></div></span></td><td class='votes'>3</td><td class='percentage'>23.08%</td><td class='points'>10</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/HappyPuppet.html'>HappyPuppet</a><br/><span class='old-name'>(as Happyman)</span></div></span></td><td class='votes'>1</td><td class='percentage'>7.69%</td><td class='points'>2</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Teilyr.html'>Teilyr</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>8</td><td class='percentage'>61.54%</td><td class='points'>35</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>1</td><td class='percentage'>7.69%</td><td class='points'>2</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>13</td><td></td><td class='points'>49</td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTWArchive/MountainDrew01.gif'><img class='picture-picture' title='MountainDrew' src='http://sotw.purezc.net/SOTWArchive/MountainDrew01.gif'/></a><a href='http://sotw.purezc.net/SOTWArchive/Teilyr02.gif'><img class='picture-picture' title='Teilyr' src='http://sotw.purezc.net/SOTWArchive/Teilyr02.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=613'>Screenshot of the Week 5</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/DarkFlameWolf.html'>DarkFlameWolf</a></div></span></td><td class='votes'>2</td><td class='percentage'>12.50%</td><td class='points'>5</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/HappyPuppet.html'>HappyPuppet</a><br/><span class='old-name'>(as Happyman)</span></div></span></td><td class='votes'>0</td><td class='percentage'>0.00%</td><td class='points'>0</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTWArchive/MountainDrew01.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTWArchive/MountainDrew01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/MountainDrew.html'>MountainDrew</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>5</td><td class='percentage'>31.25%</td><td class='points'>19</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Fox.html'>Fox</a><br/><span class='old-name'>(as StarFox)</span></div></span></td><td class='votes'>3</td><td class='percentage'>18.75%</td><td class='points'>9</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>1</td><td class='percentage'>6.25%</td><td class='points'>2</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTWArchive/Teilyr02.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTWArchive/Teilyr02.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Teilyr.html'>Teilyr</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>5</td><td class='percentage'>31.25%</td><td class='points'>19</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>6 entries</td><td class='votes'>16</td><td></td><td class='points'>54</td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>SotW 5 ended in a tie.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTWArchive/blckscab01.gif'><img class='picture-picture' title='blckscab' src='http://sotw.purezc.net/SOTWArchive/blckscab01.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5>Screenshot of the Week 4</td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTWArchive/blckscab01.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTWArchive/blckscab01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/blckscab.html'>blckscab</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>1 entry</td><td class='votes'>0</td><td></td><td class='points'>0</td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The entire topic for SotW 4 is missing.  We know blckscab won, but we don't know who his competitors were.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><img class='picture-picture' title='The winner&#8217;s image is missing from the archives. Sorry.' src='images/no_image.png'/></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=312'>Screenshot of the Week 3</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/blckscab.html'>blckscab</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/ZeldaLord.html'>ZeldaLord</a><br/><span class='old-name'>(as zeldalord)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/plith.html'>plith</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/WildBill.html'>Wild Bill</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>0</td><td></td><td class='points'>0</td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The poll for SotW 3 is lost, but we know Wild Bill won the contest.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><img class='picture-picture' title='The winner&#8217;s image is missing from the archives. Sorry.' src='images/no_image.png'/></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=276'>Screenshot of the Week 2</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/WildBill.html'>Wild Bill</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Bob.html'>Bob</a><br/><span class='old-name'>(as DarkSFK)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/HappyPuppet.html'>HappyPuppet</a><br/><span class='old-name'>(as Happyman)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>0</td><td></td><td class='points'>0</td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The poll for SotW 2 is lost, but we know Wild Bill won the contest.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTWArchive/Teclis01.gif'><img class='picture-picture' title='Teclis' src='http://sotw.purezc.net/SOTWArchive/Teclis01.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=244'>Screenshot of the Week 1</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Points<span class='tooltip' title='Votes plus sum of vote margins over lower-ranking shots'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Bob.html'>Bob</a><br/><span class='old-name'>(as DarkSFK)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/ZeldaLord.html'>ZeldaLord</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTWArchive/Teclis01.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTWArchive/Teclis01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Teclis.html'>Teclis</a><br/><span class='old-name'>(as K-Teclis)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>0</td><td></td><td class='points'>0</td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The poll for SotW 1 is lost, but we know Teclis won the contest.</li></ul></td></tr></table>
+
+</span></td></tr></table><table class='navtable'>
+<tr><td class='navtable-cell'><a class='green' href='archives-page1.html'>&lt;&lt; Newest</a></td><td class='navtable-cell'><a class='green' href='archives-page56.html'>&lt; Newer</a></td><td class='navtable-cell'><div class='page-selector'><label><select onChange='window.location.href="archives-page" + this.value + ".html"'>
+<option value='1'>Page 1 (#663&ndash;#674)</option>
+<option value='2'>Page 2 (#651&ndash;#662)</option>
+<option value='3'>Page 3 (#639&ndash;#650)</option>
+<option value='4'>Page 4 (#627&ndash;#638)</option>
+<option value='5'>Page 5 (#615&ndash;#626)</option>
+<option value='6'>Page 6 (#603&ndash;#614)</option>
+<option value='7'>Page 7 (#591&ndash;#602)</option>
+<option value='8'>Page 8 (#579&ndash;#590)</option>
+<option value='9'>Page 9 (#567&ndash;#578)</option>
+<option value='10'>Page 10 (#555&ndash;#566)</option>
+<option value='11'>Page 11 (#543&ndash;#554)</option>
+<option value='12'>Page 12 (#531&ndash;#542)</option>
+<option value='13'>Page 13 (#519&ndash;#530)</option>
+<option value='14'>Page 14 (#507&ndash;#518)</option>
+<option value='15'>Page 15 (#495&ndash;#506)</option>
+<option value='16'>Page 16 (#483&ndash;#494)</option>
+<option value='17'>Page 17 (#471&ndash;#482)</option>
+<option value='18'>Page 18 (#459&ndash;#470)</option>
+<option value='19'>Page 19 (#447&ndash;#458)</option>
+<option value='20'>Page 20 (#435&ndash;#446)</option>
+<option value='21'>Page 21 (#423&ndash;#434)</option>
+<option value='22'>Page 22 (#411&ndash;#422)</option>
+<option value='23'>Page 23 (#399&ndash;#410)</option>
+<option value='24'>Page 24 (#387&ndash;#398)</option>
+<option value='25'>Page 25 (#375&ndash;#386)</option>
+<option value='26'>Page 26 (#363&ndash;#374)</option>
+<option value='27'>Page 27 (#351&ndash;#362)</option>
+<option value='28'>Page 28 (#339&ndash;#350)</option>
+<option value='29'>Page 29 (#328&ndash;#338)</option>
+<option value='30'>Page 30 (#316&ndash;#327)</option>
+<option value='31'>Page 31 (#305&ndash;#315C)</option>
+<option value='32'>Page 32 (#293&ndash;#304)</option>
+<option value='33'>Page 33 (#281&ndash;#292)</option>
+<option value='34'>Page 34 (#270&ndash;#280)</option>
+<option value='35'>Page 35 (#258&ndash;#269)</option>
+<option value='36'>Page 36 (#246&ndash;#257)</option>
+<option value='37'>Page 37 (#234&ndash;#245)</option>
+<option value='38'>Page 38 (#222&ndash;#233)</option>
+<option value='39'>Page 39 (#210&ndash;#221)</option>
+<option value='40'>Page 40 (#199&ndash;#209)</option>
+<option value='41'>Page 41 (#187&ndash;#198)</option>
+<option value='42'>Page 42 (#175&ndash;#186)</option>
+<option value='43'>Page 43 (#163&ndash;#174)</option>
+<option value='44'>Page 44 (#151&ndash;#162)</option>
+<option value='45'>Page 45 (#139&ndash;#150)</option>
+<option value='46'>Page 46 (#127&ndash;#138)</option>
+<option value='47'>Page 47 (#115&ndash;#126)</option>
+<option value='48'>Page 48 (#103&ndash;#114)</option>
+<option value='49'>Page 49 (#91&ndash;#102)</option>
+<option value='50'>Page 50 (#79&ndash;#90)</option>
+<option value='51'>Page 51 (#67&ndash;#78)</option>
+<option value='52'>Page 52 (#55&ndash;#66)</option>
+<option value='53'>Page 53 (#44&ndash;#54B)</option>
+<option value='54'>Page 54 (#32&ndash;#43)</option>
+<option value='55'>Page 55 (#20&ndash;#31)</option>
+<option value='56'>Page 56 (#8&ndash;#19)</option>
+<option value='57' selected='selected'>Page 57 (#1&ndash;#7)</option>
+</select></label></div></td></tr>
+</table>
+<div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+</div>
+</body>
+</html>
