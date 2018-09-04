@@ -4555,9 +4555,19 @@ Orithan; png; 12
 Sheik; png; 24
 klop422; png; 8
 Shoshon the Elegant; Shoshon%20the%20Elegant; png; 3
-/*
+
 #675 @ 74337
-Sheik; png; 15
-Spawn; png; 16
-Shoshon the Elegant; Shoshon%20the%20Elegant; png; 1
+Sheik; png; 19
+Spawn; png; 21
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+
+#676 @ 74361
+Joelmacool; png; 19
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 5
+klop422; png; 10
+/*
+#677 @ 74380
+Anthus; png; 
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 
+MarinaraSauce; png; 
 /*
