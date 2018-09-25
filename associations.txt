@@ -117,7 +117,7 @@ Lineas > Binx
 294314: FlameCursed > Chungus > FlameCursed > Matthew > Midnight_Queen > Matthew
 //   Shared "Yoshi"
 1245: Yoshi > Tails > Pikachu > Fluttershy
-48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3
+48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3 > Yoshi
 
 // EDUCATED GUESSES
 DarkSFK > Bob
