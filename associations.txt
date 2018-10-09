@@ -107,6 +107,7 @@ Billy Ronald > billy ronald > BillPzc > Old Inactive Member
 Dekadx2 > Daiv > Fausch > Jaghnus > fausch > SpikeReynolds
 Bombos > Ecruteak > Castelia
 Lineas > Binx
+Twilight_Knight > Twilight Knight
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
