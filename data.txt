@@ -4597,9 +4597,16 @@ Twilight Knight; Twilight%20Knight; png; 12
 Joelmacool; png; 17
 klop422; png; 22
 Anthus; png; 7
-/*
+
 #683 @ 74518
-HeroOfFire; png; 
-Avataro; png; 
-Demonlink; png; 
+HeroOfFire; png; 6
+Avataro; png; 5
+Demonlink; png; 32
+/*
+#684 @ 74545
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 
+Mudkipz; png; 
+klop422; png; 
+Dimentio; png; 
+Anthus; png; 
 /*
