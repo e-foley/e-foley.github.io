@@ -3728,7 +3728,7 @@ RedTribeLink; png; 11
 
 #540 @ 69007
 a30502355; png; 3
-Moosh; png; 24
+Moosh; gif; 24
 Joelmacool; png; 26
 Twilight-Prince; png; 0
 
