@@ -37,45 +37,42 @@ All deltas calculated over last <span style='font-weight:bold;'>10</span> contes
 <table class='leaderboard-table stunt'><tr class='header-row'><td>
 <div class='tableheaderright'><a href='javascript:toggle("a", 1);'>
 <img src='images/exp_plus.png' border='0' alt='Expand' /></a></div>
-<a class='green' href='javascript:toggle("a", 1);'>Frequently Asked Questions</a></td></tr></table></div>
+<a class='green' href='javascript:toggle("a", 1);'>Extra Info</a></td></tr></table></div>
 
 
 <div class='leaderboard' style='display: none;' id='a_open'>
 <table class='leaderboard-table'><tr class='header-row'><td>
 <div class='tableheaderright'><a href='javascript:toggle("a", 0);'>
 <img src='images/exp_minus.png' border='0' alt='Collapse' /></a></div>
-<a class='green' href='javascript:toggle("a", 0);'>Frequently Asked Questions</a></td></tr>
+<a class='green' href='javascript:toggle("a", 0);'>Extra Info</a></td></tr>
 
 <tr><td class='intro'>
 <div class='faq-you'>What the heck is this?</div>
-<div class='answer-you'>You&rsquo;ve found the Screenshot of the Week leaderboards. Each leaderboard ranks everybody who has entered the contest based on different criteria, such as votes, points, victories, and total entries.</div>
+<div class='answer-you'>You&rsquo;ve found the Screenshot of the Week leaderboards. Each leaderboard ranks everybody who has entered the contest based on different criteria, such as votes, victories, and participation.</div>
 <p/>
-<div class='faq-you'>What is a member's &ldquo;formidable&rdquo; rating?</div>
-<div class='answer-you'>The formidable rating is designed to measure Screenshot of the Week dominance.  The formula is a little complex, but here are the takeaways:
+<div class='faq-you'>What is a member&rsquo;s &ldquo;formidable&rdquo; rating?</div>
+<div class='answer-you'>The formidable rating measures Screenshot of the Week dominance. It is based on the <a class='green' href='https://en.wikipedia.org/wiki/Elo_rating_system'>Elo rating system</a> and has these properties:
 <ul>
-<li>It&rsquo;s based on your vote margins against your competitors in every contest you&rsquo;ve entered.</li>
-<li>The score is biased toward 5,000.  Enter more contests to reduce the weight of this bias.</li>
-<li>Recent performance is weighted more heavily than past performance.  It takes about 10 entries for an old result to lose half of its significance.</li>
-<li>It is possible for your rating to go down when winning a competition (if you&rsquo;re less dominant than usual).  Similarly, it is possible for your rating to go up when doing poorly (if you nonetheless fare better than usual).</li>
+<li>Higher ratings are better.</li>
+<li>Newcomers start with a rating of 1,500.</li>
+<li>Your rating increases when you receive more votes in a contest than the algorithm expects you to receive given your rating and your opponents&rsquo; ratings. Inversely, you lose points when the algorithm thinks you underperform.</li>
+<li>Rating points always move from one member to another. This means that the average rating always sticks at 1,500.</li>
+<li>A two-to-one vote ratio corresponds to a rating difference of 500. This means that if your rating is 2,000, the algorithm expects you to receive twice as many votes as an average contestant. If your rating is 1,000, it expects you to receive half as many votes as an average contestant. (Don&rsquo;t take it personally!)</li>
+<li>Because the algorithm only looks at votes rather than wins, it&rsquo;s possible for your rating to drop despite winning a contest or rise despite finishing last.</li>
+<li>Ratings change quickly.</li>
 </ul></div>
 <p/>
 <div class='faq-you'>How does somebody get half of a vote, entry, win, etc.?</div>
-<div class='answer-you'>It&rsquo;s possible to two or more members to enter a shot together.  (See <a class='green' href='https://www.purezc.net/forums/index.php?showtopic=5454'>SotW #50</a> and <a class='green' href='https://www.purezc.net/forums/index.php?showtopic=57298'>SotW #391</a>.)  When this happens, we divide all the metrics evenly.  For example, a shot submitted by two members that earns 11 votes counts as 5.5 votes for each contributor.  Also, Screenshot of the Week used to have occasional ties.  In this situation, the win is split among those who tied for the most votes in the contest.</div>
+<div class='answer-you'>It&rsquo;s possible to two or more members to enter a shot together. (See <a class='green' href='https://www.purezc.net/forums/index.php?showtopic=5454'>SotW #50</a> and <a class='green' href='https://www.purezc.net/forums/index.php?showtopic=57298'>SotW #391</a>.)  When this happens, we divide all the metrics evenly. For example, a shot submitted by two members that earns 11 votes counts as 5.5 votes for each contributor. Also, Screenshot of the Week used to have occasional ties. In this situation, the win is split among those who tied for the most votes in the contest.</div>
 <p/>
-<div class='faq-you'>What are points?</div>
-<div class='answer-you'>Good question! You get one point per vote and an additional point for each vote you beat your competitors by.  If I get 15 votes in a contest and I beat two opponents by 7 and 11 votes, I get 15 + 7 + 11 = <span style='font-weight: bold'>33</span> points.</div>
-<p/>
-<div class='faq-you'>Why bother with points?</div>
-<div class='answer-you'>Votes are harder to come by in large contests because there are more options for voters to choose from. This makes each vote received in a large contest arguably more valuable than each vote received in a small contest. Points reflect this whereas a simple vote tally does not.</div>
-<p/>
-<div class='faq-you'>Some members have a plus sign (+) next to their votes and points.  Why?</div>
-<div class='answer-you'>The polls in Screenshots of the Week 1&ndash;4 are lost. For these contests, entrants are formally given zero votes and zero points but get preference in the leaderboards over members who would otherwise have the same number of votes or points.</div>
+<div class='faq-you'>Some members have a plus sign (+) next to their votes. Why?</div>
+<div class='answer-you'>The polls in Screenshots of the Week 1&ndash;4 are lost. For these contests, entrants are formally given zero votes but get preference in the leaderboards over members who would otherwise have the same number of votes.</div>
 <p/>
 <div class='faq-you'>Should I take these leaderboards seriously?</div>
-<div class='answer-you'>The whole idea behind this page is to offer a unique retrospective on the history of the contest for <span style='font-weight: bold;'>fun</span>. There are errors on it. The list of categories is not comprehensive. The metrics have flaws. The answer is no: do not take these stats too seriously. If you want to base your value as a human being off the results shown here, take a step back and re-examine your priorities in life.</div>
+<div class='answer-you'>The whole idea behind this page is to offer a unique retrospective on the history of the contest for fun. There are errors on it. The metrics have flaws. The code has bugs. The answer is no: do not take these stats seriously.</div>
 <p/>
 <div class='faq-you'>How is this page generated?</div>
-<div class='answer-you'>I maintain text files describing contest results and member name changes.  A Java applet processes the data and spits out HTML pages for you all to enjoy.</div>
+<div class='answer-you'>We maintain text files describing contest results and member name changes. A Java applet processes the data and spits out HTML pages for you all to enjoy.</div>
 <p/>
 <div class='faq-you'>Whom should I contact with comments, questions or error reports?</div>
 <div class='answer-you'><a class='green' href='http://www.purezc.net/forums/index.php?app=members&module=messaging&section=send&do=form&fromMemberID=2237'>Send a private message to nicklegends.</a>  He thanks you in advance for the feedback!</div>
