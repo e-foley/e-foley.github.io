@@ -149,7 +149,12 @@ td.contest-cell
 .winner
 {
   font-weight: bold;
+}
+
+.highlight
+{
   background-color: #ccffcc;
+  /*font-weight: bold;*/
 }
 
 .info-row
@@ -264,7 +269,7 @@ td.contest-cell
 .numentries {text-align: left;}
 .votes {text-align: center;}
 .percentage {text-align: center; font-size: 0.8em;}
-.points {text-align: center;}
+.rating {text-align: center; font-size: 0.8em;}
 .tie-note {font-size: 1.0em; font-style: italic;}
 .contest-cell {vertical-align: top;}
 
@@ -529,7 +534,7 @@ td.contest-cell
   border-collapse: collapse;
   background-color: #f7fff7;
   margin: 1.5em auto;
-  width: 90%;
+  max-width: 90%;
 }
 
 /* Copies from sort-table, defined earlier, EXCEPT for font size */
@@ -560,7 +565,7 @@ td.contest-cell
 
 .member-details-subheader-cell
 {
-
+  /*padding: 0.5em 1em;*/
 }
 
 .member-details-row
@@ -570,7 +575,7 @@ td.contest-cell
 
 .member-details-cell
 {
-
+  padding: 0.5em 1em;
 }
 
 .category-cell
