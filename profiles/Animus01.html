@@ -5,11 +5,49 @@
 <style>
 @import url("../style.css");
 </style>
+<script language="javascript">
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
 
 <title>Animus01&rsquo;s SOTW Profile</title>
 </head>
 <body>
-<div class='big-block'>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
 <div class='grand-title'>Animus01&rsquo;s Screenshot of the Week Profile</div>
 <!--<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>test</span></div>-->
 <div class='member-details-div'><table class='member-details-table'><tr class='member-details-header-row'><td colspan='4'>Animus01&rsquo;s stats</td></tr>
@@ -25,13 +63,49 @@
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus votes</td><td class='member-details-cell value-cell'>-53</td><td class='member-details-cell rank-cell'>t&#8209;205&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-30 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=23237'>#141</a>, 47 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=23534'>#143</a>, -55 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=25478'>#152</a>, and -15 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=30018'>#171</a></td></tr>
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus wins</td><td class='member-details-cell value-cell'>-2</td><td class='member-details-cell rank-cell'>t&#8209;158&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-3 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=23237'>#141</a>, 3 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=23534'>#143</a>, -2 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=25478'>#152</a>, and 0 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=30018'>#171</a></td></tr>
 </table></div>
-<div class='picture-large-list'>
-<div class='picture-large-div'><img class='picture-large' title='171' src='http://sotw.purezc.net/SOTW171/Animus01.gif'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=30018'>#171</a></div></div>
-<div class='picture-large-div'><img class='picture-large' title='152' src='http://sotw.purezc.net/SOTW152/Animus01.png'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=25478'>#152</a></div></div>
-<div class='picture-large-div'><img class='picture-large' title='143' src='http://sotw.purezc.net/SOTW143/Animus01.gif'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=23534'>#143</a></div></div>
-<div class='picture-large-div'><img class='picture-large' title='141' src='http://sotw.purezc.net/SOTW141/Animus01.png'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=23237'>#141</a></div></div>
-</div>
-<div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW171/Animus01.gif'><img class='picture-picture' title='Animus01' src='http://sotw.purezc.net/SOTW171/Animus01.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=30018'>Screenshot of the Week 171</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW171/Animus01.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW171/Animus01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Animus01.html'>Animus01</a></div></span></td><td class='votes'>8</td><td class='percentage'>14.55%</td><td class='rating'>1,390 (-14)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW171/CastChaos.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW171/CastChaos.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./CastChaos.html'>CastChaos</a></div></span></td><td class='votes'>1</td><td class='percentage'>1.82%</td><td class='rating'>1,155 (-62)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW171/DarkFlameWolf.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW171/DarkFlameWolf.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./DarkFlameWolf.html'>DarkFlameWolf</a></div></span></td><td class='votes'>15</td><td class='percentage'>27.27%</td><td class='rating'>1,868 (-38)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW171/Moonwhisper.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW171/Moonwhisper.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Scootaloo.html'>Scootaloo</a><br/><span class='old-name'>(as Moonwhisper)</span></div></span></td><td class='votes'>3</td><td class='percentage'>5.45%</td><td class='rating'>1,207 (-46)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW171/Nuvo.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW171/Nuvo.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Strato.html'>Strato</a><br/><span class='old-name'>(as Nuvo)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>28</td><td class='percentage'>50.91%</td><td class='rating'>1,740 (+160)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>55</td><td></td><td class='points'></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW152/Animus01.png'><img class='picture-picture' title='Animus01' src='http://sotw.purezc.net/SOTW152/Animus01.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=25478'>Screenshot of the Week 152</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW152/Revfan9.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW152/Revfan9.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Giggidy.html'>Giggidy</a><br/><span class='old-name'>(as Revfan9)</span></div></span></td><td class='votes'>22</td><td class='percentage'>32.84%</td><td class='rating'>1,283 (+90)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW152/Animus01.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW152/Animus01.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Animus01.html'>Animus01</a></div></span></td><td class='votes'>4</td><td class='percentage'>5.97%</td><td class='rating'>1,404 (-186)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW152/DarkFlameWolf.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW152/DarkFlameWolf.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./DarkFlameWolf.html'>DarkFlameWolf</a></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>41</td><td class='percentage'>61.19%</td><td class='rating'>1,923 (+96)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>3 entries</td><td class='votes'>67</td><td></td><td class='points'></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW143/Animus01.gif'><img class='picture-picture' title='Animus01' src='http://sotw.purezc.net/SOTW143/Animus01.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=23534'>Screenshot of the Week 143</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry winner highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW143/Animus01.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW143/Animus01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Animus01.html'>Animus01</a></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>26</td><td class='percentage'>45.61%</td><td class='rating'>1,590 (+122)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW143/Old-Skool.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW143/Old-Skool.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./KingAquamentus.html'>King Aquamentus</a><br/><span class='old-name'>(as Old-Skool)</span></div></span></td><td class='votes'>3</td><td class='percentage'>5.26%</td><td class='rating'>1,385 (-115)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW143/Sharon%20Daniel.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW143/Sharon%20Daniel.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./SharonDaniel.html'>Sharon Daniel</a></div></span></td><td class='votes'>23</td><td class='percentage'>40.35%</td><td class='rating'>1,606 (+80)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW143/DragonAtma.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW143/DragonAtma.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./DragonAtma.html'>DragonAtma</a></div></span></td><td class='votes'>5</td><td class='percentage'>8.77%</td><td class='rating'>1,368 (-86)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>57</td><td></td><td class='points'></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW141/Animus01.png'><img class='picture-picture' title='Animus01' src='http://sotw.purezc.net/SOTW141/Animus01.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=23237'>Screenshot of the Week 141</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW141/Blue%20Link%202007.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW141/Blue%20Link%202007.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./BlueLink2007.html'>Blue Link 2007</a></div></span></td><td class='votes'>3</td><td class='percentage'>6.67%</td><td class='rating'>1,468 (-32)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW141/Moonwhisper.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW141/Moonwhisper.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Scootaloo.html'>Scootaloo</a><br/><span class='old-name'>(as Moonwhisper)</span></div></span></td><td class='votes'>5</td><td class='percentage'>11.11%</td><td class='rating'>1,468 (-10)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW141/Gashin.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW141/Gashin.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./link3505.html'>link3505</a><br/><span class='old-name'>(as Gashin)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>28</td><td class='percentage'>62.22%</td><td class='rating'>2,481 (+58)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW141/Animus01.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW141/Animus01.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Animus01.html'>Animus01</a></div></span></td><td class='votes'>3</td><td class='percentage'>6.67%</td><td class='rating'>1,468 (-32)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW141/Hero%20Link.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW141/Hero%20Link.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Neptune.html'>Neptune</a><br/><span class='old-name'>(as Hero Link)</span></div></span></td><td class='votes'>6</td><td class='percentage'>13.33%</td><td class='rating'>1,296 (+14)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>45</td><td></td><td class='points'></td></tr></table>
+
+</span></td></tr></table><div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
 
 </div>
 </body>

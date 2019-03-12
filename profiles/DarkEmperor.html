@@ -5,11 +5,49 @@
 <style>
 @import url("../style.css");
 </style>
+<script language="javascript">
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
 
 <title>Dark Emperor&rsquo;s SOTW Profile</title>
 </head>
 <body>
-<div class='big-block'>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
 <div class='grand-title'>Dark Emperor&rsquo;s Screenshot of the Week Profile</div>
 <!--<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>test</span></div>-->
 <div class='member-details-div'><table class='member-details-table'><tr class='member-details-header-row'><td colspan='4'>Dark Emperor&rsquo;s stats</td></tr>
@@ -25,11 +63,30 @@
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus votes</td><td class='member-details-cell value-cell'>-16</td><td class='member-details-cell rank-cell'>t&#8209;126&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-10 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=6298'>#56</a> and -6 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=15287'>#102</a></td></tr>
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus wins</td><td class='member-details-cell value-cell'>1</td><td class='member-details-cell rank-cell'>t&#8209;102&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-1 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=6298'>#56</a> and 2 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=15287'>#102</a></td></tr>
 </table></div>
-<div class='picture-large-list'>
-<div class='picture-large-div'><img class='picture-large' title='102' src='http://sotw.purezc.net/SOTW102/Dark%20Emperor.gif'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=15287'>#102</a></div></div>
-<div class='picture-large-div'><img class='picture-large' title='56' src='http://sotw.purezc.net/SOTW56/SOTW56-DarkEmperor.jpg'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=6298'>#56</a></div></div>
-</div>
-<div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW102/Dark%20Emperor.gif'><img class='picture-picture' title='Dark Emperor' src='http://sotw.purezc.net/SOTW102/Dark%20Emperor.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=15287'>Screenshot of the Week 102</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW102/BH4.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW102/BH4.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./ShadowTiger.html'>ShadowTiger</a><br/><span class='old-name'>(as BH4)</span></div></span></td><td class='votes'>4</td><td class='percentage'>8.70%</td><td class='rating'>1,649 (-73)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW102/Dark%20Emperor.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW102/Dark%20Emperor.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./DarkEmperor.html'>Dark Emperor</a></div></span></td><td class='votes'>8</td><td class='percentage'>17.39%</td><td class='rating'>1,480 (-1)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW102/Dart%20Zaidyer.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW102/Dart%20Zaidyer.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./DartZaidyer.html'>Dart Zaidyer</a></div></span></td><td class='votes'>6</td><td class='percentage'>13.04%</td><td class='rating'>1,524 (-30)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW102/Shoelace.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW102/Shoelace.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Shoelace.html'>Shoelace</a></div></span></td><td class='votes'>7</td><td class='percentage'>15.22%</td><td class='rating'>1,466 (-10)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW102/ZcNinja.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW102/ZcNinja.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Lemon.html'>Lemon</a><br/><span class='old-name'>(as ZC-Ninja)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>21</td><td class='percentage'>45.65%</td><td class='rating'>1,718 (+114)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>46</td><td></td><td class='points'></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW56/SOTW56-DarkEmperor.jpg'><img class='picture-picture' title='Dark Emperor' src='http://sotw.purezc.net/SOTW56/SOTW56-DarkEmperor.jpg'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=6298'>Screenshot of the Week 56</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW56/SOTW56-DarkEmperor.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW56/SOTW56-DarkEmperor.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./DarkEmperor.html'>Dark Emperor</a></div></span></td><td class='votes'>5</td><td class='percentage'>14.29%</td><td class='rating'>1,481 (-19)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW56/SOTW56-Ccc.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW56/SOTW56-Ccc.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Ccc.html'>Ccc</a></div></span></td><td class='votes'>3</td><td class='percentage'>8.57%</td><td class='rating'>1,216 (-18)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW56/SOTW56-BH4.GIF'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW56/SOTW56-BH4.GIF")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./ShadowTiger.html'>ShadowTiger</a><br/><span class='old-name'>(as BH4)</span></div></span></td><td class='votes'>7</td><td class='percentage'>20.00%</td><td class='rating'>1,567 (-6)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW56/SOTW56-codelinker8705.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW56/SOTW56-codelinker8705.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./codelinker.html'>codelinker</a><br/><span class='old-name'>(as codelinker8705)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>15</td><td class='percentage'>42.86%</td><td class='rating'>1,465 (+93)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW56/SOTW56-Petoe.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW56/SOTW56-Petoe.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Peteo.html'>Peteo</a><br/><span class='old-name'>(as Petoe)</span></div></span></td><td class='votes'>5</td><td class='percentage'>14.29%</td><td class='rating'>1,720 (-50)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>35</td><td></td><td class='points'></td></tr></table>
+
+</span></td></tr></table><div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
 
 </div>
 </body>

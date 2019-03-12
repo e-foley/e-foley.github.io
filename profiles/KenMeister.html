@@ -5,11 +5,49 @@
 <style>
 @import url("../style.css");
 </style>
+<script language="javascript">
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
 
 <title>KenMeister&rsquo;s SOTW Profile</title>
 </head>
 <body>
-<div class='big-block'>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
 <div class='grand-title'>KenMeister&rsquo;s Screenshot of the Week Profile</div>
 <!--<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>test</span></div>-->
 <div class='former-names'>Other names used: RockinRollFan64, Kenster</div><div class='member-details-div'><table class='member-details-table'><tr class='member-details-header-row'><td colspan='4'>KenMeister&rsquo;s stats</td></tr>
@@ -25,12 +63,39 @@
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus votes</td><td class='member-details-cell value-cell'>-130</td><td class='member-details-cell rank-cell'>278&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-40 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=42648'>#273</a>, -43 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=43093'>#276</a>, and -47 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=43325'>#277</a></td></tr>
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus wins</td><td class='member-details-cell value-cell'>-10</td><td class='member-details-cell rank-cell'>t&#8209;259&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-4 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=42648'>#273</a>, -4 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=43093'>#276</a>, and -2 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=43325'>#277</a></td></tr>
 </table></div>
-<div class='picture-large-list'>
-<div class='picture-large-div'><img class='picture-large' title='277' src='http://sotw.purezc.net/SOTW277/Kenster.jpg'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=43325'>#277</a></div></div>
-<div class='picture-large-div'><img class='picture-large' title='276' src='http://sotw.purezc.net/SOTW276/Kenster.jpg'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=43093'>#276</a></div></div>
-<div class='picture-large-div'><img class='picture-large' title='273' src='http://sotw.purezc.net/SOTW273/Kenster.jpg'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=42648'>#273</a></div></div>
-</div>
-<div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW277/Kenster.jpg'><img class='picture-picture' title='KenMeister' src='http://sotw.purezc.net/SOTW277/Kenster.jpg'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=43325'>Screenshot of the Week 277</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW277/Twilight_Knight.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW277/Twilight_Knight.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./TwilightKnight.html'>Twilight Knight</a><br/><span class='old-name'>(as Twilight_Knight)</span></div></span></td><td class='votes'>22</td><td class='percentage'>41.51%</td><td class='rating'>1,461 (+47)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW277/Furion.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW277/Furion.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Marco.html'>Marco</a><br/><span class='old-name'>(as Furion)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>29</td><td class='percentage'>54.72%</td><td class='rating'>1,613 (+89)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW277/Kenster.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW277/Kenster.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./KenMeister.html'>KenMeister</a><br/><span class='old-name'>(as Kenster)</span></div></span></td><td class='votes'>2</td><td class='percentage'>3.77%</td><td class='rating'>1,209 (-137)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>3 entries</td><td class='votes'>53</td><td></td><td class='points'></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW276/Kenster.jpg'><img class='picture-picture' title='KenMeister' src='http://sotw.purezc.net/SOTW276/Kenster.jpg'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=43093'>Screenshot of the Week 276</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW276/MrMister.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW276/MrMister.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./MrMister.html'>MrMister</a></div></span></td><td class='votes'>7</td><td class='percentage'>16.28%</td><td class='rating'>1,389 (-10)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW276/Kenster.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW276/Kenster.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./KenMeister.html'>KenMeister</a><br/><span class='old-name'>(as Kenster)</span></div></span></td><td class='votes'>0</td><td class='percentage'>0.00%</td><td class='rating'>1,346 (-85)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW276/jimmyb.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW276/jimmyb.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Bourkification.html'>Bourkification</a><br/><span class='old-name'>(as jimmyb)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>23</td><td class='percentage'>53.49%</td><td class='rating'>1,904 (+85)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW276/Fausch.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW276/Fausch.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./SpikeReynolds.html'>SpikeReynolds</a><br/><span class='old-name'>(as Fausch)</span></div></span></td><td class='votes'>1</td><td class='percentage'>2.33%</td><td class='rating'>1,224 (-59)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW276/T._Platinum.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW276/T._Platinum.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Silver.html'>Silver</a><br/><span class='old-name'>(as T. Platinum)</span></div></span></td><td class='votes'>12</td><td class='percentage'>27.91%</td><td class='rating'>1,151 (+68)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>43</td><td></td><td class='points'></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW273/Kenster.jpg'><img class='picture-picture' title='KenMeister' src='http://sotw.purezc.net/SOTW273/Kenster.jpg'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=42648'>Screenshot of the Week 273</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW273/skateboarder11.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW273/skateboarder11.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./skateboarder11.html'>skateboarder11</a></div></span></td><td class='votes'>8</td><td class='percentage'>20.00%</td><td class='rating'>1,194 (+36)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW273/dragonsword.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW273/dragonsword.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./dragonsword.html'>dragonsword</a></div></span></td><td class='votes'>3</td><td class='percentage'>7.50%</td><td class='rating'>1,461 (-39)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW273/Lord%20Settra!.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW273/Lord%20Settra!.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Rastael.html'>Rastael</a><br/><span class='old-name'>(as Lord Settra!)</span></div></span></td><td class='votes'>4</td><td class='percentage'>10.00%</td><td class='rating'>1,370 (-20)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW273/Migokalle.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW273/Migokalle.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Migokalle.html'>Migokalle</a></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>25</td><td class='percentage'>62.50%</td><td class='rating'>2,186 (+92)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW273/Kenster.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW273/Kenster.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./KenMeister.html'>KenMeister</a><br/><span class='old-name'>(as Kenster)</span></div></span></td><td class='votes'>0</td><td class='percentage'>0.00%</td><td class='rating'>1,431 (-69)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>40</td><td></td><td class='points'></td></tr></table>
+
+</span></td></tr></table><div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
 
 </div>
 </body>

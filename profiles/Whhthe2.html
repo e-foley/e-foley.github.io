@@ -5,11 +5,49 @@
 <style>
 @import url("../style.css");
 </style>
+<script language="javascript">
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
 
 <title>Whhthe2&rsquo;s SOTW Profile</title>
 </head>
 <body>
-<div class='big-block'>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
 <div class='grand-title'>Whhthe2&rsquo;s Screenshot of the Week Profile</div>
 <!--<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>test</span></div>-->
 <div class='member-details-div'><table class='member-details-table'><tr class='member-details-header-row'><td colspan='4'>Whhthe2&rsquo;s stats</td></tr>
@@ -25,11 +63,31 @@
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus votes</td><td class='member-details-cell value-cell'>5</td><td class='member-details-cell rank-cell'>t&#8209;90&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-6 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=5155'>#47</a> and 11 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=5247'>#48</a></td></tr>
 <tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus wins</td><td class='member-details-cell value-cell'>1</td><td class='member-details-cell rank-cell'>t&#8209;102&nbsp;<span class='num-qualifiers'>/&nbsp;344</span></td><td class='member-details-cell details'>-1 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=5155'>#47</a> and 2 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=5247'>#48</a></td></tr>
 </table></div>
-<div class='picture-large-list'>
-<div class='picture-large-div'><img class='picture-large' title='48' src='http://sotw.purezc.net/SOTW48/SOTW48-Whhthe2.gif'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=5247'>#48</a></div></div>
-<div class='picture-large-div'><img class='picture-large' title='47' src='http://sotw.purezc.net/SOTW47/SOTW47-Whhthe2.gif'/><div class='picture-large-caption'><a class='alt' href='http://www.purezc.net/forums/index.php?showtopic=5155'>#47</a></div></div>
-</div>
-<div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW48/SOTW48-Whhthe2.gif'><img class='picture-picture' title='Whhthe2' src='http://sotw.purezc.net/SOTW48/SOTW48-Whhthe2.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=5247'>Screenshot of the Week 48</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW48/SOTW48-Happyman.GIF'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW48/SOTW48-Happyman.GIF")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./HappyPuppet.html'>HappyPuppet</a><br/><span class='old-name'>(as Happyman)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>10</td><td class='percentage'>34.48%</td><td class='rating'>1,361 (+40)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW48/SOTW48-Nick.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW48/SOTW48-Nick.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Nick.html'>Nick</a></div></span></td><td class='votes'>5</td><td class='percentage'>17.24%</td><td class='rating'>1,470 (-27)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW48/SOTW48-Whhthe2.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW48/SOTW48-Whhthe2.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Whhthe2.html'>Whhthe2</a></div></span></td><td class='votes'>10</td><td class='percentage'>34.48%</td><td class='rating'>1,518 (+24)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW48/SOTW48-skateboarder11.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW48/SOTW48-skateboarder11.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./skateboarder11.html'>skateboarder11</a></div></span></td><td class='votes'>4</td><td class='percentage'>13.79%</td><td class='rating'>1,460 (-37)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>29</td><td></td><td class='points'></td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>Extra votes were cast after Praethus declared HappyPuppet the winner.  These extra votes resulted in Whhthe2's being tied with HappyPuppet in the vote tally.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW47/SOTW47-Whhthe2.gif'><img class='picture-picture' title='Whhthe2' src='http://sotw.purezc.net/SOTW47/SOTW47-Whhthe2.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=5155'>Screenshot of the Week 47</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[BETA] Elo-based determination of entrant&rsquo;s historical performance. Incorporates contest results. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW47/SOTW47-benmw02190.PNG'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW47/SOTW47-benmw02190.PNG")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Rambly-958.html'>Rambly</a><br/><span class='old-name'>(as benmw02190)</span></div></span></td><td class='votes'>1</td><td class='percentage'>3.70%</td><td class='rating'>1,474 (-26)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW47/SOTW47-jman2050.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW47/SOTW47-jman2050.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./jman2050.html'>jman2050</a></div></span></td><td class='votes'>1</td><td class='percentage'>3.70%</td><td class='rating'>1,569 (-31)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW47/SOTW47-MrZ.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW47/SOTW47-MrZ.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./MrZ.html'>Mr. Z</a></div></span></td><td class='votes'>3</td><td class='percentage'>11.11%</td><td class='rating'>1,519 (-7)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW47/SOTW47-Petoe.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW47/SOTW47-Petoe.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Peteo.html'>Peteo</a><br/><span class='old-name'>(as Petoe)</span></div></span></td><td class='votes'>4</td><td class='percentage'>14.81%</td><td class='rating'>1,770 (-13)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW47/SOTW47-skateboarder11.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW47/SOTW47-skateboarder11.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./skateboarder11.html'>skateboarder11</a></div></span></td><td class='votes'>4</td><td class='percentage'>14.81%</td><td class='rating'>1,497 (+5)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW47/SOTW47-WildBill.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW47/SOTW47-WildBill.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./WildBill.html'>Wild Bill</a></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>11</td><td class='percentage'>40.74%</td><td class='rating'>1,485 (+78)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW47/SOTW47-Whhthe2.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW47/SOTW47-Whhthe2.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Whhthe2.html'>Whhthe2</a></div></span></td><td class='votes'>3</td><td class='percentage'>11.11%</td><td class='rating'>1,494 (-6)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>7 entries</td><td class='votes'>27</td><td></td><td class='points'></td></tr></table>
+
+</span></td></tr></table><div class='notes'>Background comprises shots designed by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik.  Table style adapted from a design &#169; by Wild Bill.  All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
 
 </div>
 </body>
