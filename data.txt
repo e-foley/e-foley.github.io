@@ -4667,10 +4667,13 @@ Orithan; png; 10
 Joelmacool; png; 2
 klop422; png; 9
 Demonlink; png; 17
-/*
+
 #695 @ 74928
-Shane; png; 
-klop422; png; 
-nicklegends; png; 
-Sheik; png; 
+Shane; png; 10
+klop422; png; 7
+nicklegends; png; 7
+Sheik; png; 14
 /*
+#696 @ 74991
+klop422; png; 
+Twilight Knight; Twilight%20Knight; png
