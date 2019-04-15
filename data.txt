@@ -4673,7 +4673,13 @@ Shane; png; 10
 klop422; png; 7
 nicklegends; png; 7
 Sheik; png; 14
-/*
+
 #696 @ 74991
-klop422; png; 
-Twilight Knight; Twilight%20Knight; png
+klop422; png; 6
+Twilight Knight; Twilight%20Knight; png; 23
+/*
+#697 @ 75012
+Joelmacool; png; 
+Russ; png; 
+Twilight Knight; Twilight%20Knight; png; 
+/*
