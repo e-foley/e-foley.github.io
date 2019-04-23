@@ -4677,9 +4677,14 @@ Sheik; png; 14
 #696 @ 74991
 klop422; png; 6
 Twilight Knight; Twilight%20Knight; png; 23
-/*
+
 #697 @ 75012
-Joelmacool; png; 
-Russ; png; 
+Joelmacool; png; 6
+Russ; png; 17
+Twilight Knight; Twilight%20Knight; png; 12
+/*
+#698 @ 75030
 Twilight Knight; Twilight%20Knight; png; 
+TheRock; png; 
+Orithan; png; 
 /*
