@@ -4687,9 +4687,23 @@ Twilight Knight; Twilight%20Knight; png; 12
 Twilight Knight; Twilight%20Knight; png; 21
 TheRock; png; 9
 Orithan; png; 10
-/*
+
 #699 @ 75045
+Twilight Knight; Twilight%20Knight; png; 15
+Orithan; png; 6
+Joelmacool; png; 6
+/*
+#700 @ 75067
+Shane; png; 
+ywkls; png; 
 Twilight Knight; Twilight%20Knight; png; 
-Orithan; png; 
+NewJourneysFire; png; 
 Joelmacool; png; 
+nicklegends; png; 
+klop422; png; 
+HeroOfFire; png;
+Orithan; png; 
+Lüt; Lut; png; 
+Anthus; png; 
+Matthew[294314]; png; 
 /*
