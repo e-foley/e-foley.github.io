@@ -4714,9 +4714,15 @@ Joelmacool; png; 2
 Hergiswi; png; 2
 Evan20000; png; 3
 Moosh; png; 2
-/*
+
 #702 @ 75112
-Great Glass; Great%20Glass; png; 
-Samson; NewJourneysFire; png; 
-Avataro; png; 
+Great Glass; Great%20Glass; png; 9
+Samson; NewJourneysFire; png; 8
+Avataro; png; 14
+/*
+#703 @ 75129
+Joelmacool; png; 
+Twilight Knight; Twilight%20Knight; png; 
+HeroOfFire; png; 
+Dimentio; png; 
 /*
