@@ -4725,16 +4725,26 @@ Joelmacool; png; 3
 Twilight Knight; Twilight%20Knight; png; 9
 HeroOfFire; png; 4
 Dimentio; png; 18
-/*
+
 #704 @ 75153
-Shane; png; 
+Shane; png; 7
+Avataro; png; 3
+Eddy; png; 3
+TheBlueTophat; png; 0
+Yoshi[48320]; png; 0
+Matthew[294314]; png; 2
+Joelmacool; png; 5
+Dimentio; png; 3
+Twilight Knight; Twilight%20Knight; png; 10
+HeroOfFire; png; 2
+
+#705 @ 75174
+Jamian; png; 16
+Twilight Knight; Twilight%20Knight; png; 5
+Orithan; png; 10
+/*
+#706 @ 75188
+Russ; png; 
 Avataro; png; 
-Eddy; png; 
-TheBlueTophat; png; 
-Yoshi[48320]; png; 
-Matthew[294314]; png; 
-Joelmacool; png; 
 Dimentio; png; 
-Twilight Knight; Twilight%20Knight; png; 
-HeroOfFire; png; 
 /*
