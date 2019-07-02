@@ -4742,9 +4742,15 @@ HeroOfFire; png; 2
 Jamian; png; 16
 Twilight Knight; Twilight%20Knight; png; 5
 Orithan; png; 10
-/*
+
 #706 @ 75188
+Russ; png; 4
+Avataro; png; 16
+Dimentio; png; 15
+/*
+#707 @ 75206
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 
+Twilight Knight; Twilight%20Knight; png; 
 Russ; png; 
-Avataro; png; 
 Dimentio; png; 
 /*
