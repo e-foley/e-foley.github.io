@@ -4747,10 +4747,15 @@ Orithan; png; 10
 Russ; png; 4
 Avataro; png; 16
 Dimentio; png; 15
-/*
+
 #707 @ 75206
-Shoshon the Elegant; Shoshon%20the%20Elegant; png; 
-Twilight Knight; Twilight%20Knight; png; 
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
+Twilight Knight; Twilight%20Knight; png; 14
+Russ; png; 15
+Dimentio; png; 4
+/*
+#708 @ 75232
+Avataro; png; 
+Joelmacool; png; 
 Russ; png; 
-Dimentio; png; 
 /*
