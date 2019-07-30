@@ -4753,9 +4753,14 @@ Shoshon the Elegant; Shoshon%20the%20Elegant; png; 2
 Twilight Knight; Twilight%20Knight; png; 14
 Russ; png; 15
 Dimentio; png; 4
-/*
+
 #708 @ 75232
-Avataro; png; 
+Avataro; png; 6
+Joelmacool; png; 16
+Russ; png; 11
+/*
+#709 @ 75267
 Joelmacool; png; 
-Russ; png; 
+Binx; png; 
+Dimentio; png; 
 /*
