@@ -110,6 +110,9 @@ Lineas > Binx
 Twilight_Knight > Twilight Knight
 // "Samson" was used to enter #702 but wasn't an official name change.
 NewJourneysFire > Samson > NewJourneysFire
+DaviAwesome > David
+Nick > Kite
+Avataro > Avaro
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
