@@ -4773,10 +4773,19 @@ Matthew[294314]; png; 2
 Jared; png; 10
 klop422; png; 13
 Sheik; png; 16
-/*
+
 #712 @ 75348
+Avaro; png; 1
+Jared; png; 13
+Russ; png; 9
+Shane; png; 18
+/*
+#713 @ 75381
 Avaro; png; 
-Jared; png; 
-Russ; png; 
+Great Glass; GreatGlass; png; 
+HeroOfFire; png; 
+Joelmacool; png; 
+klop422; png; 
 Shane; png; 
+ywkls; png; 
 /*
