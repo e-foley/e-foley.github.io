@@ -4788,9 +4788,17 @@ Joelmacool; png; 7
 klop422; png; 5
 Shane; png; 10
 ywkls; png; 3
-/*
+
 #714 @ 75411
+Avaro; png; 5
+Joelmacool; png; 9
+Shane; png; 16
+/*
+#715 @ 75449
 Avaro; png; 
+HeroOfFire; png; 
 Joelmacool; png; 
+Lordkronos; png; 
+Octorockoncrack; png; 
 Shane; png; 
 /*
