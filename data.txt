@@ -4801,12 +4801,20 @@ Joelmacool; png; 7
 Lordkronos; png; 5
 Octorockoncrack; png; 8
 Shane; png; 13
-/*
+
 #716 @ 75509
+Avaro; png; 11
+Joelmacool; png; 9
+klop422; png; 2
+Lordkronos; png; 1
+Russ; png; 4
+Shane; png; 5
+/*
+#717 @ 75537
 Avaro; png; 
+Hookshot; png; 
 Joelmacool; png; 
-klop422; png; 
 Lordkronos; png; 
-Russ; png; 
+Matthew; png; 
 Shane; png; 
 /*
