@@ -4817,16 +4817,24 @@ Joelmacool; png; 1
 Lordkronos; png; 3
 Matthew[294314]; png; 14
 Shane; png; 4
-/*
+
 #718 @ 75584
+Avaro; png; 2
+Eddy; png; 0
+Hookshot; png; 3
+Joelmacool; png; 3
+Matthew[294314]; png; 2
+Orithan; png; 1
+Shane; png; 9
+Sheik; png; 10
+Twilight Knight; TwilightKnight; png; 6
+Yoshi[48320]; png; 3
+/*
+#719 @ 75601
 Avaro; png; 
-Eddy; png; 
-Hookshot; png; 
+HeroOfFire; png; 
 Joelmacool; png; 
-Matthew[294314]; png; 
-Orithan; png; 
 Shane; png; 
-Sheik; png; 
-Twilight Knight; TwilightKnight; png; 
-Yoshi; png; 
+Yoshi[48320]; png; 
+Yoshot; png; 
 /*
