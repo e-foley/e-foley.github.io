@@ -4829,12 +4829,19 @@ Shane; png; 9
 Sheik; png; 10
 Twilight Knight; TwilightKnight; png; 6
 Yoshi[48320]; png; 3
-/*
+
 #719 @ 75601
+Avaro; png; 5
+HeroOfFire; png; 3
+Joelmacool; png; 6
+Shane; png; 13
+Yoshi[48320]; png; 4
+Yoshot; png; 3
+/*
+#720 @ 75636
 Avaro; png; 
-HeroOfFire; png; 
 Joelmacool; png; 
+Russ; png; 
 Shane; png; 
-Yoshi[48320]; png; 
 Yoshot; png; 
 /*
