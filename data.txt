@@ -4844,11 +4844,18 @@ Joelmacool; png; 6
 Russ; png; 15
 Shane; png; 6
 Yoshot; png; 6
-/*
+
 #721 @ 75664
+Avaro; png; 3
+Joelmacool; png; 10
+Shane; png; 10
+TheRock; png; 2
+Yoshot; png; 13
+/*
+#722 @ 75702
 Avaro; png; 
+HeroOfFire; png; 
+Jared; png; 
 Joelmacool; png; 
 Shane; png; 
-TheRock; png; 
-Yoshot; png; 
 /*
