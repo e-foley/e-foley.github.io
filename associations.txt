@@ -85,7 +85,6 @@ Twinblake > Obderhode
 LunarRedMage > Nokutaa-chan
 blackbishop89 > LordVolcanon > Palpaleos > Zecora > Freyja > Freya > Mero
 EddyTheOliveira > Eddy
-green-kirby > Lunaria
 joelmacool12 > Joelmacool12 > Joelmacool
 bmc10011 > TheRock
 Koishi > Nekoishi > Plutia
@@ -114,6 +113,7 @@ DaviAwesome > David
 Nick > Kite
 Avataro > Avaro
 Hookshot > Yoshot
+green-kirby > Lunaria > Mani Kanina
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
