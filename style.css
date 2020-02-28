@@ -728,3 +728,9 @@ td.contest-cell
   image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
+
+.navtable.master
+{
+  /* #EFA is a yellow-green that looks OK as a background color*/
+  border: 5px double #030;
+}

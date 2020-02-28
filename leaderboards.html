@@ -23,7 +23,7 @@ function toggle(ID, show)
 		closed.style.display = "block";
 		open.style.display = "none";
 	}
-} 
+}
 </script>
 <title>SOTW Leaderboards</title>
 </head>
@@ -32,6 +32,7 @@ function toggle(ID, show)
 <div class='grand-title'>Screenshot of the Week Leaderboards</div>
 <div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>722</span><br/>
 All deltas calculated over last <span style='font-weight:bold;'>10</span> contests</div>
+<!--navbar code--><script src='generate_navbar.js'></script><div id='navbar' class='navtablediv'></div><script>document.getElementById('navbar').innerHTML = generateNavbar('leaderboards', 0);</script><!--end navbar code-->
 
 <div class='leaderboard' style='display: show;' id='a_closed'>
 <table class='leaderboard-table stunt'><tr class='header-row'><td>

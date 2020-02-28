@@ -32,12 +32,13 @@ function populateNumShots() {
   document.getElementById('numshots').innerHTML = getNumShotsString();
 }
 </script>
-<title>Random Shot</title>
+<title>Random Screenshot</title>
 </head>
 <body>
 <div class='big-block'>
 <div class='grand-title'>Random Screenshot</div>
 <div class='updated-text'><span id='numshots' style='font-weight:bold;'>Many</span> shots are in the collection</div>
+<!--navbar code--><script src='generate_navbar.js'></script><div id='navbar' class='navtablediv'></div><script>document.getElementById('navbar').innerHTML = generateNavbar('random_shot', 0);</script><!--end navbar code-->
 <div class='randoshotdiv' id='randoshotdiv'><img class='randoshot pixelated' id='randoshot' onload='adjustSize()' src='' /></div>
 <div class='randoshotcaption' id='randoshotcaption'></div>
 <button class='randoshotbutton' onclick='populateRandomInfo()'>Another random shot, please.</button>
