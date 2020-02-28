@@ -1,7 +1,7 @@
 // Generates HTML code to for a navigation bar offering navigation to pages that aren't the argument.
 function generateNavbar(current_page_id, depth) {
   var pages = [
-    {'id': 'archives', 'title': 'Archives', 'url': String("../").repeat(depth) + 'archives.html'},
+    {'id': 'archives', 'title': 'Archives', 'url': String("../").repeat(depth) + 'archives-page1.html'},
     {'id': 'leaderboards', 'title': 'Leaderboards', 'url': String("../").repeat(depth) + 'leaderboards.html'},
     {'id': 'user_profiles', 'title': 'User Profiles', 'url': String("../").repeat(depth) + 'profile_index.html'},
     {'id': 'random_shot', 'title': 'Random Screenshot', 'url': String("../").repeat(depth) + 'random_shot.html'}
