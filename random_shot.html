@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>@import url("style.css");</style>
+<script src='random_shot.js'></script>
+<script>
+function populateRandomInfo() {
+  var randoshot = getRandomShot();
+  document.getElementById('randoshot').src = randoshot.url;
+  document.getElementById('randoshotcaption').innerHTML = randoshot.names + " (#" + randoshot.contest + ")";
+}
+
+// Until SotW 418, images were stored at their original size. They're now stored
+// at twice the original dimensions. This method scales images to be near a
+// consistent height.
+function adjustSize() {
+  var randoimg = document.getElementById('randoshot');
+  // Tallest common image might be 640x480 editor shot, e.g. Linkus #95.
+  // Aslion #339 is a weird native height of 512px.
+  var margin = 10;
+  var max_height =  randoimg.parentElement.clientHeight - 2 * margin;
+  var pixelScale = max_height / randoimg.naturalHeight;
+  if (pixelScale > 1) {
+    pixelScale = Math.floor(pixelScale);
+  }
+
+  randoimg.style.height = (pixelScale * randoimg.naturalHeight).toString() + "px";
+}
+
+function populateNumShots() {
+  document.getElementById('numshots').innerHTML = getNumShotsString();
+}
+</script>
+<title>Random Shot</title>
+</head>
+<body>
+<div class='big-block'>
+<div class='grand-title'>Random Screenshot</div>
+<div class='updated-text'><span id='numshots' style='font-weight:bold;'>Many</span> shots are in the collection</div>
+<div class='randoshotdiv' id='randoshotdiv'><img class='randoshot pixelated' id='randoshot' onload='adjustSize()' src='' /></div>
+<div class='randoshotcaption' id='randoshotcaption'></div>
+<button class='randoshotbutton' onclick='populateRandomInfo()'>Another random shot, please.</button>
+<script>populateNumShots(); populateRandomInfo();</script>
+<div class='notes'>Background shots by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik. Table style adapted from a design &#169; by Wild Bill. All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+</div>
+</body>
+</html>

@@ -4,6 +4,8 @@ body
   font-size: 16px;
   background-image: url('http://sotw.elfractal.com/images/new_quilt_subtle_2.jpg');
   background-color: #355E3B;
+  /*height: 300px;*/
+  height: 100%;
 }
 
 div.big-block
@@ -15,6 +17,8 @@ div.big-block
   min-width: 550px;
   max-width: 1000px;
   margin: 0 auto;
+  height: 100%;
+  box-shadow: 0px 0px 10px 0px #000;
 }
 
 div.big-block.archives
@@ -257,7 +261,8 @@ td.contest-cell
   font-style: italic;
   text-align: center;
   max-width: 900px;
-  margin: 1.5em auto;
+  margin: 2.0em auto 1.0em auto;
+  font-size: 0.75em;
 }
 
 .tableheaderright
@@ -674,4 +679,52 @@ td.contest-cell
   text-align:center;
   font-size: 2em;
   color: #FFF;
+}
+
+.randoshotdiv
+{
+  padding: 0px;
+  height: 500px;  /* 480 + 2*border thickness works well for 640x480 shots. */
+  line-height: 500px;  /* Hack to get vertical centering. */
+  font-size: 0px;  /* Removes ~3px baseline in vertical centering algorithm. */
+  margin: 0px auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.randoshot
+{
+  height: 480px;
+  /*border: 10px #CCC ridge;*/
+  border: 1px solid #000;
+  box-shadow: 0px 0px 8px #030;
+  vertical-align: middle;
+  margin: 0px auto;
+}
+
+.randoshotcaption
+{
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1.5em;
+  color: #FFFFFF;
+}
+
+.randoshotbutton
+{
+  display: block;
+  margin: 0px auto;
+  font-size: 1em;
+  background-color: #CCFFCC;
+  color: #000000;
+}
+
+.pixelated
+{
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
