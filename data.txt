@@ -4858,9 +4858,16 @@ HeroOfFire; png; 5
 Jared; png; 8
 Joelmacool; png; 4
 Shane; png; 12
-/*
+
 #723 @ 75770
-Avaro; png; 
+Avaro; png; 9
+Joelmacool; png; 4
+Mani Kanina; ManiKanina; png; 3
+Shane; png; 9
+Yoshot; png; 19
+/*
+#724 @ 75806
+HeroOfFire; png; 
 Joelmacool; png; 
 Mani Kanina; ManiKanina; png; 
 Shane; png; 
