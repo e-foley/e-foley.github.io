@@ -1808,7 +1808,7 @@ Joe123; png; 20
 Sheik; gif; 15
 Prospekt; png; 0
 SerpitaX; png; 10
-Midnight_King; jpg; 6
+Midnight_King[29458]; jpg; 6
 
 #256 @ 40967
 Dawnlight; gif; 21
@@ -1825,7 +1825,7 @@ Deviance; png; 8
 Migokalle; png; 28
 hinsburg; png; 3
 Rem; png; 2
-Midnight_King; jpg; 3
+Midnight_King[29458]; jpg; 3
 Prophecy Face; Prophecy_Face; png; 7
 
 #259 @ 41303
@@ -1847,7 +1847,7 @@ Xiion; jpg; 6
 #262 @ 41617
 Migokalle; png; 21
 Prophecy Face; Prophecy_Face; gif; 3
-Midnight_King; jpg; 4
+Midnight_King[29458]; jpg; 4
 T. Platinum; T_Platinum; png; 0
 Beta Link; Beta_Link; gif; 8
 
@@ -2196,7 +2196,7 @@ SpacemanDan; http://sotw.purezc.net/SOTW315A/SpacemanDan.png; 20
 * Due to a large volume of entrants, SotW 315 was split into two polls.  Each poll's top finisher was deemed a winner, and no follow-up round was held.
 
 &315C @ 49343
-Midnight_King; http://sotw.purezc.net/SOTW315C/Midnight_King.png; 9
+Midnight_King[29458]; http://sotw.purezc.net/SOTW315C/Midnight_King.png; 9
 Lynker; http://sotw.purezc.net/SOTW315C/Lynker.png; 1
 William; http://sotw.purezc.net/SOTW315C/William.jpg; 8
 Russ; http://sotw.purezc.net/SOTW315C/Russ.jpg; 4
