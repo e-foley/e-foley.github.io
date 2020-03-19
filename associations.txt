@@ -97,7 +97,6 @@ HeavyTitanium > Titanium Justice
 GrantGreif > MarinaraSauce
 jetbox > JetBox
 linktopower > Ventus > Benji > Ventus > FireBlazeWolf > Ventus
-Midnight_King > Shane > Charizard > Shane > Polaris > Shane
 GenGaming > xanadude
 Maikeru D. Shinigami > Shoshon the Elegant
 sonicfan350 > Zephyr_Eevee > Goriya > Nexas > Eins > Einsiety
@@ -124,7 +123,11 @@ green-kirby > Lunaria > Mani Kanina
 294314: FlameCursed > Chungus > FlameCursed > Matthew > Midnight_Queen > Matthew
 //   Shared "Yoshi"
 1245: Yoshi > Tails > Pikachu > Fluttershy
-48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3 > Yoshi
+29458: Midnight_King > Shane > Charizard > Shane > Polaris > Shane > Midnight King > Shane > Yoshi
+48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3 > Yoshi > Buddy
+// The above also "Midnight_King" with 29458 for April Fools' 2018
+294248: arceusplayer11 > Arceus > Dimentio > Midnight_King > Dimentio > Dimi
+
 
 // EDUCATED GUESSES
 DarkSFK > Bob
