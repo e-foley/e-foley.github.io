@@ -111,8 +111,8 @@ NewJourneysFire > Samson > NewJourneysFire
 DaviAwesome > David
 Nick > Kite
 Avataro > Avaro
-Hookshot > Yoshot
 green-kirby > Lunaria > Mani Kanina
+Hookshot > Yoshot > Haritiro
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
