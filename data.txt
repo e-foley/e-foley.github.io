@@ -2397,7 +2397,7 @@ Shane; png; 2
 Fireblast124; png; 3
 Koh; png; 3
 Yoshidude; png; 7
-Pokemonmaster64; png; 2
+Pokemonmaster64; Pokemonmaster64-OriginalScreen; png; 2
 William; png; 10
 Feenicks; png; 13
 Twilight_Knight; png; 4
