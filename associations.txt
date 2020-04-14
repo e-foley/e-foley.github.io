@@ -113,6 +113,7 @@ Nick > Kite
 Avataro > Avaro
 green-kirby > Lunaria > Mani Kanina
 Hookshot > Yoshot > Haritiro
+Fireblast124 > Forgotten Third Eye > SubconsciousEye
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
