@@ -3,6 +3,7 @@
 // Put each member's most recent name on the right.
 // Any amount of whitespace can be placed around the '>' characters as desired.
 
+DarkSFK > Bob
 StarFox > Fox
 Kitsune > August Yifu
 zeldalord > ZeldaLord
@@ -26,9 +27,7 @@ XdragonSB > NineLives
 dlbrooks34 > Koh
 Petoe > Peteo
 DragonBoy > /M/
-Old-Skool > King Aquamentus
 Shiek > Sheik > Sheik91 > Yoshimi > Sheik
-Nuvo > Strato
 Evan the great > Evile
 Linkus Mastii > Linkus
 Trimaster001 > TriMaster001 > Dawnlight
@@ -55,7 +54,6 @@ Gonken > Supindahood
 Revfan9 > Giggidy
 Darklink813 > Takuya
 FefeRawft > Chakaa
-Lord Ike > Furion > Marco
 General Fondue > andrewmcd1
 // Note: not clear whether "HWMM" was actually used on the forum
 HWMM > Hot Water Music Man > Lemmy Koopa
@@ -63,7 +61,6 @@ Kenster > RockinRollFan64 > KenMeister
 Kingboo30 > Deathbringer
 Linkman90 > Highsight
 Pokemonmaster64 > Moosh
-rocksfan13 > Link
 Sir Pimpalot > Mr. Pimpy
 Snort > Sephiroth
 XxGamasterxX > Cameron
@@ -74,14 +71,11 @@ Orin XD > Orithan
 demonlink14 > Demonlink
 linkmystro100 > LinkMystro > Rafael > ElLibertador
 JJ83 > TK8305
-
-// More recent
 cremeens1000 > Keiichi123 > Tree
 Jake > Darkspawn > Naldrag > Ska Glampunk > Naldrag
 OOTFan > Sepulcher > Xenix
 Lord Settra! > Rastael
 Twinblake > Obderhode
-LunarRedMage > Nokutaa-chan
 blackbishop89 > LordVolcanon > Palpaleos > Zecora > Freyja > Freya > Mero
 EddyTheOliveira > Eddy
 joelmacool12 > Joelmacool12 > Joelmacool
@@ -90,8 +84,6 @@ Koishi > Nekoishi > Plutia
 Franky > Omega
 link3505 > Gashin > Relic > link3505
 Migokalle > Galactic President Superstar McAwesomeville > Robin > Migokalle > Robin > Asstwat > Robin > Migokalle
-coolgamer012345 > Coolgamer012345 > TheBlueTophat
-Hero Link > Angeal > Pinkie Pie > Rydia > Angeal > Rydia > Lana > Linkle > Neptune
 HeavyTitanium > Titanium Justice
 GrantGreif > MarinaraSauce
 jetbox > JetBox
@@ -116,6 +108,22 @@ Fireblast124 > Forgotten Third Eye > SubconsciousEye
 a30502355 > Tabletpillow
 codelinker8705 > codelinker > Breadguy
 crazyal02 > crazya02 > alek
+fuzzyman > Fuzzyman > Fuzzy
+Hatsunem64 > LunarRedMage > Nokutaa-chan > LunarRedMage > LunarWeeb > Luspeon
+Ganondorf > Quanta
+Old-Skool > King Aquamentus > Old-Skool
+legend27 > /phoneme/
+rocksfan13 > Link > Rocksfan13
+// "Astromeow" is a different account, but the same person
+Lord Ike > Furion > Marco > Astromeow
+Hero Link > Angeal > Pinkie Pie > Rydia > Angeal > Rydia > Lana > Linkle > Neptune > Rydia > Neppy
+Ovasity > Smiles the Death Bringer
+SerpitaX > BitZero
+skipper > Skipper
+Nuvo > Strato > Nuvo
+Sylph > Dream Illusionist
+coolgamer012345 > Coolgamer012345 > TheBlueTophat > TheBlueTopay'za > Midnight_King_II > TheBlueTophat > coolgamer012345
+
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
@@ -128,12 +136,30 @@ crazyal02 > crazya02 > alek
 1245: Yoshi > Tails > Pikachu > Fluttershy
 29458: Midnight_King > Shane > Charizard > Shane > Polaris > Shane > Midnight King > Shane > Yoshi
 48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3 > Yoshi > Buddy
-// The above also "Midnight_King" with 29458 for April Fools' 2018
+// The below also "Midnight_King" with 29458 for April Fools' 2018
 294248: arceusplayer11 > Arceus > Dimentio > Midnight_King > Dimentio > Dimi
 
+// Banned members whose profiles may be harder to find
+// (No functional purpose; listed here for my own reference. A–D may not be complete.)
+// aaa2
+// anikom15
+// August Yifu
+// Chris Miller
+// Cukeman
+// Demimore
+// EnnonFenom
+// Giggidy
+// Jaivaz
+// Majora
+// Mero
+// Sharon Daniel
 
-// EDUCATED GUESSES
-DarkSFK > Bob
+// Guests and others I couldn't find information on
+// (No functional purpose; listed here for my own reference.)
+// KingdomChamp225
+// mjctraider
+// noleafxclover
+// Zeldafreak (real name is apparently Shane, but it's unlikely to be the be the same Shane as Yoshi because of timing differences)
 
 // NOTES
 // XdragonSB and XMSB are different people

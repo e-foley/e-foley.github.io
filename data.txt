@@ -1750,10 +1750,11 @@ EnnonFenom; Ennon; gif; 15
 Molten Onyx; MO; gif; 26
 T. Platinum; TP; jpg; 4
 
+// noleafxclover's shot was removed during the contest, so I've removed them from the poll
 #246 @ 39752
 LostInHyru1e; LostinHyru1e; jpg; 9
 blue_knight; jpg; 3
-noleafxclover; 2
+// noleafxclover; 2
 blaman; Blaman; png; 3
 Migokalle; png; 4
 Joe123; png; 15
@@ -3406,7 +3407,7 @@ Dwarlen; png; 6
 Nekoishi; gif; 9
 joelmacool12; png; 17
 ZeldaPlayer; png; 4
-Zehalfor; png; 5
+Zahalfor; png; 5
 Dwarlen; png; 7
 
 #491 @ 65973

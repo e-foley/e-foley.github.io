@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+@import url("../style.css");
+</style>
+<script language="javascript">
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
+
+<title>Fuzzy&rsquo;s SOTW Profile</title>
+</head>
+<body>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
+<div class='grand-title'>Fuzzy&rsquo;s Screenshot of the Week Profile</div>
+<!--<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>test</span></div>-->
+<!--navbar code--><script src='../generate_navbar.js'></script><div id='navbar' class='navtablediv'></div><script>document.getElementById('navbar').innerHTML = generateNavbar('', 1);</script><!--end navbar code-->
+<div class='former-names'>Other names used: Fuzzyman, fuzzyman</div><div class='member-details-div'><table class='member-details-table'><tr class='member-details-header-row'><td colspan='4'>Fuzzy&rsquo;s stats</td></tr>
+<tr class='member-details-subheader-row'><td class='member-details-subheader-cell'>Category</td><td class='member-details-subheader-cell'>Value</td><td class='member-details-subheader-cell'>Rank</td><td class='member-details-subheader-cell'>Details</td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Rating</td><td class='member-details-cell value-cell'>1,438</td><td class='member-details-cell rank-cell'>t&#8209;213&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Total votes</td><td class='member-details-cell value-cell'>1</td><td class='member-details-cell rank-cell'>t&#8209;306&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'>1 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=33642'>#190</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most votes in one contest</td><td class='member-details-cell value-cell'>1</td><td class='member-details-cell rank-cell'>t&#8209;306&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=33642'>#190</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Wins</td><td class='member-details-cell value-cell'>0</td><td class='member-details-cell rank-cell'>t&#8209;154&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'>N/A</td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Entries</td><td class='member-details-cell value-cell'>1</td><td class='member-details-cell rank-cell'>t&#8209;269&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=33642'>#190</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most consecutive contests entered</td><td class='member-details-cell value-cell'>1</td><td class='member-details-cell rank-cell'>t&#8209;269&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=33642'>#190</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most consecutive contests won</td><td class='member-details-cell value-cell'>0</td><td class='member-details-cell rank-cell'>t&#8209;154&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'>N/A</td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most consecutive attempts won</td><td class='member-details-cell value-cell'>0</td><td class='member-details-cell rank-cell'>t&#8209;154&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'>N/A</td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Win ratio (5-entry minimum)</td><td class='member-details-cell value-cell'>N/A</td><td class='member-details-cell rank-cell'>&#8210;&nbsp;<span class='num-qualifiers'>/&nbsp;157</span></td><td class='member-details-cell details'>0 wins in 1 attempt</td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus votes</td><td class='member-details-cell value-cell'>-44</td><td class='member-details-cell rank-cell'>190&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'>-44 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=33642'>#190</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus wins</td><td class='member-details-cell value-cell'>-3</td><td class='member-details-cell rank-cell'>t&#8209;171&nbsp;<span class='num-qualifiers'>/&nbsp;342</span></td><td class='member-details-cell details'>-3 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=33642'>#190</a></td></tr>
+</table></div>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW190/fuzzyman.jpg'><img class='picture-picture' title='Fuzzy' src='http://sotw.purezc.net/SOTW190/fuzzyman.jpg'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=33642'>Screenshot of the Week 190</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[v0.4.1] Elo-based determination of entrant&rsquo;s performance in contests up to and including this one. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW190/SotW190billyronald.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW190/SotW190billyronald.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./OldInactiveMember.html'>Old Inactive Member</a><br/><span class='old-name'>(as billy ronald)</span></div></span></td><td class='votes'>1</td><td class='percentage'>2.04%</td><td class='rating'>1,237 (-44)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW190/SotW190CastChaos.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW190/SotW190CastChaos.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./CastChaos.html'>CastChaos</a></div></span></td><td class='votes'>2</td><td class='percentage'>4.08%</td><td class='rating'>1,215 (-35)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW190/Evile.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW190/Evile.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Evile.html'>Evile</a></div></span></td><td class='votes'>20</td><td class='percentage'>40.82%</td><td class='rating'>1,763 (+38)</td>
+</tr><tr class='entry highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW190/fuzzyman.jpg'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW190/fuzzyman.jpg")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Fuzzy.html'>Fuzzy</a><br/><span class='old-name'>(as fuzzyman)</span></div></span></td><td class='votes'>1</td><td class='percentage'>2.04%</td><td class='rating'>1,438 (-62)</td>
+</tr><tr class='entry winner'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW190/Trimaster001.gif'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW190/Trimaster001.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Dawnlight.html'>Dawnlight</a><br/><span class='old-name'>(as TriMaster001)</span></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>25</td><td class='percentage'>51.02%</td><td class='rating'>1,515 (+103)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>49</td><td></td><td class='points'></td></tr></table>
+
+</span></td></tr></table><div class='notes'>Background shots by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik. Table style adapted from a design &#169; by Wild Bill. All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+
+</div>
+</body>
+</html>
