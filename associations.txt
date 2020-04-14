@@ -14,7 +14,6 @@ BH4 > ShadowTiger
 PolygonX8 > DarthExater > PolygonX8 > Exate
 Javaiz867 > Jaivaz867 > Jaivaz
 Ian > IaN
-codelinker8705 > codelinker
 Shashomaru > Manifesto Empire
 tobias_daboi > Tobias Daboi > Rex Zemenheart > Anthus
 Hunter P. > Hunter P Brown
@@ -114,6 +113,9 @@ Avataro > Avaro
 green-kirby > Lunaria > Mani Kanina
 Hookshot > Yoshot > Haritiro
 Fireblast124 > Forgotten Third Eye > SubconsciousEye
+a30502355 > Tabletpillow
+codelinker8705 > codelinker > Breadguy
+crazyal02 > crazya02 > alek
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
