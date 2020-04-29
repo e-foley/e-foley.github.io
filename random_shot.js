@@ -3141,7 +3141,14 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW725/TheRock.png', 'names': 'TheRock', 'contest': '725', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75848'},
     {'url': 'http://sotw.purezc.net/SOTW726/Joelmacool.png', 'names': 'Joelmacool', 'contest': '726', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75874'},
     {'url': 'http://sotw.purezc.net/SOTW726/ManiKanina.png', 'names': 'Mani Kanina', 'contest': '726', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75874'},
-    {'url': 'http://sotw.purezc.net/SOTW726/Yoshi.png', 'names': 'Yoshi', 'contest': '726', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75874'}
+    {'url': 'http://sotw.purezc.net/SOTW726/Yoshi.png', 'names': 'Yoshi', 'contest': '726', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75874'},
+    {'url': 'http://sotw.purezc.net/SOTW727/Demonlink.png', 'names': 'Demonlink', 'contest': '727', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75904'},
+    {'url': 'http://sotw.purezc.net/SOTW727/Haritiro.png', 'names': 'Haritiro', 'contest': '727', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75904'},
+    {'url': 'http://sotw.purezc.net/SOTW727/Joelmacool.png', 'names': 'Joelmacool', 'contest': '727', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75904'},
+    {'url': 'http://sotw.purezc.net/SOTW727/klop422.png', 'names': 'klop422', 'contest': '727', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75904'},
+    {'url': 'http://sotw.purezc.net/SOTW727/Matthew.png', 'names': 'Nimono', 'contest': '727', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75904'},
+    {'url': 'http://sotw.purezc.net/SOTW727/Shane.png', 'names': 'Yoshi', 'contest': '727', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75904'},
+    {'url': 'http://sotw.purezc.net/SOTW727/ywkls.png', 'names': 'ywkls', 'contest': '727', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75904'}
 ];
 
 function getRandomShot() {
