@@ -359,7 +359,7 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW103/Lecayle.gif', 'names': 'Lecayle', 'contest': '103', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15433'},
     {'url': 'http://sotw.purezc.net/SOTW103/Linkus%20Mastii.gif', 'names': 'Linkus', 'contest': '103', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15433'},
     {'url': 'http://sotw.purezc.net/SOTW103/XdragonSB.png', 'names': 'NineLives', 'contest': '103', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15433'},
-    {'url': 'http://sotw.purezc.net/SOTW103/Zc-Ninja.png', 'names': 'Lemon', 'contest': '103', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15433'},
+    {'url': 'http://sotw.purezc.net/SOTW103/ZC-Ninja.png', 'names': 'Lemon', 'contest': '103', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15433'},
     {'url': 'http://sotw.purezc.net/SOTW104/Jonathan.gif', 'names': 'Jonathan', 'contest': '104', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15565'},
     {'url': 'http://sotw.purezc.net/SOTW104/Setzer.PNG', 'names': 'Setzer', 'contest': '104', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15565'},
     {'url': 'http://sotw.purezc.net/SOTW104/Shoelace.GIF', 'names': 'Shoelace', 'contest': '104', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=15565'},
@@ -3157,9 +3157,12 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW728/Shane.png', 'names': 'Yoshi', 'contest': '728', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75932'}
 ];
 
-function getRandomShot() {
-  var rando = Math.random() * all_shots.length;
-  return all_shots[Math.floor(rando)];
+function getShot(index) {
+  return all_shots[index];
+}
+
+function getNumShots() {
+  return all_shots.length;
 }
 
 function getNumShotsString() {

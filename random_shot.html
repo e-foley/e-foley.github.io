@@ -5,10 +5,58 @@
 <style>@import url("style.css");</style>
 <script src='random_shot.js'></script>
 <script>
-function populateRandomInfo() {
-  var randoshot = getRandomShot();
-  document.getElementById('randoshot').src = randoshot.url;
-  document.getElementById('randoshotcaption').innerHTML = randoshot.names + " (#" + randoshot.contest + ")";
+var display_buffered_shots = false;  // For debugging only.
+var buffered_shot_width = "100px";  // For debugging only.
+var display_index = 0;  // Index of element currently displayed on the site.
+var buffer_length = 5;
+var buffer_map = [];  // Relates image IDs to indices.
+var buffer = [];  // Contains shot information itself.
+var random_sequence = [];  // Randomly ordered indices.
+var shot_index = 0;
+
+function init() {
+  initializeBufferMap();
+  generateBufferImages();
+  random_sequence = getRandomSequence(getNumShots());
+  for (var i = 0; i < buffer_length; ++i) {
+    assignBufferEntry(i, getShot(random_sequence[display_index % getNumShots()]));
+    ++display_index;
+  }
+  prepareAndHideBufferedImage(display_index % buffer_length);
+  populateNumShots();
+}
+
+function initializeBufferMap() {
+  for (var i = 0; i < buffer_length; ++i) {
+    buffer_map[i] = "buffer" + i.toString();
+  }
+}
+
+function generateBufferImages() {
+  var style_string = "display:" + (display_buffered_shots ? "inline" : "none") + "; width:" + buffered_shot_width + ";";
+  for (var i = 0; i < buffer_length; ++i) {
+    document.write("<img id='" + buffer_map[i] + "' src='' style='" + style_string + "' />\n");
+  }
+}
+
+function assignBufferEntry(buffer_index, shot_info) {
+  // Assiging means updating the buffer[] element and loading the image.
+  buffer[buffer_index] = shot_info;
+  document.getElementById(buffer_map[buffer_index]).src = shot_info.url;
+}
+
+function prepareAndHideBufferedImage(buffer_index) {
+  // Briefly hide the image while we figure out client size, etc.
+  document.getElementById('randoshot').style.visibility = 'hidden';
+  document.getElementById('randoshot').src = buffer[buffer_index].url;
+  document.getElementById('randoshotcaption').innerHTML = buffer[buffer_index].names + " (#" + buffer[buffer_index].contest + ")";
+}
+
+function nextShot() {
+  // Update the display image, then immediately replace the buffered image.
+  ++display_index;
+  prepareAndHideBufferedImage(display_index % buffer_length);
+  assignBufferEntry(display_index % buffer_length, getShot(random_sequence[display_index % getNumShots()]));
 }
 
 // Until SotW 418, images were stored at their original size. They're now stored
@@ -26,10 +74,35 @@ function adjustSize() {
   }
 
   randoimg.style.height = (pixelScale * randoimg.naturalHeight).toString() + "px";
+  // Unhide image (see prepareAndHideBufferedImage())
+  document.getElementById('randoshot').style.visibility = 'visible';
 }
 
 function populateNumShots() {
   document.getElementById('numshots').innerHTML = getNumShotsString();
+}
+
+function processKeyboardInput(evt) {
+  evt = evt || window.event;
+  var char_code = evt.keyCode || evt.which;
+  // 13 is enter; 32 is space.
+  if (!evt.repeat && (char_code == 13 || char_code == 32)) {
+    nextShot();
+  }
+};
+
+function getRandomSequence(length) {
+  var indices = [];
+  for (var i = 0; i < length; ++i) {
+    indices[i] = i;
+  }
+  var returning = [];
+  for (var i = 0; i < length; ++i) {
+    var next_index = Math.floor(Math.random() * indices.length);
+    returning[i] = indices[next_index];
+    indices.splice(next_index, 1);
+  }
+  return returning;
 }
 </script>
 <title>Random Screenshot</title>
@@ -41,8 +114,8 @@ function populateNumShots() {
 <!--navbar code--><script src='generate_navbar.js'></script><div id='navbar' class='navtablediv'></div><script>document.getElementById('navbar').innerHTML = generateNavbar('random_shot', 0);</script><!--end navbar code-->
 <div class='randoshotdiv' id='randoshotdiv'><img class='randoshot pixelated' id='randoshot' onload='adjustSize()' src='' /></div>
 <div class='randoshotcaption' id='randoshotcaption'></div>
-<button class='randoshotbutton' onclick='populateRandomInfo()'>Another random shot, please.</button>
-<script>populateNumShots(); populateRandomInfo();</script>
+<button type='button' class='randoshotbutton' onmousedown='nextShot()' onkeydown='processKeyboardInput()' autofocus>Another shot, please.</button>
+<script>init();</script>
 <div class='notes'>Background shots by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik. Table style adapted from a design &#169; by Wild Bill. All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
 </div>
 </body>

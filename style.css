@@ -714,9 +714,19 @@ td.contest-cell
 {
   display: block;
   margin: 0px auto;
+  height: 3em;
   font-size: 1em;
   background-color: #CCFFCC;
   color: #000000;
+  border-style: outset;
+  border-color: #000000;
+  font-weight: bold;
+}
+
+.randoshotbutton:focus
+{
+  border-style: outset;
+  border-color: #00CCFF;
 }
 
 .pixelated

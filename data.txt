@@ -827,7 +827,7 @@ IaN; gif; 31
 Lecayle; gif; 1
 Linkus Mastii; gif; 0
 XdragonSB; png; 2
-ZC-Ninja; Zc-Ninja; png; 7
+ZC-Ninja; ZC-Ninja; png; 7
 
 #104 @ 15565
 Jonathan; gif; 30
