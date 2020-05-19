@@ -720,7 +720,7 @@ td.contest-cell
   color: #000000;
   border-style: outset;
   border-color: #000000;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .randoshotbutton:focus

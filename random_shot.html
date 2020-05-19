@@ -12,9 +12,9 @@ var buffer_length = 5;
 var buffer_map = [];  // Relates image IDs to indices.
 var buffer = [];  // Contains shot information itself.
 var random_sequence = [];  // Randomly ordered indices.
-var shot_index = 0;
 
 function init() {
+  populateNumShots();
   initializeBufferMap();
   generateBufferImages();
   random_sequence = getRandomSequence(getNumShots());
@@ -23,7 +23,8 @@ function init() {
     ++display_index;
   }
   prepareAndHideBufferedImage(display_index % buffer_length);
-  populateNumShots();
+  // Supply a new buffered image immediately. (Otherwise, the same image will reappear.)
+  assignBufferEntry(display_index % buffer_length, getShot(random_sequence[display_index % getNumShots()]));
 }
 
 function initializeBufferMap() {
