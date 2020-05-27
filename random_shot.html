@@ -46,6 +46,8 @@ function assignBufferEntry(buffer_index, shot_info) {
   document.getElementById(buffer_map[buffer_index]).src = shot_info.url;
 }
 
+// TODO: Change this to accept shot info instead. This will make it easier to
+// go backward through the sequence.
 function prepareAndHideBufferedImage(buffer_index) {
   // Briefly hide the image while we figure out client size, etc.
   document.getElementById('randoshot').style.visibility = 'hidden';

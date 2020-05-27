@@ -3154,7 +3154,10 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW728/Lordkronos.png', 'names': 'Lordkronos', 'contest': '728', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75932'},
     {'url': 'http://sotw.purezc.net/SOTW728/Orithan.png', 'names': 'Orithan', 'contest': '728', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75932'},
     {'url': 'http://sotw.purezc.net/SOTW728/xanadude.png', 'names': 'xanadude', 'contest': '728', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75932'},
-    {'url': 'http://sotw.purezc.net/SOTW728/Shane.png', 'names': 'Yoshi', 'contest': '728', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75932'}
+    {'url': 'http://sotw.purezc.net/SOTW728/Shane.png', 'names': 'Yoshi', 'contest': '728', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75932'},
+    {'url': 'http://sotw.purezc.net/SOTW729/HeroOfFire.png', 'names': 'HeroOfFire', 'contest': '729', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75951'},
+    {'url': 'http://sotw.purezc.net/SOTW729/Joelmacool.png', 'names': 'Joelmacool', 'contest': '729', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75951'},
+    {'url': 'http://sotw.purezc.net/SOTW729/shuji.png', 'names': 'shuji', 'contest': '729', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=75951'}
 ];
 
 function getShot(index) {
