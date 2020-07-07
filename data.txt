@@ -4917,10 +4917,15 @@ Anthus; png; 6
 Joelmacool; png; 8
 Orithan; png; 0
 Yoshi[29458]; png; 23
-/*
+
 #732 @ 76091
-Anthus; png; 
+Anthus; png; 18
+Haritiro; png; 11
+Joelmacool; png; 7
+Mani Kanina; Mani_Kanina; png; 3
+/*
+#733 @ 76134
 Haritiro; png; 
 Joelmacool; png; 
-Mani Kanina; Mani_Kanina; png; 
+Russ; png; 
 /*
