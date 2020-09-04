@@ -3182,7 +3182,13 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW735/HeroOfFire.png', 'names': 'HeroOfFire', 'contest': '735', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76213'},
     {'url': 'http://sotw.purezc.net/SOTW735/ManiKanina.png', 'names': 'Mani Kanina', 'contest': '735', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76213'},
     {'url': 'http://sotw.purezc.net/SOTW735/Shane.png', 'names': 'Shane', 'contest': '735', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76213'},
-    {'url': 'http://sotw.purezc.net/SOTW735/Tabletpillow.png', 'names': 'Tabletpillow', 'contest': '735', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76213'}
+    {'url': 'http://sotw.purezc.net/SOTW735/Tabletpillow.png', 'names': 'Tabletpillow', 'contest': '735', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76213'},
+    {'url': 'http://sotw.purezc.net/SOTW736/Evan20000.png', 'names': 'Evan20000', 'contest': '736', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76255'},
+    {'url': 'http://sotw.purezc.net/SOTW736/Haritiro.png', 'names': 'Haritiro', 'contest': '736', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76255'},
+    {'url': 'http://sotw.purezc.net/SOTW736/Jared.png', 'names': 'Jared', 'contest': '736', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76255'},
+    {'url': 'http://sotw.purezc.net/SOTW736/Joelmacool.png', 'names': 'Joelmacool', 'contest': '736', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76255'},
+    {'url': 'http://sotw.purezc.net/SOTW736/ManiKanina.png', 'names': 'Mani Kanina', 'contest': '736', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76255'},
+    {'url': 'http://sotw.purezc.net/SOTW736/Moosh.png', 'names': 'Moosh', 'contest': '736', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76255'}
 ];
 
 function getShot(index) {
