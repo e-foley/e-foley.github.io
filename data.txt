@@ -4950,14 +4950,20 @@ Jared; png; 9
 Joelmacool; png; 9
 Mani Kanina; ManiKanina; png; 0
 Moosh; png; 2
-/*
+
 #737 @ 76290
-Buddy; png; 
-Great Glass; GreatGlass; png; 
+Buddy; png; 7
+Great Glass; GreatGlass; png; 2
+Haritiro; png; 7
+HeroOfFire; png; 2
+Lynel Richie; LynelRichie; png; 0
+Moosh; png; 1
+Orithan; png; 2
+Twilight Knight; TwilightKnight; png; 24
+/*
+#738 @ 76327
+Bagu; png; 
+Eddy; png; 
 Haritiro; png; 
-HeroOfFire; png; 
-Lynel Richie; LynelRichie; png; 
-Moosh; png; 
-Orithan; png; 
-Twilight Knight; TwilightKnight; png; 
+Joelmacool; png; 
 /*
