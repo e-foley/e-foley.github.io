@@ -4960,10 +4960,15 @@ Lynel Richie; LynelRichie; png; 0
 Moosh; png; 1
 Orithan; png; 2
 Twilight Knight; TwilightKnight; png; 24
-/*
+
 #738 @ 76327
-Bagu; png; 
-Eddy; png; 
+Bagu; png; 5
+Eddy; png; 2
+Haritiro; png; 6
+Joelmacool; png; 23
+/*
+#739 @ 76352
+Buddy; png; 
 Haritiro; png; 
-Joelmacool; png; 
+HeroOfFire; png; 
 /*
