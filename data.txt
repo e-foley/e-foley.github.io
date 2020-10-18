@@ -4966,9 +4966,15 @@ Bagu; png; 5
 Eddy; png; 2
 Haritiro; png; 6
 Joelmacool; png; 23
-/*
+
 #739 @ 76352
-Buddy; png; 
+Buddy; png; 28
+Haritiro; png; 3
+HeroOfFire; png; 3
+/*
+#740 @ 76389
+FireSeraphim; png; 
+Geoffrey; png; 
 Haritiro; png; 
-HeroOfFire; png; 
+Joelmacool; png; 
 /*
