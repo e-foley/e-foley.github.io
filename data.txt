@@ -4977,9 +4977,14 @@ FireSeraphim; png; 3
 Geoffrey; png; 10
 Haritiro; png; 14
 Joelmacool; png; 7
-/*
+
 #741 @ 76404
+Bagu; png; 16
+Joelmacool; png; 14
+Twilight Knight; TwilightKnight; png; 8
+/*
+#742 @ 76427
 Bagu; png; 
+HeroOfFire; png; 
 Joelmacool; png; 
-Twilight Knight; TwilightKnight; png; 
 /*
