@@ -4982,9 +4982,17 @@ Joelmacool; png; 7
 Bagu; png; 16
 Joelmacool; png; 14
 Twilight Knight; TwilightKnight; png; 8
-/*
+
 #742 @ 76427
-Bagu; png; 
-HeroOfFire; png; 
+Bagu; png; 9
+HeroOfFire; png; 8
+Joelmacool; png; 26
+/*
+#743 @ 76477
+Ephemeral.7; Ephemeral; gif; 
+IronCreator; png; 
 Joelmacool; png; 
+Mana Kanina; ManiKanina; png; 
+Matthew; png; 
+Orithan; png; 
 /*
