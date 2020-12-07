@@ -3218,7 +3218,7 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW743/IronCreator.png', 'names': 'IronCreator', 'contest': '743', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76477'},
     {'url': 'http://sotw.purezc.net/SOTW743/Joelmacool.png', 'names': 'Joelmacool', 'contest': '743', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76477'},
     {'url': 'http://sotw.purezc.net/SOTW743/ManiKanina.png', 'names': 'Mana Kanina', 'contest': '743', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76477'},
-    {'url': 'http://sotw.purezc.net/SOTW743/Matthew.png', 'names': 'Nimono', 'contest': '743', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76477'},
+    {'url': 'http://sotw.purezc.net/SOTW743/Matthew.png', 'names': 'Matthew', 'contest': '743', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76477'},
     {'url': 'http://sotw.purezc.net/SOTW743/Orithan.png', 'names': 'Orithan', 'contest': '743', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76477'}
 ];
 
