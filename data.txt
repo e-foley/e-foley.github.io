@@ -4987,12 +4987,17 @@ Twilight Knight; TwilightKnight; png; 8
 Bagu; png; 9
 HeroOfFire; png; 8
 Joelmacool; png; 26
-/*
+
 #743 @ 76477
-Ephemeral.7; Ephemeral; gif; 
-IronCreator; png; 
-Joelmacool; png; 
-Mana Kanina; ManiKanina; png; 
-Matthew; png; 
-Orithan; png; 
+Ephemeral.7; Ephemeral; gif; 21
+IronCreator; png; 2
+Joelmacool; png; 2
+Mana Kanina; ManiKanina; png; 0
+Matthew; png; 11
+Orithan; png; 2
+/*
+#744 @ 76501
+Ephemeral.7; Ephemeral7; gif; 
+Haritiro; png; 
+HeroOfFire; png; 
 /*
