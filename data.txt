@@ -4995,9 +4995,15 @@ Joelmacool; png; 2
 Mana Kanina; ManiKanina; png; 0
 Matthew[294314]; png; 11
 Orithan; png; 2
-/*
+
 #744 @ 76501
-Ephemeral.7; Ephemeral7; gif; 
-Haritiro; png; 
+Ephemeral.7; Ephemeral7; gif; 24
+Haritiro; png; 22
+HeroOfFire; png; 4
+/*
+#745 @ 76523
+Bagu; png; 
 HeroOfFire; png; 
+Mitchfork; png; 
+Orithan; png; 
 /*
