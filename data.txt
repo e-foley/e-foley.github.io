@@ -5000,10 +5000,17 @@ Orithan; png; 2
 Ephemeral.7; Ephemeral7; gif; 24
 Haritiro; png; 22
 HeroOfFire; png; 4
-/*
+
 #745 @ 76523
+Bagu; png; 5
+HeroOfFire; png; 0
+Mitchfork; png; 36
+Orithan; png; 1
+/*
+Aslion; png; 
 Bagu; png; 
-HeroOfFire; png; 
+Hubydweyer; png; 
+Mani Kanina; ManiKanina; png; 
 Mitchfork; png; 
-Orithan; png; 
+Twilight Knight; TwilightKnight; png
 /*
