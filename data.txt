@@ -5006,11 +5006,12 @@ Bagu; png; 5
 HeroOfFire; png; 0
 Mitchfork; png; 36
 Orithan; png; 1
-/*
-Aslion; png; 
-Bagu; png; 
-Hubydweyer; png; 
-Mani Kanina; ManiKanina; png; 
-Mitchfork; png; 
-Twilight Knight; TwilightKnight; png
+
+#746 @ 76565
+Aslion; png; 12
+Bagu; png; 5
+Hubydweyer; png; 2
+Mani Kanina; ManiKanina; png; 0
+Mitchfork; png; 5
+Twilight Knight; TwilightKnight; png; 14
 /*
