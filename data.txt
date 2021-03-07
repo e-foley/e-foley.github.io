@@ -5029,10 +5029,16 @@ Haritiro; png; 9
 HeroOfFire; png; 1
 Jared; png; 3
 ywkls; png; 0
-/*
+
 #749 @ 76702
+HeroOFFire; png; 5
+Mitchfork; png; 23
+Sephiroth; png; 9
+Shane; png; 5
+/*
+#750 @ 76737
+Eddy; png; 
 HeroOfFire; png; 
-Mitchfork; png; 
-Sephiroth; png; 
-Shane; png; 
+Orithan; png; 
+Sheik; png; 
 /*
