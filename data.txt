@@ -5031,7 +5031,7 @@ Jared; png; 3
 ywkls; png; 0
 
 #749 @ 76702
-HeroOFFire; png; 5
+HeroOfFire; png; 5
 Mitchfork; png; 23
 Sephiroth; png; 9
 Shane; png; 5
