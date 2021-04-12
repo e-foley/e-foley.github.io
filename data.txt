@@ -5035,10 +5035,26 @@ HeroOfFire; png; 5
 Mitchfork; png; 23
 Sephiroth; png; 9
 Shane; png; 5
-/*
+
 #750 @ 76737
-Eddy; png; 
-HeroOfFire; png; 
-Orithan; png; 
-Sheik; png; 
+Eddy; png; 6
+HeroOfFire; png; 9
+Orithan; png; 20
+Sheik; png; 8
+
+#751 @ 76766
+Demonlink; png; 16
+Hergiswi; png; 7
+Joelmacool; png; 26
+
+#752 @ 76810
+Aslion; png; 16
+Demonlink; png; 9
+Einsiety; png; 15
+/*
+#753 @ 76853
+Aslion; png; 
+Haritiro; png; 
+Joelmacool; png; 
+Valerie; png; 
 /*
