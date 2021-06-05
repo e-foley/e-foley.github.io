@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+@import url("../style.css");
+</style>
+<script language="javascript">
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
+
+<title>TheManHimself&rsquo;s SOTW Profile</title>
+</head>
+<body>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
+<div class='grand-title'>TheManHimself&rsquo;s Screenshot of the Week Profile</div>
+<!--<div class='updated-text'>Last updated with the results of Screenshot of the Week <span style='font-weight:bold;'>test</span></div>-->
+<!--navbar code--><script src='../generate_navbar.js'></script><div id='navbar' class='navtablediv'></div><script>document.getElementById('navbar').innerHTML = generateNavbar('', 1);</script><!--end navbar code-->
+<div class='member-details-div'><table class='member-details-table'><tr class='member-details-header-row'><td colspan='4'>TheManHimself&rsquo;s stats</td></tr>
+<tr class='member-details-subheader-row'><td class='member-details-subheader-cell'>Category</td><td class='member-details-subheader-cell'>Value</td><td class='member-details-subheader-cell'>Rank</td><td class='member-details-subheader-cell'>Details</td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Rating</td><td class='member-details-cell value-cell'>1,640</td><td class='member-details-cell rank-cell'>57&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Total votes</td><td class='member-details-cell value-cell'>52</td><td class='member-details-cell rank-cell'>t&#8209;118&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'>22 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and 30 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most votes in one contest</td><td class='member-details-cell value-cell'>30</td><td class='member-details-cell rank-cell'>t&#8209;59&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Wins</td><td class='member-details-cell value-cell'>2</td><td class='member-details-cell rank-cell'>t&#8209;78&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Entries</td><td class='member-details-cell value-cell'>2</td><td class='member-details-cell rank-cell'>t&#8209;221&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most consecutive contests entered</td><td class='member-details-cell value-cell'>2</td><td class='member-details-cell rank-cell'>t&#8209;125&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most consecutive contests won</td><td class='member-details-cell value-cell'>2</td><td class='member-details-cell rank-cell'>t&#8209;21&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Most consecutive attempts won</td><td class='member-details-cell value-cell'>2</td><td class='member-details-cell rank-cell'>t&#8209;45&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'><a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Win ratio (5-entry minimum)</td><td class='member-details-cell value-cell'>N/A</td><td class='member-details-cell rank-cell'>&#8210;&nbsp;<span class='num-qualifiers'>/&nbsp;160</span></td><td class='member-details-cell details'>2 wins in 2 attempts</td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus votes</td><td class='member-details-cell value-cell'>114</td><td class='member-details-cell rank-cell'>48&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'>42 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and 72 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+<tr class='member-details-row'><td class='member-details-cell category-cell'>Plus/minus wins</td><td class='member-details-cell value-cell'>6</td><td class='member-details-cell rank-cell'>t&#8209;66&nbsp;<span class='num-qualifiers'>/&nbsp;347</span></td><td class='member-details-cell details'>3 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76885'>#754</a> and 3 in <a class='green' href='http://www.purezc.net/forums/index.php?showtopic=76912'>#755</a></td></tr>
+</table></div>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW755/Themanhimself.png'><img class='picture-picture' title='TheManHimself' src='http://sotw.purezc.net/SOTW755/Themanhimself.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=76912'>Screenshot of the Week 755</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[v0.4.1] Elo-based determination of entrant&rsquo;s performance in contests up to and including this one. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW755/Joelmacool.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW755/Joelmacool.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Joelmacool.html'>Joelmacool</a></div></span></td><td class='votes'>9</td><td class='percentage'>18.75%</td><td class='rating'>1,645 (-29)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW755/Lordkronos.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW755/Lordkronos.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Lordkronos.html'>Lordkronos</a></div></span></td><td class='votes'>1</td><td class='percentage'>2.08%</td><td class='rating'>1,365 (-46)</td>
+</tr><tr class='entry winner highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW755/Themanhimself.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW755/Themanhimself.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./TheManHimself.html'>TheManHimself</a></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>30</td><td class='percentage'>62.50%</td><td class='rating'>1,640 (+88)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW755/Valerie.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW755/Valerie.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Valerie.html'>Valerie</a></div></span></td><td class='votes'>8</td><td class='percentage'>16.67%</td><td class='rating'>1,439 (-14)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>48</td><td></td><td class='points'></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTW754/TheManHimself.png'><img class='picture-picture' title='TheManHimself' src='http://sotw.purezc.net/SOTW754/TheManHimself.png'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=76885'>Screenshot of the Week 754</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[v0.4.1] Elo-based determination of entrant&rsquo;s performance in contests up to and including this one. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW754/Jared.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW754/Jared.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Jared.html'>Jared</a></div></span></td><td class='votes'>12</td><td class='percentage'>26.09%</td><td class='rating'>1,656 (-17)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW754/ManiKanina.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW754/ManiKanina.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./ManiKanina.html'>Mani Kanina</a></div></span></td><td class='votes'>3</td><td class='percentage'>6.52%</td><td class='rating'>1,115 (-23)</td>
+</tr><tr class='entry winner highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW754/TheManHimself.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW754/TheManHimself.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./TheManHimself.html'>TheManHimself</a></div> <img class='winnericon' title='Winner!' src='../images/star.png'/></span></td><td class='votes'>22</td><td class='percentage'>47.83%</td><td class='rating'>1,552 (+52)</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTW754/Valerie.png'><img class='has-shot-icon' title='Click to view this shot' src='../images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTW754/Valerie.png")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='./Valerie.html'>Valerie</a></div></span></td><td class='votes'>9</td><td class='percentage'>19.57%</td><td class='rating'>1,453 (-12)</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>46</td><td></td><td class='points'></td></tr></table>
+
+</span></td></tr></table><div class='notes'>Background shots by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik. Table style adapted from a design &#169; by Wild Bill. All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+
+</div>
+</body>
+</html>
