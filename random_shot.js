@@ -3257,7 +3257,19 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW751/Joelmacool.png', 'names': 'Joelmacool', 'contest': '751', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76766'},
     {'url': 'http://sotw.purezc.net/SOTW752/Aslion.png', 'names': 'Aslion', 'contest': '752', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76810'},
     {'url': 'http://sotw.purezc.net/SOTW752/Demonlink.png', 'names': 'Demonlink', 'contest': '752', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76810'},
-    {'url': 'http://sotw.purezc.net/SOTW752/Einsiety.png', 'names': 'Einsiety', 'contest': '752', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76810'}
+    {'url': 'http://sotw.purezc.net/SOTW752/Einsiety.png', 'names': 'Einsiety', 'contest': '752', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76810'},
+    {'url': 'http://sotw.purezc.net/SOTW753/Aslion.png', 'names': 'Aslion', 'contest': '753', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76853'},
+    {'url': 'http://sotw.purezc.net/SOTW753/Haritiro.png', 'names': 'Haritiro', 'contest': '753', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76853'},
+    {'url': 'http://sotw.purezc.net/SOTW753/Joelmacool.png', 'names': 'Joelmacool', 'contest': '753', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76853'},
+    {'url': 'http://sotw.purezc.net/SOTW753/Valerie.png', 'names': 'Valerie', 'contest': '753', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76853'},
+    {'url': 'http://sotw.purezc.net/SOTW754/Jared.png', 'names': 'Jared', 'contest': '754', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76885'},
+    {'url': 'http://sotw.purezc.net/SOTW754/ManiKanina.png', 'names': 'Mani Kanina', 'contest': '754', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76885'},
+    {'url': 'http://sotw.purezc.net/SOTW754/TheManHImself.png', 'names': 'TheManHImself', 'contest': '754', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76885'},
+    {'url': 'http://sotw.purezc.net/SOTW754/Valerie.png', 'names': 'Valerie', 'contest': '754', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76885'},
+    {'url': 'http://sotw.purezc.net/SOTW755/Joelmacool.png', 'names': 'Joelmacool', 'contest': '755', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76912'},
+    {'url': 'http://sotw.purezc.net/SOTW755/Lordkronos.png', 'names': 'Lordkronos', 'contest': '755', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76912'},
+    {'url': 'http://sotw.purezc.net/SOTW755/TheManHimself.png', 'names': 'TheManHimself', 'contest': '755', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76912'},
+    {'url': 'http://sotw.purezc.net/SOTW755/Valerie.png', 'names': 'Valerie', 'contest': '755', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=76912'}
 ];
 
 function getShot(index) {
