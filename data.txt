@@ -5061,13 +5061,13 @@ Valerie; png; 6
 #754 @ 76885
 Jared; png; 12
 Mani Kanina; ManiKanina; png; 3
-TheManHImself; png; 22
+TheManHimself; png; 22
 Valerie; png; 9
 
 #755 @ 76912
 Joelmacool; png; 9
 Lordkronos; png; 1
-TheManHimself; png; 30
+TheManHimself; Themanhimself; png; 30
 Valerie; png; 8
 /*
 #756 @ 76941
