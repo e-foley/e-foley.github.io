@@ -5084,10 +5084,24 @@ Valerie; png; 9
 Jared; png; 27
 TheManHimself; png; 10
 Zephvan; png; 1
-/*
+
 #759 @ 77030
 Jenny; png; 
 P-Tux7; png; 
 Mitchfork; png; 
+Valerie; png; 
+
+#760 @ 77094
+Aslion; png; 12
+Demonlink; png; 11
+Rambly; png; 8
+TheManHimself; png; 7
+Twilight Knight; Twilight%20Knight; png; 3
+/*
+#761 @ 77120
+Aslion; png; 
+Demonlink; png; 
+Rambly; png; 
+Twilight Knight; Twilight%20Knight; png; 
 Valerie; png; 
 /*
