@@ -5086,10 +5086,10 @@ TheManHimself; png; 10
 Zephvan; png; 1
 
 #759 @ 77030
-Jenny; png; 
-P-Tux7; png; 
-Mitchfork; png; 
-Valerie; png; 
+Jenny; png; 4
+P-Tux7; png; 5
+Mitchfork; png; 21
+Valerie; png; 8
 
 #760 @ 77094
 Aslion; png; 12
