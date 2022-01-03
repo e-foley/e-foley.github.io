@@ -5116,11 +5116,17 @@ ANC; png; 4
 Bagu; png; 28
 I AM ERROR; I%20AM%20ERROR; png; 4
 Valerie; png; 7
-/*
+
 #764 @ 77276
-Blackpaintbowser; png; 
-Geoffrey; png; 
-Orithan; png; 
-Shoshon the Elegant; Shoshon%20the%20Elegant; png; 
-Valerie; png; 
-/* 
+Blackpaintbowser; png; 1
+Geoffrey; png; 28
+Orithan; png; 6
+Shoshon the Elegant; Shoshon%20the%20Elegant; png; 1
+Valerie; png; 2
+
+#765 @ 77316
+Bagu; png; 9
+Geoffrey; png; 18
+HeroOfFire; png; 2
+Sheik; png; 16
+/*
