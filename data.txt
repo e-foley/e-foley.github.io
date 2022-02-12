@@ -5129,4 +5129,21 @@ Bagu; png; 9
 Geoffrey; png; 18
 HeroOfFire; png; 2
 Sheik; png; 16
+
+#766 @ 77411
+Aroten; png; 14
+HeroOfFire; png; 1
+Joelmacool; png; 9
+Orithan; png; 3
+Taco Chopper; Taco%20Chopper; png; 2
+
+#767 @ 77438
+BigJoe; png; 5
+Jared; png; 24
+Zaxarone; png; 5
+/*
+#768 @ 77478
+Jenny; png; 
+Orithan; png; 
+Twilight Knight; png; 
 /*
