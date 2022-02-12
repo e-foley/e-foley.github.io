@@ -122,13 +122,13 @@ SerpitaX > BitZero
 skipper > Skipper
 Sylph > Dream Illusionist
 coolgamer012345 > Coolgamer012345 > TheBlueTophat > TheBlueTopay'za > Midnight_King_II > TheBlueTophat > coolgamer012345
-BigJoe > Big Wig Big Joe > BigJoe > No one > BigJoe > IronCreator
 Ebola Zaire > Mitchfork
 Zagut > Zephvan
 FanofSMBX > P-Tux7
 Nuvo > Strato > Nuvo > Colin
 ANC > Blackpaintbowser
 shuji > Aroten
+BigJoe > Big Wig Big Joe > BigJoe > No one > BigJoe > IronCreator > BigJoe > Deft War > BigJoe > Adamantium > BigJoe
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
