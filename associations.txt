@@ -128,6 +128,7 @@ Zagut > Zephvan
 FanofSMBX > P-Tux7
 Nuvo > Strato > Nuvo > Colin
 ANC > Blackpaintbowser
+shuji > Aroten
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
