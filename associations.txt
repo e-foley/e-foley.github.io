@@ -129,6 +129,7 @@ Nuvo > Strato > Nuvo > Colin
 ANC > Blackpaintbowser
 shuji > Aroten
 BigJoe > Big Wig Big Joe > BigJoe > No one > BigJoe > IronCreator > BigJoe > Deft War > BigJoe > Adamantium > BigJoe
+GreatJK > Aefre
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"

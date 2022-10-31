@@ -5141,9 +5141,29 @@ Taco Chopper; Taco%20Chopper; png; 2
 BigJoe; png; 5
 Jared; png; 24
 Zaxarone; png; 5
-/*
+
 #768 @ 77478
-Jenny; png; 
-Orithan; png; 
-Twilight Knight; png; 
+Jenny; png; 17
+Orithan; png; 4
+Twilight Knight; png; 18
+
+#769 @ 77573
+Blackpaintbowser; png; 3
+Hergiswi; png; 3
+Jenny; png; 10
+Joelmacool; png; 6
+Nightmare; png; 1
+Orithan; png; 6
+Twilight Knight; Twilight%20Knight; png; 13
+
+#M190 @ 77652
+Aefre; png; 21
+Einsiety; png; 5
+Majora; png; 4
+Taco Chopper; Taco%20Chopper; png; 8
+/*
+#M191 @ 77699
+Aroten; png; 28
+Ether; png; 12
+Orithan; png; 8
 /*
