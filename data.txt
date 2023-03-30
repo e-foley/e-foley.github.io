@@ -5168,4 +5168,27 @@ Aroten; png; 31
 Ether; png; 13
 Orithan; png; 9
 * SotW 771 was originally held as SotM 191 but was renamed retroactively.
+
+#772 @ 77947
+Feenicks; png; 2
+Huge Bedwetter; Huge_Bedwetter; png; 5
+Mitchfork; png; 8
+Naldrag; png; 1
+THEMDODO; png; 2
+xanadude; png; 14
+
+#773 @ 78010
+Anthus; png; 11
+Feenicks; png; 3
+HeroOfFire; png; 1
+Jenny; png; 9
+Sheik; png; 9
+THEMDODO; png; 2
+/*
+#774 @ 78037
+Architect Abdiel; ArchitectAbidel; png; 
+Feenicks; png; 
+Mitchfork; png; 
+Taco Chopper; TacoChopper; png; 
+Twilight Knight; TwilightKnight; png; 
 /*
