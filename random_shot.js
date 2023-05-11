@@ -3347,13 +3347,13 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW773/Jenny.png', 'names': 'Jenny', 'contest': '773', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78010'},
     {'url': 'http://sotw.purezc.net/SOTW773/Sheik.png', 'names': 'Sheik', 'contest': '773', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78010'},
     {'url': 'http://sotw.purezc.net/SOTW773/THEMDODO.png', 'names': 'THEMDODO', 'contest': '773', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78010'},
-    {'url': 'http://sotw.purezc.net/SOTW774/ArchitectAbidel.png', 'names': 'Architect Abdiel', 'contest': '774', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78037'},
+    {'url': 'http://sotw.purezc.net/SOTW774/ArchitectAbdiel.png', 'names': 'Architect Abdiel', 'contest': '774', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78037'},
     {'url': 'http://sotw.purezc.net/SOTW774/Feenicks.png', 'names': 'Feenicks', 'contest': '774', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78037'},
     {'url': 'http://sotw.purezc.net/SOTW774/Mitchfork.png', 'names': 'Mitchfork', 'contest': '774', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78037'},
     {'url': 'http://sotw.purezc.net/SOTW774/TacoChopper.png', 'names': 'Taco Chopper', 'contest': '774', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78037'},
     {'url': 'http://sotw.purezc.net/SOTW774/TwilightKnight.png', 'names': 'Twilight Knight', 'contest': '774', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78037'},
     {'url': 'http://sotw.purezc.net/SOTW775/ArchitectAbdiel.png', 'names': 'Architect Abdiel', 'contest': '775', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78076'},
-    {'url': 'http://sotw.purezc.net/SOTW775/Aslion.png', 'names': 'Aslion', 'contest': '775', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78076'},
+    {'url': 'http://sotw.purezc.net/SOTW775/Aslion.gif', 'names': 'Aslion', 'contest': '775', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78076'},
     {'url': 'http://sotw.purezc.net/SOTW775/Feenicks.png', 'names': 'Feenicks', 'contest': '775', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78076'},
     {'url': 'http://sotw.purezc.net/SOTW775/Joelmacool.png', 'names': 'Joelmacool', 'contest': '775', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78076'},
     {'url': 'http://sotw.purezc.net/SOTW775/Mitchfork.png', 'names': 'Mitchfork', 'contest': '775', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78076'},
@@ -3362,7 +3362,7 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW776/ArchitectAbdiel.png', 'names': 'Architect Abdiel', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
     {'url': 'http://sotw.purezc.net/SOTW776/Blackpaintbowser.png', 'names': 'Blackpaintbowser', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
     {'url': 'http://sotw.purezc.net/SOTW776/Orithan.png', 'names': 'Orithan', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
-    {'url': 'Twilight Knight', 'names': 'Twilight Knight', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
+    {'url': 'TwilightKnight', 'names': 'Twilight Knight', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
     {'url': 'http://sotw.purezc.net/SOTW776/xanadude.png', 'names': 'xanadude', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'}
 ];
 

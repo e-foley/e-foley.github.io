@@ -5186,7 +5186,7 @@ Sheik; png; 9
 THEMDODO; png; 2
 
 #774 @ 78037
-Architect Abdiel; ArchitectAbidel; png; 4
+Architect Abdiel; ArchitectAbdiel; png; 4
 Feenicks; png; 4
 Mitchfork; png; 4
 Taco Chopper; TacoChopper; png; 10
@@ -5194,7 +5194,7 @@ Twilight Knight; TwilightKnight; png; 6
 
 #775 @ 78076
 Architect Abdiel; ArchitectAbdiel; png; 3
-Aslion; png; 11
+Aslion; gif; 11
 Feenicks; png; 1
 Joelmacool; png; 6
 Mitchfork; png; 5
@@ -5205,7 +5205,7 @@ xanadude; png; 1
 Architect Abdiel; ArchitectAbdiel; png; 4
 Blackpaintbowser; png; 7
 Orithan; png; 2
-Twilight Knight; Twilight Knight; 3
+Twilight Knight; TwilightKnight; 3
 xanadude; png; 14
 /*
 #777 @ 78114
