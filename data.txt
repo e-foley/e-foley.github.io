@@ -5205,7 +5205,7 @@ xanadude; png; 1
 Architect Abdiel; ArchitectAbdiel; png; 4
 Blackpaintbowser; png; 7
 Orithan; png; 2
-Twilight Knight; TwilightKnight; 3
+Twilight Knight; TwilightKnight; png; 3
 xanadude; png; 14
 /*
 #777 @ 78114
