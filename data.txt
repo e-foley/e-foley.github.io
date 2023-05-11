@@ -5184,11 +5184,33 @@ HeroOfFire; png; 1
 Jenny; png; 9
 Sheik; png; 9
 THEMDODO; png; 2
-/*
+
 #774 @ 78037
-Architect Abdiel; ArchitectAbidel; png; 
+Architect Abdiel; ArchitectAbidel; png; 4
+Feenicks; png; 4
+Mitchfork; png; 4
+Taco Chopper; TacoChopper; png; 10
+Twilight Knight; TwilightKnight; png; 6
+
+#775 @ 78076
+Architect Abdiel; ArchitectAbdiel; png; 3
+Aslion; png; 11
+Feenicks; png; 1
+Joelmacool; png; 6
+Mitchfork; png; 5
+Taco Chopper; TacoChopper; png; 3
+xanadude; png; 1
+
+#776 @ 78094
+Architect Abdiel; ArchitectAbdiel; png; 4
+Blackpaintbowser; png; 7
+Orithan; png; 2
+Twilight Knight; Twilight Knight; 3
+xanadude; png; 14
+/*
+#777 @ 78114
+Architect Abdiel; ArchitectAbdiel; png; 
+Anthus; png; 
+BigJoe; png; 
 Feenicks; png; 
-Mitchfork; png; 
-Taco Chopper; TacoChopper; png; 
-Twilight Knight; TwilightKnight; png; 
 /*

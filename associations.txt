@@ -89,7 +89,6 @@ GrantGreif > MarinaraSauce
 jetbox > JetBox
 linktopower > Ventus > Benji > Ventus > FireBlazeWolf > Ventus
 GenGaming > xanadude
-Maikeru D. Shinigami > Shoshon the Elegant
 sonicfan350 > Zephyr_Eevee > Goriya > Nexas > Eins > Einsiety
 Zaxarone > Zaxaphone > Zaxarone
 Billy Ronald > billy ronald > BillPzc > Old Inactive Member
@@ -130,6 +129,8 @@ ANC > Blackpaintbowser
 shuji > Aroten
 BigJoe > Big Wig Big Joe > BigJoe > No one > BigJoe > IronCreator > BigJoe > Deft War > BigJoe > Adamantium > BigJoe
 GreatJK > Aefre
+Hubydweyer > Huge Bedwetter
+Maikeru D. Shinigami > Shoshon the Elegant > Architect Abdiel
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
