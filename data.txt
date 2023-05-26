@@ -5207,10 +5207,15 @@ Blackpaintbowser; png; 7
 Orithan; png; 2
 Twilight Knight; TwilightKnight; png; 3
 xanadude; png; 14
-/*
+
 #777 @ 78114
+Architect Abdiel; ArchitectAbdiel; png; 11
+Anthus; png; 5
+BigJoe; png; 4
+Feenicks; png; 8
+/*
 Architect Abdiel; ArchitectAbdiel; png; 
 Anthus; png; 
-BigJoe; png; 
 Feenicks; png; 
+Twilight Knight; TwilightKnight; png; 
 /*

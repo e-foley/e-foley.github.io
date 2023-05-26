@@ -3363,7 +3363,11 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW776/Blackpaintbowser.png', 'names': 'Blackpaintbowser', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
     {'url': 'http://sotw.purezc.net/SOTW776/Orithan.png', 'names': 'Orithan', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
     {'url': 'http://sotw.purezc.net/SOTW776/TwilightKnight.png', 'names': 'Twilight Knight', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
-    {'url': 'http://sotw.purezc.net/SOTW776/xanadude.png', 'names': 'xanadude', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'}
+    {'url': 'http://sotw.purezc.net/SOTW776/xanadude.png', 'names': 'xanadude', 'contest': '776', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78094'},
+    {'url': 'http://sotw.purezc.net/SOTW777/ArchitectAbdiel.png', 'names': 'Architect Abdiel', 'contest': '777', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78114'},
+    {'url': 'http://sotw.purezc.net/SOTW777/Anthus.png', 'names': 'Anthus', 'contest': '777', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78114'},
+    {'url': 'http://sotw.purezc.net/SOTW777/BigJoe.png', 'names': 'BigJoe', 'contest': '777', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78114'},
+    {'url': 'http://sotw.purezc.net/SOTW777/Feenicks.png', 'names': 'Feenicks', 'contest': '777', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=78114'}
 ];
 
 function getShot(index) {
