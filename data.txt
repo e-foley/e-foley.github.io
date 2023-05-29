@@ -5213,9 +5213,16 @@ Architect Abdiel; ArchitectAbdiel; png; 11
 Anthus; png; 5
 BigJoe; png; 4
 Feenicks; png; 8
+
+#778 @ 78131
+Architect Abdiel; ArchitectAbdiel; png; 4
+Anthus; png; 15
+Feenicks; png; 2
+Twilight Knight; TwilightKnight; png; 3
 /*
-Architect Abdiel; ArchitectAbdiel; png; 
-Anthus; png; 
-Feenicks; png; 
-Twilight Knight; TwilightKnight; png; 
+#779 @ 78162
+Deathrider; png; 
+Eddy; png; 
+PixElvis; png; 
+Shane; png; 
 /*
