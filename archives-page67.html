@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+@import url("style.css");
+</style>
+<script language="javascript">
+// Based on http://www.randomsnippets.com/2008/02/12/how-to-hide-and-show-your-div/
+function toggle(ID, show)
+{
+	var closed = document.getElementById(ID + "_closed");
+	var open = document.getElementById(ID + "_open");
+
+	if (show == 1)
+	{
+		closed.style.display = "none";
+		open.style.display = "block";
+	}
+
+	else
+	{
+		closed.style.display = "block";
+		open.style.display = "none";
+	}
+}
+
+var hover_requested = false;
+
+function hoverLoad()
+{
+    if (hover_requested) {
+      var hoverimg = document.getElementById("hoverimg");
+    	hoverimg.style.visibility = "visible";
+    }
+}
+
+function enterCamera(image)
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.src = image;
+    hover_requested = true;
+}
+
+function hover(e)
+{
+    var x = e.pageX;
+    var y = e.pageY;
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.left = (x + 10) + "px";
+    hoverimg.style.bottom = (window.innerHeight - (y - 30)) + "px";
+}
+
+function exitCamera()
+{
+    var hoverimg = document.getElementById("hoverimg");
+    hoverimg.style.visibility = "hidden";
+    hoverimg.src = "images/blank.png";
+    hoverimg.style.left = "0px";
+    hoverimg.style.bottom = window.innerHeight + "px";
+    hover_requested = false;
+}
+</script>
+<title>SOTW Archives</title>
+</head>
+<body>
+<img id='hoverimg' onload='hoverLoad()' src='images/blank.png'/>
+<div class='big-block archives'>
+<div class='grand-title'>Screenshot of the Week Archives</div>
+<div class='updated-text'>Last updated with the results of <span style='font-weight:bold;'>Screenshot of the Week 791</span></div>
+<!--navbar code--><script src='generate_navbar.js'></script><div id='navbar' class='navtablediv'></div><script>document.getElementById('navbar').innerHTML = generateNavbar('archives', 0);</script><!--end navbar code-->
+<table class='navtable'>
+<tr><td class='navtable-cell'><a class='green' href='archives-page1.html'>&lt;&lt; Newest</a></td><td class='navtable-cell'><a class='green' href='archives-page66.html'>&lt; Newer</a></td><td class='navtable-cell'><div class='page-selector'><label><select onChange='window.location.href="archives-page" + this.value + ".html"'>
+<option value='1'>Page 1 (#780&ndash;#791)</option>
+<option value='2'>Page 2 (#768&ndash;#779)</option>
+<option value='3'>Page 3 (#756&ndash;#767)</option>
+<option value='4'>Page 4 (#744&ndash;#755)</option>
+<option value='5'>Page 5 (#732&ndash;#743)</option>
+<option value='6'>Page 6 (#720&ndash;#731)</option>
+<option value='7'>Page 7 (#708&ndash;#719)</option>
+<option value='8'>Page 8 (#696&ndash;#707)</option>
+<option value='9'>Page 9 (#684&ndash;#695)</option>
+<option value='10'>Page 10 (#672&ndash;#683)</option>
+<option value='11'>Page 11 (#660&ndash;#671)</option>
+<option value='12'>Page 12 (#648&ndash;#659)</option>
+<option value='13'>Page 13 (#636&ndash;#647)</option>
+<option value='14'>Page 14 (#624&ndash;#635)</option>
+<option value='15'>Page 15 (#612&ndash;#623)</option>
+<option value='16'>Page 16 (#600&ndash;#611)</option>
+<option value='17'>Page 17 (#588&ndash;#599)</option>
+<option value='18'>Page 18 (#576&ndash;#587)</option>
+<option value='19'>Page 19 (#564&ndash;#575)</option>
+<option value='20'>Page 20 (#552&ndash;#563)</option>
+<option value='21'>Page 21 (#540&ndash;#551)</option>
+<option value='22'>Page 22 (#528&ndash;#539)</option>
+<option value='23'>Page 23 (#516&ndash;#527)</option>
+<option value='24'>Page 24 (#504&ndash;#515)</option>
+<option value='25'>Page 25 (#492&ndash;#503)</option>
+<option value='26'>Page 26 (#480&ndash;#491)</option>
+<option value='27'>Page 27 (#468&ndash;#479)</option>
+<option value='28'>Page 28 (#456&ndash;#467)</option>
+<option value='29'>Page 29 (#444&ndash;#455)</option>
+<option value='30'>Page 30 (#432&ndash;#443)</option>
+<option value='31'>Page 31 (#420&ndash;#431)</option>
+<option value='32'>Page 32 (#408&ndash;#419)</option>
+<option value='33'>Page 33 (#396&ndash;#407)</option>
+<option value='34'>Page 34 (#384&ndash;#395)</option>
+<option value='35'>Page 35 (#372&ndash;#383)</option>
+<option value='36'>Page 36 (#360&ndash;#371)</option>
+<option value='37'>Page 37 (#348&ndash;#359)</option>
+<option value='38'>Page 38 (#336&ndash;#347)</option>
+<option value='39'>Page 39 (#325&ndash;#335)</option>
+<option value='40'>Page 40 (#314&ndash;#324)</option>
+<option value='41'>Page 41 (#302&ndash;#313)</option>
+<option value='42'>Page 42 (#290&ndash;#301)</option>
+<option value='43'>Page 43 (#278.5&ndash;#289)</option>
+<option value='44'>Page 44 (#267&ndash;#278)</option>
+<option value='45'>Page 45 (#255&ndash;#266)</option>
+<option value='46'>Page 46 (#243&ndash;#254)</option>
+<option value='47'>Page 47 (#231&ndash;#242)</option>
+<option value='48'>Page 48 (#219&ndash;#230)</option>
+<option value='49'>Page 49 (#207&ndash;#218)</option>
+<option value='50'>Page 50 (#196&ndash;#206)</option>
+<option value='51'>Page 51 (#184&ndash;#195)</option>
+<option value='52'>Page 52 (#172&ndash;#183)</option>
+<option value='53'>Page 53 (#160&ndash;#171)</option>
+<option value='54'>Page 54 (#148&ndash;#159)</option>
+<option value='55'>Page 55 (#136&ndash;#147)</option>
+<option value='56'>Page 56 (#124&ndash;#135)</option>
+<option value='57'>Page 57 (#112&ndash;#123)</option>
+<option value='58'>Page 58 (#100&ndash;#111)</option>
+<option value='59'>Page 59 (#88&ndash;#99)</option>
+<option value='60'>Page 60 (#76&ndash;#87)</option>
+<option value='61'>Page 61 (#64&ndash;#75)</option>
+<option value='62'>Page 62 (#53&ndash;#63)</option>
+<option value='63'>Page 63 (#41&ndash;#52)</option>
+<option value='64'>Page 64 (#29&ndash;#40)</option>
+<option value='65'>Page 65 (#17&ndash;#28)</option>
+<option value='66'>Page 66 (#5&ndash;#16)</option>
+<option value='67' selected='selected'>Page 67 (#1&ndash;#4)</option>
+</select></label></div></td></tr>
+</table>
+<table class='big-board'><tr><td style='text-align: center;'><span>
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTWArchive/blckscab01.gif'><img class='picture-picture' title='blckscab' src='http://sotw.purezc.net/SOTWArchive/blckscab01.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5>Screenshot of the Week 4</td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[v0.4.1] Elo-based determination of entrant&rsquo;s performance in contests up to and including this one. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry winner highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTWArchive/blckscab01.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTWArchive/blckscab01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/blckscab.html'>blckscab</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>1 entry</td><td class='votes'>0</td><td></td><td class='points'></td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The entire topic for SotW 4 is missing.  We know blckscab won, but we don't know who his competitors were.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><img class='picture-picture' title='The image is missing from the archives. Sorry.' src='images/no_image.png'/></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=312'>Screenshot of the Week 3</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[v0.4.1] Elo-based determination of entrant&rsquo;s performance in contests up to and including this one. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/blckscab.html'>blckscab</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/ZeldaLord.html'>ZeldaLord</a><br/><span class='old-name'>(as zeldalord)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/plith.html'>plith</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry winner highlight'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/WildBill.html'>Wild Bill</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>5 entries</td><td class='votes'>0</td><td></td><td class='points'></td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The poll for SotW 3 is lost, but we know Wild Bill won the contest.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><img class='picture-picture' title='The image is missing from the archives. Sorry.' src='images/no_image.png'/></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=276'>Screenshot of the Week 2</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[v0.4.1] Elo-based determination of entrant&rsquo;s performance in contests up to and including this one. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry winner highlight'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/WildBill.html'>Wild Bill</a></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Bob.html'>Bob</a><br/><span class='old-name'>(as DarkSFK)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/HappyPuppet.html'>HappyPuppet</a><br/><span class='old-name'>(as Happyman)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>0</td><td></td><td class='points'></td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The poll for SotW 2 is lost, but we know Wild Bill won the contest.</li></ul></td></tr></table>
+
+<table class='results-table'>
+<tr><td class='picture-cell' colspan=5><a href='http://sotw.purezc.net/SOTWArchive/Teclis01.gif'><img class='picture-picture' title='Teclis' src='http://sotw.purezc.net/SOTWArchive/Teclis01.gif'/></a></td></tr>
+<tr><td class='contest-title' colspan=5><a class='contest' href='http://www.purezc.net/forums/index.php?showtopic=244'>Screenshot of the Week 1</a></td></tr>
+<tr class='header-row'><td></td><td class='left'>Name</td><td class='center'>Votes</td><td class='center'>Pct</td><td class='center'>Rating<span class='tooltip' title='[v0.4.1] Elo-based determination of entrant&rsquo;s performance in contests up to and including this one. (Change from prior value is in parentheses.)'>[?]</span></td></tr>
+<tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Bob.html'>Bob</a><br/><span class='old-name'>(as DarkSFK)</span></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Praethus.html'>Praethus</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry'><td class='center has-shot-icon-cell'></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/ZeldaLord.html'>ZeldaLord</a></div></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='entry winner highlight'><td class='center has-shot-icon-cell'><a href='http://sotw.purezc.net/SOTWArchive/Teclis01.gif'><img class='has-shot-icon' title='Click to view this shot' src='images/camera.png' onmouseenter='enterCamera("http://sotw.purezc.net/SOTWArchive/Teclis01.gif")' onmousemove='hover(event)' onmouseout='exitCamera()'/></a></td><td class='name'><div class='archiveprofilelinkdiv'><a class='image' href='profiles/Teclis.html'>Teclis</a><br/><span class='old-name'>(as K-Teclis)</span></div> <img class='winnericon' title='Winner!' src='images/star.png'/></span></td><td class='votes'>&mdash;</td><td class='percentage'>&mdash;</td><td class='points'>&mdash;</td>
+</tr><tr class='info-row'><td></td><td class='numentries'>4 entries</td><td class='votes'>0</td><td></td><td class='points'></td></tr><tr><td class='contest-notes-cell' colspan=5><ul class='contest-notes-list'><li class='poll-notes-item'>The poll for SotW 1 is lost, but we know Teclis won the contest.</li></ul></td></tr></table>
+
+</span></td></tr></table><table class='navtable'>
+<tr><td class='navtable-cell'><a class='green' href='archives-page1.html'>&lt;&lt; Newest</a></td><td class='navtable-cell'><a class='green' href='archives-page66.html'>&lt; Newer</a></td><td class='navtable-cell'><div class='page-selector'><label><select onChange='window.location.href="archives-page" + this.value + ".html"'>
+<option value='1'>Page 1 (#780&ndash;#791)</option>
+<option value='2'>Page 2 (#768&ndash;#779)</option>
+<option value='3'>Page 3 (#756&ndash;#767)</option>
+<option value='4'>Page 4 (#744&ndash;#755)</option>
+<option value='5'>Page 5 (#732&ndash;#743)</option>
+<option value='6'>Page 6 (#720&ndash;#731)</option>
+<option value='7'>Page 7 (#708&ndash;#719)</option>
+<option value='8'>Page 8 (#696&ndash;#707)</option>
+<option value='9'>Page 9 (#684&ndash;#695)</option>
+<option value='10'>Page 10 (#672&ndash;#683)</option>
+<option value='11'>Page 11 (#660&ndash;#671)</option>
+<option value='12'>Page 12 (#648&ndash;#659)</option>
+<option value='13'>Page 13 (#636&ndash;#647)</option>
+<option value='14'>Page 14 (#624&ndash;#635)</option>
+<option value='15'>Page 15 (#612&ndash;#623)</option>
+<option value='16'>Page 16 (#600&ndash;#611)</option>
+<option value='17'>Page 17 (#588&ndash;#599)</option>
+<option value='18'>Page 18 (#576&ndash;#587)</option>
+<option value='19'>Page 19 (#564&ndash;#575)</option>
+<option value='20'>Page 20 (#552&ndash;#563)</option>
+<option value='21'>Page 21 (#540&ndash;#551)</option>
+<option value='22'>Page 22 (#528&ndash;#539)</option>
+<option value='23'>Page 23 (#516&ndash;#527)</option>
+<option value='24'>Page 24 (#504&ndash;#515)</option>
+<option value='25'>Page 25 (#492&ndash;#503)</option>
+<option value='26'>Page 26 (#480&ndash;#491)</option>
+<option value='27'>Page 27 (#468&ndash;#479)</option>
+<option value='28'>Page 28 (#456&ndash;#467)</option>
+<option value='29'>Page 29 (#444&ndash;#455)</option>
+<option value='30'>Page 30 (#432&ndash;#443)</option>
+<option value='31'>Page 31 (#420&ndash;#431)</option>
+<option value='32'>Page 32 (#408&ndash;#419)</option>
+<option value='33'>Page 33 (#396&ndash;#407)</option>
+<option value='34'>Page 34 (#384&ndash;#395)</option>
+<option value='35'>Page 35 (#372&ndash;#383)</option>
+<option value='36'>Page 36 (#360&ndash;#371)</option>
+<option value='37'>Page 37 (#348&ndash;#359)</option>
+<option value='38'>Page 38 (#336&ndash;#347)</option>
+<option value='39'>Page 39 (#325&ndash;#335)</option>
+<option value='40'>Page 40 (#314&ndash;#324)</option>
+<option value='41'>Page 41 (#302&ndash;#313)</option>
+<option value='42'>Page 42 (#290&ndash;#301)</option>
+<option value='43'>Page 43 (#278.5&ndash;#289)</option>
+<option value='44'>Page 44 (#267&ndash;#278)</option>
+<option value='45'>Page 45 (#255&ndash;#266)</option>
+<option value='46'>Page 46 (#243&ndash;#254)</option>
+<option value='47'>Page 47 (#231&ndash;#242)</option>
+<option value='48'>Page 48 (#219&ndash;#230)</option>
+<option value='49'>Page 49 (#207&ndash;#218)</option>
+<option value='50'>Page 50 (#196&ndash;#206)</option>
+<option value='51'>Page 51 (#184&ndash;#195)</option>
+<option value='52'>Page 52 (#172&ndash;#183)</option>
+<option value='53'>Page 53 (#160&ndash;#171)</option>
+<option value='54'>Page 54 (#148&ndash;#159)</option>
+<option value='55'>Page 55 (#136&ndash;#147)</option>
+<option value='56'>Page 56 (#124&ndash;#135)</option>
+<option value='57'>Page 57 (#112&ndash;#123)</option>
+<option value='58'>Page 58 (#100&ndash;#111)</option>
+<option value='59'>Page 59 (#88&ndash;#99)</option>
+<option value='60'>Page 60 (#76&ndash;#87)</option>
+<option value='61'>Page 61 (#64&ndash;#75)</option>
+<option value='62'>Page 62 (#53&ndash;#63)</option>
+<option value='63'>Page 63 (#41&ndash;#52)</option>
+<option value='64'>Page 64 (#29&ndash;#40)</option>
+<option value='65'>Page 65 (#17&ndash;#28)</option>
+<option value='66'>Page 66 (#5&ndash;#16)</option>
+<option value='67' selected='selected'>Page 67 (#1&ndash;#4)</option>
+</select></label></div></td></tr>
+</table>
+<div class='notes'>Background shots by Ebola Zaire, link3505, NoeL, Pabru, PrinceMSC, and Sheik. Table style adapted from a design &#169; by Wild Bill. All code available on <a class='alt' href='https://github.com/e-foley/ContestHelper'>GitHub</a>.</div>
+</div>
+</body>
+</html>
