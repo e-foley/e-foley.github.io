@@ -5359,10 +5359,32 @@ Architect Abdiel; ArchitectAbdiel; png; 3
 Jenny; png; 14
 Joelmacool; png; 5
 Twilight Knight; TwilightKnight; png; 2
-/*
+
 #802 @ 78515
 Architect Abdiel; ArchitectAbdiel; png; 5
 Joelmacool; png; 3
-Taco Chopper; TacoChopper; png; 6
-Twilight Knight; TwilightKnight; png; 9
+Taco Chopper; TacoChopper; png; 7
+Twilight Knight; TwilightKnight; png; 10
+
+#803 @ 78524
+Architect Abdiel; ArchitectAbdiel; png; 6
+Orithan; png; 10
+Twilight Knight; TwilightKnight; png; 5
+
+#804 @ 78536
+Architect Abdiel; ArchitectAbdiel; png; 5
+Joelmacool; png; 10
+Twilight Knight; TwilightKnight; png; 3
+
+#805 @ 78556
+Architect Abdiel; ArchitectAbdiel; png; 9
+Colin; png; 9
+Joelmacool; png; 6
+Twilight Knight; TwilightKnight; png; 1
+
+#806 @ 78564
+Architect Abdiel; ArchitectAbdiel; png; 2
+Bourkification; png; 13
+Rambly; png; 6
+Twilight Knight; TwilightKnight; png; 3
 /*
