@@ -70,7 +70,7 @@ td.contest-cell
 .contest-title
 {
   background-color: #56825a;
-  // background-image: url('http://sotw.elfractal.com/images/toprow.gif');
+  /* background-image: url('http://sotw.elfractal.com/images/toprow.gif'); */
   font-weight: bold;
   color: #e5c006;
   text-shadow: 1px 1px 1px #503800;
@@ -416,7 +416,7 @@ td.contest-cell
 .navtable-header
 {
   background-color: #56825a;
-  // background-image: url('http://sotw.elfractal.com/images/toprow.gif');
+  /* background-image: url('http://sotw.elfractal.com/images/toprow.gif'); */
   font-weight: bold;
   color: #e5c006;
   text-shadow: 1px 1px 1px #503800;
