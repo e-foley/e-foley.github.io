@@ -5441,7 +5441,7 @@ Joaish (RedTribeLink); Joaish; png; 7
 Twilight Knight; TwilightKnight; png; 8
 
 #816 @ 78866
-Architect Abdiel; ArchitectAdiel; png; 3
+Architect Abdiel; ArchitectAbdiel; png; 3
 Jambu; png; 3
 Matthew[294314]; png; 22
 
