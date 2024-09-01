@@ -5387,4 +5387,15 @@ Architect Abdiel; ArchitectAbdiel; png; 2
 Bourkification; png; 13
 Rambly; png; 6
 Twilight Knight; TwilightKnight; png; 3
-/*
+
+#807 @ 78626
+Jenny; png; 5
+Orithan; png; 5
+THEMDODO; png; 5
+Twilight Knight; TwilightKnight; png; 13
+
+#808 @ 78651
+)-( Marchland Malady )-(; MarchlandMalady; png; 3
+Anthus; png; 6
+Taco Chopper; TacoChopper; png; 14
+Twilight Knight; TwilightKnight; png; 13
