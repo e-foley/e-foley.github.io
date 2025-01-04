@@ -122,7 +122,6 @@ coolgamer012345 > Coolgamer012345 > TheBlueTophat > TheBlueTopay'za > Midnight_K
 Ebola Zaire > Mitchfork
 Zagut > Zephvan
 FanofSMBX > P-Tux7
-Nuvo > Strato > Nuvo > Colin
 ANC > Blackpaintbowser
 shuji > Aroten
 BigJoe > Big Wig Big Joe > BigJoe > No one > BigJoe > IronCreator > BigJoe > Deft War > BigJoe > Adamantium > BigJoe
@@ -136,6 +135,7 @@ The Bagel Meister > Bagel Meister
 sonicfan350 > Zephyr_Eevee > Goriya > Nexas > Eins > Einsiety > Haylee
 Nolornbon > Inocudom > )-( Marchland Malady )-(
 RedTribeLink > Joaish (RedTribeLink)
+Nuvo > Strato > Nuvo > Colin > Cobgoblin
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"

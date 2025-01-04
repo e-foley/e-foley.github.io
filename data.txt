@@ -5462,9 +5462,53 @@ Kifstopher; png; 9
 Orithan; png; 4
 Sheik; png; 12
 Twilight Knight; TwilightKnight; png; 13
-/*
+
 #820 @ 78957
 Deedee; png; 4
 Jenny; png; 14
 Moosh; png; 9
-Rambly; png; 2
+Rambly; png; 3
+
+#821 @ 78967
+Haylee; png; 14
+Mitchfork; png; 7
+Rambly; png; 4
+Twilight Knight; TwilightKnight; png; 5
+
+#822 @ 78980
+Haylee; png; 2
+Rambly; png; 17
+Tabletpillow; png; 12
+
+#823 @ 79011
+Jenny; png; 20
+Joelmacool; png; 13
+notmichaeljfox; png; 2
+
+#824 @ 79019
+Anthus; png; 5
+Jambu; png; 1
+Orithan; png; 7
+Taco Chopper; TacoChopper; png; 18
+
+#825 @ 79037
+Deedee; png; 5
+Orithan; png; 18
+Shoshon the Elegant; Shoshon; png; 3
+
+#826 @ 79126
+Orithan; png; 6
+Shane; png; 24
+Shoshon the Elegant; Shoshon; png; 0
+
+#827 @ 79170
+FireSeraphim; png; 8
+Joelmacool; png; 6
+Twilight Knight; TwilightKnight; png; 16
+/*
+#828 @ 79200
+Cobgoblin; png; 
+Jared; png; 
+Shane; png; 
+Twilight Knight; TwilightKnight; png; 
+/*
