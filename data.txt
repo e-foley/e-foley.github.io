@@ -5483,7 +5483,7 @@ Tabletpillow; png; 12
 #823 @ 79011
 Jenny; png; 20
 Joelmacool; png; 13
-notmichaeljfox; png; 2
+notmichaeljfox; gif; 2
 
 #824 @ 79019
 Anthus; png; 5

@@ -127,7 +127,6 @@ shuji > Aroten
 BigJoe > Big Wig Big Joe > BigJoe > No one > BigJoe > IronCreator > BigJoe > Deft War > BigJoe > Adamantium > BigJoe
 GreatJK > Aefre
 newbydude > Ironfist > Hubydweyer > Huge Bedwetter > Professor Bedwetter
-Maikeru D. Shinigami > Shoshon the Elegant > Architect Abdiel
 Deathrider365 > Deathrider
 Elvis002 > ELV002 > ElVis002 > Elixie002 > Eli > ElVis002 > PixElvis
 Bagelmaster1 > Spamcakes > Phosphor
@@ -136,6 +135,7 @@ sonicfan350 > Zephyr_Eevee > Goriya > Nexas > Eins > Einsiety > Haylee
 Nolornbon > Inocudom > )-( Marchland Malady )-(
 RedTribeLink > Joaish (RedTribeLink)
 Nuvo > Strato > Nuvo > Colin > Cobgoblin
+Maikeru D. Shinigami > Shoshon the Elegant > Architect Abdiel > Shoshon the Elegant
 
 // Tagged members: refer to these tags in data.txt when a member's username has been used by a different person
 //   Shared "Ben"
