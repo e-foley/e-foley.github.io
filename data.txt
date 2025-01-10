@@ -5505,10 +5505,10 @@ Shoshon the Elegant; Shoshon; png; 0
 FireSeraphim; png; 8
 Joelmacool; png; 6
 Twilight Knight; TwilightKnight; png; 16
-/*
+
 #828 @ 79200
-Cobgoblin; png; 
-Jared; png; 
-Shane; png; 
-Twilight Knight; TwilightKnight; png; 
+Cobgoblin; png; 24
+Jared; png; 1
+Shane; png; 6
+Twilight Knight; TwilightKnight; png; 1
 /*
