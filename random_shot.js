@@ -3557,7 +3557,11 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW826/Shoshon.png', 'names': 'Shoshon the Elegant', 'contest': '826', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79126'},
     {'url': 'http://sotw.purezc.net/SOTW827/FireSeraphim.png', 'names': 'FireSeraphim', 'contest': '827', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79170'},
     {'url': 'http://sotw.purezc.net/SOTW827/Joelmacool.png', 'names': 'Joelmacool', 'contest': '827', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79170'},
-    {'url': 'http://sotw.purezc.net/SOTW827/TwilightKnight.png', 'names': 'Twilight Knight', 'contest': '827', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79170'}
+    {'url': 'http://sotw.purezc.net/SOTW827/TwilightKnight.png', 'names': 'Twilight Knight', 'contest': '827', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79170'},
+    {'url': 'http://sotw.purezc.net/SOTW828/Cobgoblin.png', 'names': 'Cobgoblin', 'contest': '828', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79200'},
+    {'url': 'http://sotw.purezc.net/SOTW828/Jared.png', 'names': 'Jared', 'contest': '828', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79200'},
+    {'url': 'http://sotw.purezc.net/SOTW828/Shane.png', 'names': 'Shane', 'contest': '828', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79200'},
+    {'url': 'http://sotw.purezc.net/SOTW828/TwilightKnight.png', 'names': 'Twilight Knight', 'contest': '828', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79200'}
 ];
 
 function getShot(index) {
