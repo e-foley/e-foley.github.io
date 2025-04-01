@@ -147,7 +147,7 @@ Maikeru D. Shinigami > Shoshon the Elegant > Architect Abdiel > Shoshon the Eleg
 //   Shared "Yoshi"
 1245: Yoshi > Tails > Pikachu > Fluttershy
 29458: Midnight_King > Shane > Charizard > Shane > Polaris > Shane > Midnight King > Shane > Yoshi > Shane
-48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3 > Yoshi > Buddy > Jenny
+48320: Yoshidude > Dragonite > Tingle > Jacques > Duck > Homura > Can Dogs Eat Kiwi? > Yoshi > Eddy finish AR3 > Yoshi > Buddy > Jenny > Moonlight
 // The below also shared "Midnight_King" with 29458 for April Fools' 2018
 294248: arceusplayer11 > Arceus > Dimentio > Midnight_King > Dimentio > Dimi > Deedee
 

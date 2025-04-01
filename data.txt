@@ -5511,4 +5511,42 @@ Cobgoblin; png; 24
 Jared; png; 1
 Shane; png; 6
 Twilight Knight; TwilightKnight; png; 1
+
+#829 @ 79252
+FireSeraphim; png; 13
+Rambly; png; 15
+Shoshon the Elegant; Shoshon; png; 2
+
+#830 @ 79263
+Moonlight; png; 17
+Orithan; png; 5
+Rambly; gif; 5
+
+#831 @ 79271
+Moonlight; png; 11
+Rambly; png; 4
+Shane; png; 9
+Twilight Knight; TwilightKnight; png; 2
+
+#832 @ 79287
+Anthus; png; 1
+Taco Chopper; TacoChopper; png; 20
+Twilight Knight; TwilightKnight; png; 9
+
+#833 @ 79304
+Cobgoblin; png; 19
+Professor Bedwetter; ProfessorBedwetter; png; 3
+Twilight Knight; TwilightKnight; png; 2
+xanadude; png; 3
+
+#834 @ 79321
+Joelmacool; png; 11
+Rambly; png; 6
+Shane; png; 7
+Twilight Knight; png; 2
 /*
+#835 @ 79339
+Kifstopher; png; 
+Mr.ReDead; MrReDead; png; 
+Rambly; png; 
+Shane; png; 
