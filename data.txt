@@ -5553,7 +5553,7 @@ Shane; png; 4
 
 #836 @ 79348
 Airfart; png; 17
-FireSeraphim; png; 6 
+FireSeraphim; png; 6
 Mani Kanina; ManiKanina; png; 6
 /*
 #837 @ 79370
