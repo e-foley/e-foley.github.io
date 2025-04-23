@@ -3586,7 +3586,10 @@ var all_shots = [
     {'url': 'http://sotw.purezc.net/SOTW835/Kifstopher.png', 'names': 'Kifstopher', 'contest': '835', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79339'},
     {'url': 'http://sotw.purezc.net/SOTW835/MrReDead.png', 'names': 'Mr.ReDead', 'contest': '835', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79339'},
     {'url': 'http://sotw.purezc.net/SOTW835/Rambly.gif', 'names': 'Rambly', 'contest': '835', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79339'},
-    {'url': 'http://sotw.purezc.net/SOTW835/Shane.png', 'names': 'Shane', 'contest': '835', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79339'}
+    {'url': 'http://sotw.purezc.net/SOTW835/Shane.png', 'names': 'Shane', 'contest': '835', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79339'},
+    {'url': 'http://sotw.purezc.net/SOTW836/Airfart.png', 'names': 'Airfart', 'contest': '836', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79348'},
+    {'url': 'http://sotw.purezc.net/SOTW836/FireSeraphim.png', 'names': 'FireSeraphim', 'contest': '836', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79348'},
+    {'url': 'http://sotw.purezc.net/SOTW836/ManiKanina.png', 'names': 'Mani Kanina', 'contest': '836', 'hasTopic': 'true', 'topicUrl': 'http://www.purezc.net/forums/index.php?showtopic=79348'}
 ];
 
 function getShot(index) {

@@ -5550,9 +5550,14 @@ Kifstopher; png; 5
 Mr.ReDead; MrReDead; png; 3
 Rambly; gif; 21
 Shane; png; 4
-/*
+
 #836 @ 79348
-Airfart; png; 
-FireSeraphim; png; 
-Mani Kanina; ManiKanina; png; 
+Airfart; png; 17
+FireSeraphim; png; 6 
+Mani Kanina; ManiKanina; png; 6
+/*
+#837 @ 79370
+Anthus; png; 
+Jared; png; 
+Twilight Knight; TwilightKnight; png; 
 /*
