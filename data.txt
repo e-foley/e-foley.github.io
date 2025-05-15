@@ -5566,9 +5566,15 @@ Haylee; png; 7
 Jared; png; 5
 Rambly; png; 10
 Twilight Knight; TwilightKnight; png; 6
-/*
+
 #839 @ 79402
-Anthus; png; 
-Orithan; png; 
-Rambly; png; 
+Anthus; png; 1
+Orithan; png; 5
+Rambly; png; 15
+Twilight Knight; TwilightKnight; png; 2
+/*
+#840 @ 79412
+Kifstopher; png; 
 Twilight Knight; TwilightKnight; png; 
+xanadude; png; 
+/*
